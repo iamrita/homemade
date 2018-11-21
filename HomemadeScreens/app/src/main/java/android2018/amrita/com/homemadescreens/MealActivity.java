@@ -9,11 +9,6 @@ import android.view.View;
 
 public class MealActivity extends AppCompatActivity {
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-
-public class MealActivity extends AppCompatActivity {
-
     // Used to load the 'native-lib' library on application startup.
     static {
         System.loadLibrary("native-lib");
