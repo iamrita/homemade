@@ -30,9 +30,14 @@
 
     <ImageView
         android:id="@+id/imageView2"
+<<<<<<< HEAD
+        android:layout_width="152dp"
+        android:layout_height="182dp"
+=======
         android:layout_width="147dp"
         android:layout_height="139dp"
         android:fadingEdge="vertical"
+>>>>>>> f52fde9c3c09af461e179878e9e321fa6f8b4409
         app:srcCompat="@drawable/man3"
         tools:layout_editor_absoluteX="176dp"
         tools:layout_editor_absoluteY="90dp" />
@@ -59,7 +64,7 @@
         tools:layout_editor_absoluteY="329dp" />
 
     <Spinner
-        android:id="@+id/planets_spinner"
+        android:id="@+id/spinner"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="0dp"
