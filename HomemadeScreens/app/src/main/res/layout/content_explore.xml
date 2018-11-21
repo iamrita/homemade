@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="479dp"
+        android:layout_height="507dp"
+        android:gravity="top"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <SearchView
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="463dp"
+            android:layout_marginTop="9dp"
+            android:stretchColumns="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sample_text">
+
+
+            <TableRow>
+
+                <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="66dp"
+                android:layout_height="75dp"
+                app:srcCompat="@drawable/mexa" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:padding="10dip"
+                    android:text="Amrita V."
+                    android:textColor="#000"
+                    android:textSize="24sp" />
+
+            </TableRow>
+
+            <View
+                android:layout_height="3dip"
+                android:background="#FF909090" />
+
+            <TableRow>
+
+                <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="66dp"
+                android:layout_height="75dp"
+                app:srcCompat="@drawable/woman3" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:padding="15dp"
+                    android:text="Leila M."
+                    android:textColor="#000"
+                    android:textSize="24sp" />
+
+            </TableRow>
+
+            <View
+                android:layout_height="3dip"
+                android:background="#FF909090" />
+
+            <TableRow>
+
+                <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="66dp"
+                android:layout_height="75dp"
+                app:srcCompat="@drawable/man" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:padding="15dip"
+                    android:text="Bo A."
+                    android:textColor="#000"
+                    android:textSize="24sp" />
+
+            </TableRow>
+
+            <View
+                android:layout_height="3dip"
+                android:background="#FF909090" />
+
+            <TableRow>
+
+                <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="66dp"
+                android:layout_height="75dp"
+                app:srcCompat="@drawable/woman" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:padding="15dip"
+                    android:text="John P."
+                    android:textColor="#000"
+                    android:textSize="24sp" />
+
+            </TableRow>
+
+            <View
+                android:layout_height="3dip"
+                android:background="#FF909090" />
+
+            <TableRow>
+
+                <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="66dp"
+                android:layout_height="75dp"
+                app:srcCompat="@drawable/man3" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:padding="15dip"
+                    android:text="Anh H."
+                    android:textColor="#000"
+                    android:textSize="24sp" />
+
+            </TableRow>
+
+        </TableLayout>
+
+
+        <!--<ListView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="383dp"
+        android:layout_height="56dp"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <LinearLayout
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageViewExplorePink"
+                android:layout_width="96dp"
+                android:layout_height="36dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                app:srcCompat="@drawable/explore_pink" />
+
+            <TextView
+                android:id="@+id/textViewExplore"
+                android:layout_width="96dp"
+                android:layout_height="18dp"
+                android:gravity="center"
+                android:text="Explore"
+                android:textColor="#BB284C"
+                android:textSize="10dp"
+                android:fontFamily="sans-serif-condensed"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="492dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageViewFavorites"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                app:srcCompat="@drawable/heart"
+                tools:layout_editor_absoluteX="118dp"
+                tools:layout_editor_absoluteY="453dp" />
+
+            <TextView
+                android:id="@+id/textViewFavorites"
+                android:layout_width="96dp"
+                android:layout_height="18dp"
+                android:gravity="center"
+                android:text="Favorites"
+                android:textColor="#000"
+                android:textSize="10dp"
+                android:fontFamily="sans-serif-condensed"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="492dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageViewMeals"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                app:srcCompat="@drawable/meals"
+                tools:layout_editor_absoluteX="214dp"
+                tools:layout_editor_absoluteY="453dp" />
+
+            <TextView
+                android:id="@+id/textViewMeals"
+                android:layout_width="96dp"
+                android:layout_height="18dp"
+                android:gravity="center"
+                android:text="Meals"
+                android:textColor="#000"
+                android:textSize="10dp"
+                android:fontFamily="sans-serif-condensed"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="492dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageViewProfile"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                app:srcCompat="@drawable/profile"
+                tools:layout_editor_absoluteX="312dp"
+                tools:layout_editor_absoluteY="455dp" />
+
+            <TextView
+                android:id="@+id/textViewProfile"
+                android:layout_width="96dp"
+                android:layout_height="18dp"
+                android:gravity="center"
+                android:text="Profile"
+                android:textColor="#000"
+                android:textSize="10dp"
+                android:fontFamily="sans-serif-condensed"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="492dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
