@@ -28,5 +28,23 @@
         <item>October 30   11:30 AM</item>
         <item>October 30   11:45 AM</item>
     </string-array>
+    <string-array name="select_date_array">
+        <item>Select Date</item>
+        <item>Tuesday October 30</item>
+        <item>Wednesday October 31</item>
+    </string-array>
+    <string-array name="select_start_time_array">
+        <item>Select Start Time</item>
+        <item>7:00 AM</item>
+        <item>8:00 AM</item>
+        <item>9:00 AM</item>
+    </string-array>
+    <string-array name="select_end_time_array">
+        <item>Select End Time</item>
+        <item>9:00 AM</item>
+        <item>10:00 AM</item>
+        <item>11:00 AM</item>
+    </string-array>
+
 
 </resources>

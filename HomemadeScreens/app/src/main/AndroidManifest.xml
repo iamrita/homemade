@@ -20,18 +20,22 @@
             </intent-filter>
 
         </activity>
+
         <activity
             android:name=".ScheduleActivity"
             android:label="@string/title_activity_schedule"
-            android:theme="@style/AppTheme">
-
-        </activity>
+            android:theme="@style/AppTheme"></activity>
         <activity
             android:name=".ExploreActivity"
             android:label="@string/title_activity_explore"
             android:theme="@style/AppTheme" />
         <activity android:name=".ConfirmationActivity" />
-        <activity android:name=".IngredientsActivity"></activity>
+        <activity android:name=".IngredientsActivity" />
+        <activity android:name=".ScheduleResponseActivity">
+
+
+
+        </activity>
     </application>
 
 </manifest>
