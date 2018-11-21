@@ -21,8 +21,8 @@
             android:label="@string/title_activity_schedule"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".profileActivity"
-            android:label="@string/title_activity_profile"
+            android:name=".ExploreActivity"
+            android:label="@string/title_activity_explore"
             android:theme="@style/AppTheme"></activity>
     </application>
 
