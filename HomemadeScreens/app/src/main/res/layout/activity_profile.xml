@@ -13,6 +13,9 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_profile" />
+    <include
+        layout="@layout/content_profile"
+        app:layout_anchor="@+id/linearLayout2"
+        app:layout_anchorGravity="left|top" />
 
 </android.support.design.widget.CoordinatorLayout>

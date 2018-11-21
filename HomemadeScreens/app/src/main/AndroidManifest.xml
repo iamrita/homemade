@@ -27,6 +27,8 @@
             android:name=".ExploreActivity"
             android:label="@string/title_activity_explore"
             android:theme="@style/AppTheme" />
+        <activity android:name=".ConfirmationActivity" />
+        <activity android:name=".IngredientsActivity"></activity>
     </application>
 
 </manifest>

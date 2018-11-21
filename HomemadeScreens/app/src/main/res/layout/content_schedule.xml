@@ -16,9 +16,9 @@
         android:text="Schedule Meal with Amrita"
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
-        android:textSize="30sp"
-        tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="23dp" />
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="25dp" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -31,24 +31,24 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="338dp"
+        android:layout_height="60dp"
         android:text="Indicate your availbility for the next 48 hours."
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
-        android:textSize="20sp"
+        android:textSize="20dp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="266dp" />
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="253dp" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="387dp"
-        android:layout_height="58dp"
+        android:layout_width="356dp"
+        android:layout_height="46dp"
         android:text="Make sure to include all availibities to make it more likely that your schedules match. "
         android:textColor="@color/colorAccent"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="329dp" />
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="322dp" />
 
     <Spinner
         android:id="@+id/spinner"
