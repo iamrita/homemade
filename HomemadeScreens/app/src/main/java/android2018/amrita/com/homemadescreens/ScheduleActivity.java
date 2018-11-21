@@ -18,7 +18,6 @@ public class ScheduleActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_schedule);
-<<<<<<< HEAD
     /*
 
         Spinner spinner = (Spinner) findViewById(R.id.spinner);
@@ -28,18 +27,8 @@ public class ScheduleActivity extends AppCompatActivity {
 // Specify the layout to use when the list of choices appears
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 // Apply the adapter to the spinner
-        spinner.setAdapter(adapter);
-=======
->>>>>>> f52fde9c3c09af461e179878e9e321fa6f8b4409
+        spinner.setAdapter(adapter);*/
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });*/
     }
 
 }
