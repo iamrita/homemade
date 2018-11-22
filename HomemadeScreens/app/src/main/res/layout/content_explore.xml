@@ -45,7 +45,15 @@
                     android:padding="10dip"
                     android:text="Amrita V."
                     android:textColor="#000"
-                    android:textSize="24sp" />
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:layout_column="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:padding="10dip"
+                    android:text="Amrita V."
+                    android:textColor="#000"
+                    android:textSize="12dp" />
 
             </TableRow>
 
@@ -67,7 +75,7 @@
                     android:padding="15dp"
                     android:text="Leila M."
                     android:textColor="#000"
-                    android:textSize="24sp" />
+                    android:textSize="24dp" />
 
             </TableRow>
 
@@ -89,7 +97,7 @@
                     android:padding="15dip"
                     android:text="Bo A."
                     android:textColor="#000"
-                    android:textSize="24sp" />
+                    android:textSize="24dp" />
 
             </TableRow>
 
@@ -111,7 +119,7 @@
                     android:padding="15dip"
                     android:text="John P."
                     android:textColor="#000"
-                    android:textSize="24sp" />
+                    android:textSize="24dp" />
 
             </TableRow>
 
@@ -133,7 +141,7 @@
                     android:padding="15dip"
                     android:text="Anh H."
                     android:textColor="#000"
-                    android:textSize="24sp" />
+                    android:textSize="24dp" />
 
             </TableRow>
 

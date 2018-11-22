@@ -3,4 +3,48 @@
     <string name="title_activity_schedule">ScheduleActivity</string>
     <string name="title_activity_explore">ExploreActivity</string>
     <string name="title_activity_meal">MealActivity</string>
+    <string name="start_date">Start date and time</string>
+    <string name="end_date">End date and time</string>
+    <string-array name="start_dates_array">
+        <item>Start Date and Time</item>
+        <item>October 30   8:00 AM</item>
+        <item>October 30   8:15 AM</item>
+        <item>October 30   8:30 AM</item>
+        <item>October 30   8:45 AM</item>
+        <item>October 30   9:00 AM</item>
+        <item>October 30   9:15 AM</item>
+        <item>October 30   9:30 AM</item>
+        <item>October 30   9:45 AM</item>
+    </string-array>
+
+    <string-array name="end_dates_array">
+        <item>End Date and Time</item>
+        <item>October 30   10:00 AM</item>
+        <item>October 30   10:15 AM</item>
+        <item>October 30   10:30 AM</item>
+        <item>October 30   10:45 AM</item>
+        <item>October 30   11:00 AM</item>
+        <item>October 30   11:15 AM</item>
+        <item>October 30   11:30 AM</item>
+        <item>October 30   11:45 AM</item>
+    </string-array>
+    <string-array name="select_date_array">
+        <item>Select Date</item>
+        <item>Tuesday October 30</item>
+        <item>Wednesday October 31</item>
+    </string-array>
+    <string-array name="select_start_time_array">
+        <item>Select Start Time</item>
+        <item>7:00 AM</item>
+        <item>8:00 AM</item>
+        <item>9:00 AM</item>
+    </string-array>
+    <string-array name="select_end_time_array">
+        <item>Select End Time</item>
+        <item>9:00 AM</item>
+        <item>10:00 AM</item>
+        <item>11:00 AM</item>
+    </string-array>
+
+
 </resources>
