@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -14,8 +15,8 @@
         android:textAlignment="center"
         android:textAppearance="@android:style/TextAppearance.Material.Subhead"
         android:textSize="30dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="353dp" />
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="361dp" />
 
     <TextView
         android:id="@+id/textView5"
@@ -24,6 +25,23 @@
         android:text="Check your Meals to see the status of your request."
         android:textAlignment="center"
         android:textSize="15sp"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="452dp" />
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="246dp"
+        android:layout_height="246dp"
+        app:srcCompat="@drawable/noun_checkmark_569906"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/back"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="6dp" />
+
 </android.support.constraint.ConstraintLayout>

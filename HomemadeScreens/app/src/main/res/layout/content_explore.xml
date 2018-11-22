@@ -34,113 +34,106 @@
             <TableRow>
 
                 <ImageView
-                android:id="@+id/imageView9"
-                android:layout_width="66dp"
-                android:layout_height="75dp"
-                app:srcCompat="@drawable/mexa" />
+                    android:id="@+id/imageView9"
+                    android:layout_width="66dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/indian_woman" />
 
                 <TextView
                     android:layout_height="wrap_content"
                     android:layout_column="1"
                     android:fontFamily="sans-serif-condensed"
                     android:padding="10dip"
-                    android:text="Amrita V."
+                    android:text="Amrita V. \nJodhpur, India"
                     android:textColor="#000"
                     android:textSize="24dp" />
-
-                <TextView
-                    android:layout_column="1"
-                    android:fontFamily="sans-serif-condensed"
-                    android:padding="10dip"
-                    android:text="Amrita V."
-                    android:textColor="#000"
-                    android:textSize="12dp" />
 
             </TableRow>
 
             <View
-                android:layout_height="3dip"
+                android:layout_height="2dip"
                 android:background="#FF909090" />
 
             <TableRow>
 
                 <ImageView
-                android:id="@+id/imageView10"
-                android:layout_width="66dp"
-                android:layout_height="75dp"
-                app:srcCompat="@drawable/woman3" />
+                    android:id="@+id/imageView10"
+                    android:layout_width="66dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/woman3" />
 
                 <TextView
+                    android:layout_height="wrap_content"
                     android:layout_column="1"
                     android:fontFamily="sans-serif-condensed"
                     android:padding="15dp"
-                    android:text="Leila M."
+                    android:text="Leila M. \nOahu, Hawaii, USA"
                     android:textColor="#000"
                     android:textSize="24dp" />
 
             </TableRow>
 
             <View
-                android:layout_height="3dip"
+                android:layout_height="2dip"
                 android:background="#FF909090" />
 
             <TableRow>
 
                 <ImageView
-                android:id="@+id/imageView11"
-                android:layout_width="66dp"
-                android:layout_height="75dp"
-                app:srcCompat="@drawable/man" />
+                    android:id="@+id/imageView11"
+                    android:layout_width="66dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/man3" />
 
                 <TextView
                     android:layout_column="1"
                     android:fontFamily="sans-serif-condensed"
                     android:padding="15dip"
-                    android:text="Bo A."
+                    android:text="Bo A. \nChengdu, China"
                     android:textColor="#000"
                     android:textSize="24dp" />
 
             </TableRow>
 
             <View
-                android:layout_height="3dip"
+                android:layout_height="2dip"
                 android:background="#FF909090" />
 
             <TableRow>
 
                 <ImageView
-                android:id="@+id/imageView12"
-                android:layout_width="66dp"
-                android:layout_height="75dp"
-                app:srcCompat="@drawable/woman" />
+                    android:id="@+id/imageView12"
+                    android:layout_width="66dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/man" />
 
                 <TextView
                     android:layout_column="1"
                     android:fontFamily="sans-serif-condensed"
                     android:padding="15dip"
-                    android:text="John P."
+                    android:text="John P. \nCork, Ireland"
                     android:textColor="#000"
                     android:textSize="24dp" />
 
             </TableRow>
 
             <View
-                android:layout_height="3dip"
+                android:layout_height="2dip"
                 android:background="#FF909090" />
 
             <TableRow>
 
                 <ImageView
-                android:id="@+id/imageView13"
-                android:layout_width="66dp"
-                android:layout_height="75dp"
-                app:srcCompat="@drawable/man3" />
+                    android:id="@+id/imageView13"
+                    android:layout_width="66dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/man2" />
 
                 <TextView
                     android:layout_column="1"
                     android:fontFamily="sans-serif-condensed"
                     android:padding="15dip"
-                    android:text="Anh H."
+                    android:text="Anh H. \nHanoi, Vietnam"
                     android:textColor="#000"
                     android:textSize="24dp" />
 

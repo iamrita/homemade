@@ -27,16 +27,16 @@
 
     <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/tableLayout"
-        android:layout_width="325dp"
-        android:layout_height="399dp"
+        android:layout_width="384dp"
+        android:layout_height="402dp"
         android:layout_marginTop="9dp"
         android:stretchColumns="1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintHorizontal_bias="0.033"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sample_text"
-        app:layout_constraintVertical_bias="0.163">
+        app:layout_constraintVertical_bias="0.159">
 
 
         <TableRow>
@@ -45,13 +45,13 @@
                 android:id="@+id/imageView9"
                 android:layout_width="66dp"
                 android:layout_height="75dp"
-                app:srcCompat="@drawable/mexa" />
+                app:srcCompat="@drawable/woman3" />
 
             <TextView
                 android:layout_column="1"
                 android:fontFamily="sans-serif-condensed"
                 android:padding="10dip"
-                android:text="Amrita V."
+                android:text="Leila M."
                 android:textColor="@color/colorAccent"
                 android:textSize="24sp" />
 
@@ -73,13 +73,13 @@
                 android:id="@+id/imageView10"
                 android:layout_width="66dp"
                 android:layout_height="75dp"
-                app:srcCompat="@drawable/woman3" />
+                app:srcCompat="@drawable/mexa" />
 
             <TextView
                 android:layout_column="1"
                 android:fontFamily="sans-serif-condensed"
                 android:padding="15dp"
-                android:text="Leila M."
+                android:text="Juan F."
                 android:textColor="@color/colorAccent"
                 android:textSize="24sp" />
 
@@ -107,7 +107,7 @@
                 android:layout_column="1"
                 android:fontFamily="sans-serif-condensed"
                 android:padding="15dip"
-                android:text="Bo A."
+                android:text="John P."
                 android:textColor="@color/colorAccent"
                 android:textSize="24sp" />
 
@@ -134,7 +134,7 @@
             <TextView
                 android:fontFamily="sans-serif-condensed"
                 android:padding="15dip"
-                android:text="John P."
+                android:text="Leeya M."
                 android:textColor="@color/colorAccent"
                 android:textSize="24sp" />
 
@@ -163,7 +163,7 @@
             <TextView
                 android:fontFamily="sans-serif-condensed"
                 android:padding="15dip"
-                android:text="Anh H."
+                android:text="Bo A."
                 android:textColor="@color/colorAccent"
                 android:textSize="24sp" />
 
