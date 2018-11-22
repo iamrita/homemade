@@ -36,13 +36,13 @@
                 android:layout_weight="1"
                 android:gravity="end"
                 android:layout_marginRight="3dp"
-                android:src="@drawable/plane_orange" />
+                android:src="@drawable/plane_faded" />
 
             <Switch
                 android:id="@+id/toggle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="5dp"
+                android:layout_marginRight="8dp"
                 android:checked="true"
                 android:theme="@style/SwitchColors"
                 android:gravity="end" />
@@ -54,7 +54,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:gravity="end"
-                android:src="@drawable/house_orange" />
+                android:src="@drawable/house_pink" />
         </LinearLayout>
 
         <LinearLayout
