@@ -35,14 +35,16 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="end"
-                android:layout_marginRight="5dp"
-                android:src="@drawable/plane" />
+                android:layout_marginRight="3dp"
+                android:src="@drawable/plane_orange" />
 
             <Switch
                 android:id="@+id/toggle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="2dp"
+                android:layout_marginRight="5dp"
+                android:checked="true"
+                android:theme="@style/SwitchColors"
                 android:gravity="end" />
 
             <ImageView
@@ -52,7 +54,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:gravity="end"
-                android:src="@drawable/house" />
+                android:src="@drawable/house_orange" />
         </LinearLayout>
 
         <LinearLayout
@@ -68,13 +70,13 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/imageView8"
+                    android:id="@+id/locationGray"
                     android:layout_width="match_parent"
                     android:layout_height="24dp"
                     android:layout_weight="1"
                     android:cropToPadding="false"
                     android:gravity="bottom"
-                    android:src="@drawable/location_nofill_black" />
+                    android:src="@drawable/location_nofill_gray" />
             </LinearLayout>
 
             <LinearLayout
@@ -84,14 +86,14 @@
                 android:orientation="vertical">
 
                 <EditText
-                    android:id="@+id/editText3"
+                    android:id="@+id/textSearchBar"
                     android:layout_width="match_parent"
                     android:layout_height="20dp"
                     android:layout_weight="1"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="Search by origin of traveler"
-                    android:textColor="@color/grey"
+                    android:textColor="#6c6969"
                     android:textSize="13dp" />
             </LinearLayout>
         </LinearLayout>
