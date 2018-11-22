@@ -19,6 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
+
         </activity>
 
         <activity
@@ -32,8 +33,6 @@
         <activity android:name=".ConfirmationActivity" />
         <activity android:name=".IngredientsActivity" />
         <activity android:name=".ScheduleResponseActivity">
-
-
 
         </activity>
     </application>
