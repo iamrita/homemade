@@ -25,11 +25,28 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.033" />
 
-    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Current"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintTop_toBottomOf="@+id/sample_text"
+        tools:layout_editor_absoluteX="13dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <TableLayout
         android:id="@+id/tableLayout"
-        android:layout_width="384dp"
+        android:layout_width="352dp"
         android:layout_height="402dp"
-        android:layout_marginTop="9dp"
+        android:layout_marginTop="15dp"
         android:stretchColumns="1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,15 +62,17 @@
                 android:id="@+id/imageView9"
                 android:layout_width="66dp"
                 android:layout_height="75dp"
-                app:srcCompat="@drawable/woman3" />
+                app:srcCompat="@drawable/woman2" />
 
             <TextView
+                android:layout_width="175dp"
+                android:layout_height="match_parent"
                 android:layout_column="1"
                 android:fontFamily="sans-serif-condensed"
                 android:padding="10dip"
-                android:text="Leila M."
+                android:text="Amrita V.\nJodhpur, India"
                 android:textColor="@color/colorAccent"
-                android:textSize="24sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:gravity="right"
@@ -79,9 +98,9 @@
                 android:layout_column="1"
                 android:fontFamily="sans-serif-condensed"
                 android:padding="15dp"
-                android:text="Juan F."
+                android:text="Juan F.\nMonterry, Mexico"
                 android:textColor="@color/colorAccent"
-                android:textSize="24sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:gravity="right"
@@ -107,9 +126,9 @@
                 android:layout_column="1"
                 android:fontFamily="sans-serif-condensed"
                 android:padding="15dip"
-                android:text="John P."
+                android:text="John P.\nCork, Ireland"
                 android:textColor="@color/colorAccent"
-                android:textSize="24sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:gravity="right"
@@ -132,11 +151,12 @@
                 app:srcCompat="@drawable/woman" />
 
             <TextView
+                android:layout_width="175dp"
                 android:fontFamily="sans-serif-condensed"
                 android:padding="15dip"
-                android:text="Leeya M."
+                android:text="Leeya M.\nTehran, Iran"
                 android:textColor="@color/colorAccent"
-                android:textSize="24sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/textView12"
@@ -146,11 +166,19 @@
                 android:textAlignment="viewEnd"
                 android:textColor="@color/green"
                 android:textStyle="bold" />
+
         </TableRow>
 
-        <View
-            android:layout_height="2dip"
-            android:background="#FF909090" />
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Past"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="13dp"
+            tools:layout_editor_absoluteY="53dp" />
 
         <TableRow>
 
@@ -161,11 +189,13 @@
                 app:srcCompat="@drawable/man3" />
 
             <TextView
+                android:layout_width="187dp"
+                android:layout_height="89dp"
                 android:fontFamily="sans-serif-condensed"
                 android:padding="15dip"
-                android:text="Bo A."
+                android:text="Bo A.\nHanoi, Vietnam"
                 android:textColor="@color/colorAccent"
-                android:textSize="24sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:gravity="right"
