@@ -127,6 +127,7 @@
                     android:background="@drawable/spinner_border_grey"
                     android:entries="@array/dietary_restrictions_array"
                     android:fontFamily="sans-serif-condensed"
+                    android:theme="@style/SpinnerStyle"
                     <!--android:prompt="@string/start_date" />-->
 
                 <Spinner
@@ -137,6 +138,7 @@
                     android:background="@drawable/spinner_border_grey"
                     android:entries="@array/interests_array"
                     android:fontFamily="sans-serif-condensed"
+                    android:theme="@style/SpinnerStyle"
                     <!--android:prompt="@string/end_date" />-->
 
             </LinearLayout>
@@ -175,12 +177,11 @@
                     android:textSize="18dp" />
 
                 <ImageView
-                    android:id="@+id/imageView17"
+                    android:id="@+id/amritaStars"
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:layout_marginRight="10dp"
-                    android:src="@drawable/stars_4" />
+                    android:src="@drawable/stars_4half" />
 
             </TableRow>
 
@@ -206,11 +207,10 @@
                     android:textSize="18dp" />
 
                 <ImageView
-                    android:id="@+id/imageView17"
+                    android:id="@+id/leeyaStars"
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:layout_marginRight="10dp"
                     android:src="@drawable/stars_4" />
 
             </TableRow>
@@ -236,12 +236,11 @@
                     android:textSize="18dp" />
 
                 <ImageView
-                    android:id="@+id/imageView17"
+                    android:id="@+id/boStars"
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:layout_marginRight="10dp"
-                    android:src="@drawable/stars_4" />
+                    android:src="@drawable/stars_5" />
 
             </TableRow>
 
@@ -266,12 +265,11 @@
                     android:textSize="18dp" />
 
                 <ImageView
-                    android:id="@+id/imageView17"
+                    android:id="@+id/johnStars"
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:layout_marginRight="10dp"
-                    android:src="@drawable/stars_4" />
+                    android:src="@drawable/stars_4half" />
 
             </TableRow>
 
@@ -296,12 +294,11 @@
                     android:textSize="18dp" />
 
                 <ImageView
-                    android:id="@+id/imageView17"
+                    android:id="@+id/anhStars"
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:layout_marginRight="10dp"
-                    android:src="@drawable/stars_4" />
+                    android:src="@drawable/stars_3" />
 
             </TableRow>
 
@@ -326,12 +323,11 @@
                     android:textSize="18dp" />
 
                 <ImageView
-                    android:id="@+id/imageView17"
+                    android:id="@+id/juanStars"
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:layout_marginRight="10dp"
-                    android:src="@drawable/stars_4" />
+                    android:src="@drawable/stars_4half" />
 
             </TableRow>
 

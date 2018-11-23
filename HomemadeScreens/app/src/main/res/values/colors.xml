@@ -7,4 +7,6 @@
     <color name="green">#008000</color>
     <color name="pink">#bb284c</color>
     <color name ="grey">#808080</color>
+
+    <color name="spinner_text_color">#808080</color>
 </resources>
