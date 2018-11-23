@@ -67,6 +67,7 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="20dp"
                 android:text="Hello!"
+                android:fontFamily="sans-serif-condensed"
                 android:textColor="#000"
                 android:textSize="18dp" />
         </LinearLayout>
@@ -100,6 +101,7 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="20dp"
                 android:text="Namaste!"
+                android:fontFamily="sans-serif-condensed"
                 android:textColor="#000"
                 android:textSize="18dp" />
         </LinearLayout>
