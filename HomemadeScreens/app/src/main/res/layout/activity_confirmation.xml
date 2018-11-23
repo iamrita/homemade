@@ -6,8 +6,4 @@
     android:layout_height="match_parent"
     tools:context=".ConfirmationActivity">
 
-    <include layout="@layout/content_confirmation">
-
-    </include>
-
 </android.support.constraint.ConstraintLayout>
