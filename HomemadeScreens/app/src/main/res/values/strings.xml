@@ -3,6 +3,42 @@
     <string name="title_activity_schedule">ScheduleActivity</string>
     <string name="title_activity_explore">ExploreActivity</string>
     <string name="title_activity_meal">MealActivity</string>
+
+
+    <string-array name="dietary_restrictions_array">
+        <item>Dietary Restrictions</item>
+        <item>Gluten free / Celiac</item>
+        <item>Dairy free</item>
+        <item>Vegetarian</item>
+        <item>Vegan</item>
+        <item>Pescetarian</item>
+        <item>Nut allergy</item>
+        <item>Shellfish allergy</item>
+    </string-array>
+
+    <string-array name="interests_array">
+        <item>Interests</item>
+        <item>Art</item>
+        <item>Baking</item>
+        <item>Board Games</item>
+        <item>Cooking</item>
+        <item>Dancing</item>
+        <item>Exercising</item>
+        <item>Hiking</item>
+        <item>Music</item>
+        <item>Reading</item>
+        <item>Running</item>
+        <item>Shopping</item>
+        <item>Skiing</item>
+        <item>Sports</item>
+        <item>Traveling</item>
+        <item>Watching TV</item>
+        <item>Writing</item>
+
+        <item></item>
+    </string-array>
+
+
     <string name="start_date">Start date and time</string>
     <string name="end_date">End date and time</string>
     <string-array name="start_dates_array">
@@ -30,8 +66,8 @@
     </string-array>
     <string-array name="select_date_array">
         <item>Select Date</item>
-        <item>Tuesday October 30</item>
-        <item>Wednesday October 31</item>
+        <item>Tuesday, October 30</item>
+        <item>Wednesday, October 31</item>
     </string-array>
     <string-array name="select_start_time_array">
         <item>Select Start Time</item>

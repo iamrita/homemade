@@ -13,12 +13,15 @@
         <item name="colorControlActivated">#ba284c</item>
 
         <!-- inactive thumb color -->
-        <item name="colorSwitchThumbNormal">#ba284c
-        </item>
+        <item name="colorSwitchThumbNormal">#ba284c</item>
 
         <!-- inactive track color (30% transparency) -->
-        <item name="android:colorForeground">#ba284c
-        </item>
+        <item name="android:colorForeground">#ba284c</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#eba93a</item>
+        <item name="colorControlActivated">#eba93a</item>
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
