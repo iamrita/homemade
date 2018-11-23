@@ -7,7 +7,7 @@
     tools:context=".ScheduleResponseActivity">
 
     <LinearLayout
-        android:layout_width="304dp"
+        android:layout_width="327dp"
         android:layout_height="556dp"
         android:layout_marginStart="29dp"
         android:layout_marginTop="26dp"
@@ -64,35 +64,41 @@
             android:text="Here is Amrita's availability for the next 48 hours."
             android:textAlignment="center"
             android:textColor="@color/colorAccent"
-            android:textSize="18sp"
+            android:textSize="18dp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView12"
             android:layout_width="match_parent"
-            android:layout_height="78dp"
+            android:layout_height="59dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="Select your preferred date and time to confirm, or deny the request if none are suitable to you."
+            android:text="Select your preferred date and time to confirm, or decline the request if none are suitable to you."
             android:textColor="@color/colorAccent"
-            android:textSize="18sp" />
+            android:textSize="16dp" />
 
         <TextView
             android:id="@+id/textView13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tuesday, October 30             8:00 AM - 10:00 AM" />
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16dp"
+            android:text="Tuesday, October 30                   8:00 AM - 10:00 AM" />
 
         <TextView
             android:id="@+id/textView14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Wednesday, October 31       9:00 AM - 11:00 AM" />
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16dp"
+            android:text="Wednesday, October 31              9:00 AM - 11:00 AM" />
 
         <TextView
             android:id="@+id/textView15"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:text="Wednesday, October 31          7:00 PM - 9:00 PM" />
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="16dp"
+            android:text="Wednesday, October 31                7:00 PM - 9:00 PM" />
 
         <Spinner
             android:id="@+id/spinner1"
@@ -110,8 +116,8 @@
             android:id="@+id/spinner3"
             android:layout_width="match_parent"
             android:layout_height="38dp"
-            android:entries="@array/select_end_time_array"
-            android:layout_marginBottom="5dp"/>
+            android:layout_marginBottom="10dp"
+            android:entries="@array/select_end_time_array" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -125,6 +131,7 @@
                 android:layout_weight="1"
                 android:background="@color/green"
                 android:text="Confirm"
+                android:fontFamily="sans-serif-condensed"
                 android:textColor="#ffffff" />
 
             <Button
@@ -134,6 +141,7 @@
                 android:layout_weight="1"
                 android:background="#cc1616"
                 android:text="Decline"
+                android:fontFamily="sans-serif-condensed"
                 android:textColor="#ffffff" />
         </LinearLayout>
     </LinearLayout>
