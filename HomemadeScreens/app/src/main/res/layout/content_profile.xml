@@ -144,6 +144,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Recipes"
+                android:fontFamily="sans-serif-condensed"
                 android:textSize="18dp"
                 android:textStyle="bold" />
 

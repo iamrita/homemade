@@ -29,8 +29,9 @@
             android:theme="@style/AppTheme" />
         <activity android:name=".ConfirmationActivity" />
         <activity android:name=".IngredientsActivity" />
-        <activity android:name=".ScheduleResponseActivity"></activity>
-        <activity android:name=".TranslatorActivity"></activity>
+        <activity android:name=".ScheduleResponseActivity" />
+        <activity android:name=".TranslatorActivity" />
+        <activity android:name=".PhrasesActivity"></activity>
     </application>
 
 </manifest>
