@@ -86,31 +86,32 @@
             android:id="@+id/textView14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tuesday, October 30             9:00 AM - 11:00 AM" />
+            android:text="Wednesday, October 31       9:00 AM - 11:00 AM" />
 
         <TextView
             android:id="@+id/textView15"
             android:layout_width="match_parent"
-            android:layout_height="37dp"
-            android:text="Tuesday, October 30             7:00 AM - 9:00 AM" />
+            android:layout_height="30dp"
+            android:text="Wednesday, October 31          7:00 PM - 9:00 PM" />
 
         <Spinner
             android:id="@+id/spinner1"
             android:layout_width="match_parent"
-            android:layout_height="37dp"
+            android:layout_height="38dp"
             android:entries="@array/select_date_array" />
 
         <Spinner
             android:id="@+id/spinner2"
             android:layout_width="match_parent"
-            android:layout_height="34dp"
+            android:layout_height="38dp"
             android:entries="@array/select_start_time_array" />
 
         <Spinner
             android:id="@+id/spinner3"
             android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:entries="@array/select_end_time_array" />
+            android:layout_height="38dp"
+            android:entries="@array/select_end_time_array"
+            android:layout_marginBottom="5dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
