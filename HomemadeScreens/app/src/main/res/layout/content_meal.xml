@@ -29,25 +29,40 @@
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="315dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="   Current"
         android:textColor="@color/colorAccent"
-        android:fontFamily="sans-serif-condensed"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
-        app:layout_constraintTop_toBottomOf="@+id/sample_text"
-        tools:layout_editor_absoluteX="13dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sample_text" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" />
+        android:layout_marginBottom="100dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/sample_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+    </LinearLayout>
 
     <TableLayout
         android:id="@+id/tableLayout"
-        android:layout_width="352dp"
-        android:layout_height="402dp"
+        android:layout_width="385dp"
+        android:layout_height="400dp"
         android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
         android:stretchColumns="1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -77,10 +92,10 @@
 
             <TextView
                 android:layout_marginTop="6dp"
+                android:fontFamily="sans-serif-condensed"
                 android:gravity="right"
                 android:padding="3dip"
                 android:text="Requested"
-                android:fontFamily="sans-serif-condensed"
                 android:textColor="@color/grey"
                 android:textStyle="bold" />
         </TableRow>
@@ -107,10 +122,10 @@
 
             <TextView
                 android:layout_marginTop="6dp"
+                android:fontFamily="sans-serif-condensed"
                 android:gravity="right"
                 android:padding="3dip"
                 android:text="Respond"
-                android:fontFamily="sans-serif-condensed"
                 android:textColor="@color/orange"
                 android:textStyle="bold" />
         </TableRow>
@@ -137,10 +152,10 @@
 
             <TextView
                 android:layout_marginTop="6dp"
+                android:fontFamily="sans-serif-condensed"
                 android:gravity="right"
                 android:padding="3dip"
                 android:text="Unavailable"
-                android:fontFamily="sans-serif-condensed"
                 android:textColor="@color/grey"
                 android:textStyle="bold" />
         </TableRow>
@@ -166,12 +181,12 @@
                 android:textSize="20sp" />
 
             <TextView
-                android:layout_marginTop="6dp"
                 android:id="@+id/textView12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Confirmed"
+                android:layout_marginTop="6dp"
                 android:fontFamily="sans-serif-condensed"
+                android:text="Confirmed"
                 android:textAlignment="viewEnd"
                 android:textColor="@color/green"
                 android:textStyle="bold" />
@@ -182,9 +197,9 @@
             android:id="@+id/textView19"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
             android:text="    Past"
             android:textColor="@color/colorAccent"
-            android:fontFamily="sans-serif-condensed"
             android:textSize="15sp"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="13dp"
@@ -209,10 +224,10 @@
 
             <TextView
                 android:layout_marginTop="3dp"
+                android:fontFamily="sans-serif-condensed"
                 android:gravity="right"
                 android:padding="3dip"
                 android:text="Complete"
-                android:fontFamily="sans-serif-condensed"
                 android:textColor="@color/grey"
                 android:textStyle="bold" />
         </TableRow>
