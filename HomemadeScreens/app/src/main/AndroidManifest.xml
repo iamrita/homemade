@@ -18,6 +18,9 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+
+
         </activity>
         <activity
             android:name=".ScheduleActivity"
@@ -26,7 +29,9 @@
         <activity
             android:name=".ExploreActivity"
             android:label="@string/title_activity_explore"
-            android:theme="@style/AppTheme" />
+            android:theme="@style/AppTheme" >
+
+        </activity>
         <activity android:name=".ConfirmationActivity" />
         <activity android:name=".IngredientsActivity" />
         <activity android:name=".ScheduleResponseActivity" />
