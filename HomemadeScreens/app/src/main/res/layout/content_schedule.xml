@@ -10,7 +10,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="318dp"
+        android:layout_width="334dp"
         android:layout_height="474dp"
         android:layout_marginStart="26dp"
         android:layout_marginBottom="34dp"
@@ -21,8 +21,9 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:fontFamily="sans-serif-condensed"
             android:text="Schedule Meal with Amrita"
             android:textAlignment="center"
@@ -41,14 +42,16 @@
                 android:layout_width="139dp"
                 android:layout_height="139dp"
                 app:srcCompat="@drawable/woman"
+                android:layout_marginLeft="24dp"
                 tools:layout_editor_absoluteX="41dp"
                 tools:layout_editor_absoluteY="90dp" />
 
             <ImageView
                 android:id="@+id/imageView3"
-                android:layout_width="185dp"
+                android:layout_width="160dp"
                 android:layout_height="136dp"
                 app:srcCompat="@drawable/indian_woman"
+                android:layout_marginLeft="10dp"
                 tools:layout_editor_absoluteX="176dp"
                 tools:layout_editor_absoluteY="66dp" />
         </LinearLayout>
@@ -57,9 +60,10 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="64dp"
+            android:fontFamily="sans-serif-condensed"
             android:text="Indicate your availability for the next 48 hours."
             android:textAlignment="center"
-            android:textColor="@color/colorPrimary"
+            android:textColor="#e8812f"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -67,14 +71,15 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="49dp"
+            android:fontFamily="sans-serif-condensed"
             android:text="Make sure to include all availibities to make it more likely your schedules match."
-            android:textColor="@color/colorAccent"
-            android:textStyle="bold" />
+            android:textColor="@color/colorAccent"/>
 
         <TextView
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
             android:text="Availibilities:"
             android:textColor="@color/colorAccent"
             android:textStyle="bold" />
@@ -89,6 +94,7 @@
                 android:layout_width="153dp"
                 android:layout_height="wrap_content"
                 android:entries="@array/start_dates_array"
+                android:fontFamily="sans-serif-condensed"
                 android:prompt="@string/start_date" />
 
             <Spinner
@@ -96,6 +102,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/end_dates_array"
+                android:fontFamily="sans-serif-condensed"
                 android:prompt="@string/end_date" />
 
         </LinearLayout>
@@ -104,7 +111,8 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimaryDark"
+            android:background="#ba284c"
+            android:fontFamily="sans-serif-condensed"
             android:text="Send Availability"
             android:textColor="#ffffff" />
     </LinearLayout>

@@ -8,6 +8,23 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="SwitchColors" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">#ba284c</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">#ba284c</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">#ba284c</item>
+    </style>
+
+    <style name="SpinnerStyle" parent="@android:style/Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@color/spinner_text_color</item>
+        <item name="android:textSize">6dp</item>
+        <item name="android:fontFamily">sans-serif-condensed/item>
+    </style>
+
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />

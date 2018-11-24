@@ -31,6 +31,7 @@
         android:layout_height="wrap_content"
         android:text="   Current"
         android:textColor="@color/colorAccent"
+        android:fontFamily="sans-serif-condensed"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
@@ -75,9 +76,11 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:layout_marginTop="6dp"
                 android:gravity="right"
                 android:padding="3dip"
                 android:text="Requested"
+                android:fontFamily="sans-serif-condensed"
                 android:textColor="@color/grey"
                 android:textStyle="bold" />
         </TableRow>
@@ -103,9 +106,11 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:layout_marginTop="6dp"
                 android:gravity="right"
                 android:padding="3dip"
                 android:text="Respond"
+                android:fontFamily="sans-serif-condensed"
                 android:textColor="@color/orange"
                 android:textStyle="bold" />
         </TableRow>
@@ -131,9 +136,11 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:layout_marginTop="6dp"
                 android:gravity="right"
                 android:padding="3dip"
                 android:text="Unavailable"
+                android:fontFamily="sans-serif-condensed"
                 android:textColor="@color/grey"
                 android:textStyle="bold" />
         </TableRow>
@@ -159,10 +166,12 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:layout_marginTop="6dp"
                 android:id="@+id/textView12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Confirmed"
+                android:fontFamily="sans-serif-condensed"
                 android:textAlignment="viewEnd"
                 android:textColor="@color/green"
                 android:textStyle="bold" />
@@ -175,6 +184,7 @@
             android:layout_height="wrap_content"
             android:text="    Past"
             android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-condensed"
             android:textSize="15sp"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="13dp"
@@ -198,9 +208,11 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:layout_marginTop="3dp"
                 android:gravity="right"
                 android:padding="3dip"
                 android:text="Complete"
+                android:fontFamily="sans-serif-condensed"
                 android:textColor="@color/grey"
                 android:textStyle="bold" />
         </TableRow>

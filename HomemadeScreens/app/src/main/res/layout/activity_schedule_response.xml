@@ -7,24 +7,41 @@
     tools:context=".ScheduleResponseActivity">
 
     <LinearLayout
-        android:layout_width="304dp"
-        android:layout_height="556dp"
-        android:layout_marginStart="29dp"
-        android:layout_marginTop="26dp"
+        android:layout_width="369dp"
+        android:layout_height="555dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:id="@+id/textView9"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-condensed"
-            android:text="Respond to Amrita V."
-            android:textAlignment="center"
-            android:textColor="@color/colorAccent"
-            android:textSize="30sp"
-            android:textStyle="bold" />
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="53dp"
+                android:layout_height="49dp"
+                android:layout_marginBottom="5dp"
+                android:background="#0000"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="   Respond to Amrita V."
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
 
         <TextView
             android:id="@+id/textView10"
@@ -40,7 +57,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="96dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginTop="6dp">
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -60,62 +78,76 @@
         <TextView
             android:id="@+id/textView11"
             android:layout_width="match_parent"
-            android:layout_height="66dp"
+            android:layout_height="42dp"
+            android:fontFamily="sans-serif-condensed"
             android:text="Here is Amrita's availability for the next 48 hours."
             android:textAlignment="center"
             android:textColor="@color/colorAccent"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textSize="18dp" />
 
         <TextView
             android:id="@+id/textView12"
             android:layout_width="match_parent"
-            android:layout_height="78dp"
+            android:layout_height="59dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="Select your preferred date and time to confirm, or deny the request if none are suitable to you."
+            android:text="Select your preferred date and time to confirm, or \ndecline the request if none are suitable for you."
+            android:textAlignment="center"
             android:textColor="@color/colorAccent"
-            android:textSize="18sp" />
+            android:textSize="16dp" />
 
         <TextView
             android:id="@+id/textView13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tuesday, October 30             8:00 AM - 10:00 AM" />
+            android:layout_marginLeft="6dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Tuesday, October 30                            8:00 AM - 10:00 AM"
+            android:textSize="16dp" />
 
         <TextView
             android:id="@+id/textView14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tuesday, October 30             9:00 AM - 11:00 AM" />
+            android:layout_marginLeft="6dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Wednesday, October 31                       9:00 AM - 11:00 AM"
+            android:textSize="16dp" />
 
         <TextView
             android:id="@+id/textView15"
             android:layout_width="match_parent"
-            android:layout_height="37dp"
-            android:text="Tuesday, October 30             7:00 AM - 9:00 AM" />
+            android:layout_height="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="6dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Wednesday, October 31                         7:00 PM - 9:00 PM"
+            android:textSize="16dp" />
 
         <Spinner
             android:id="@+id/spinner1"
             android:layout_width="match_parent"
-            android:layout_height="37dp"
+            android:layout_height="38dp"
             android:entries="@array/select_date_array" />
 
         <Spinner
             android:id="@+id/spinner2"
             android:layout_width="match_parent"
-            android:layout_height="34dp"
+            android:layout_height="38dp"
             android:entries="@array/select_start_time_array" />
 
         <Spinner
             android:id="@+id/spinner3"
             android:layout_width="match_parent"
-            android:layout_height="56dp"
+            android:layout_height="38dp"
+            android:layout_marginBottom="10dp"
             android:entries="@array/select_end_time_array" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="bottom">
 
             <Button
                 android:id="@+id/button2"
@@ -123,8 +155,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@color/green"
+                android:fontFamily="sans-serif-condensed"
                 android:text="Confirm"
-                android:textColor="#ffffff" />
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
 
             <Button
                 android:id="@+id/button3"
@@ -132,8 +166,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="#cc1616"
+                android:fontFamily="sans-serif-condensed"
                 android:text="Decline"
-                android:textColor="#ffffff" />
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
         </LinearLayout>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
