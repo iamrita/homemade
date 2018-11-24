@@ -32,7 +32,7 @@
         <activity android:name=".ScheduleResponseActivity" />
         <activity android:name=".TranslatorActivity" />
         <activity android:name=".PhrasesActivity" />
-        <activity android:name=".ExploreV2Activity"></activity>
+        <activity android:name=".UpcomingActivity"></activity>
     </application>
 
 </manifest>
