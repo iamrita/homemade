@@ -132,7 +132,7 @@
                     android:entries="@array/dietary_restrictions_array"
                     android:fontFamily="sans-serif-condensed"
                     android:theme="@style/SpinnerStyle"
-                <!--android:prompt="@string/start_date" />-->
+                    android:prompt="@string/start_date" />
 
                 <Spinner
                     android:id="@+id/spinner2"
@@ -143,7 +143,7 @@
                     android:entries="@array/interests_array"
                     android:fontFamily="sans-serif-condensed"
                     android:theme="@style/SpinnerStyle"
-                <!--android:prompt="@string/end_date" />-->
+                    android:prompt="@string/end_date" />
 
             </LinearLayout>
 
