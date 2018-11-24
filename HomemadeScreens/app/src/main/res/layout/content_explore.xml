@@ -220,7 +220,7 @@
                         <TextView
                             android:id="@+id/textView46"
                             android:layout_width="match_parent"
-                            android:layout_height="29dp"
+                            android:layout_height="wrap_content"
                             android:text="Jodhpur, India" />
 
                         <LinearLayout
@@ -392,7 +392,7 @@
                         <TextView
                             android:id="@+id/textView46"
                             android:layout_width="match_parent"
-                            android:layout_height="29dp"
+                            android:layout_height="wrap_content"
                             android:text="Jodhpur, India" />
 
                         <LinearLayout
@@ -657,7 +657,7 @@
             <LinearLayout
                 android:layout_width="96dp"
                 android:layout_height="match_parent"
-                android:layout_marginTop="4dp"
+                android:layout_marginTop="6dp"
                 android:orientation="vertical">
 
                 <ImageView
@@ -692,7 +692,7 @@
             <LinearLayout
                 android:layout_width="96dp"
                 android:layout_height="match_parent"
-                android:layout_marginTop="4dp"
+                android:layout_marginTop="6dp"
                 android:orientation="vertical">
 
                 <ImageView
@@ -720,7 +720,7 @@
             <LinearLayout
                 android:layout_width="96dp"
                 android:layout_height="match_parent"
-                android:layout_marginTop="4dp"
+                android:layout_marginTop="6dp"
                 android:orientation="vertical">
 
                 <ImageView
@@ -748,7 +748,7 @@
             <LinearLayout
                 android:layout_width="96dp"
                 android:layout_height="match_parent"
-                android:layout_marginTop="4dp"
+                android:layout_marginTop="6dp"
                 android:orientation="vertical">
 
                 <ImageView
