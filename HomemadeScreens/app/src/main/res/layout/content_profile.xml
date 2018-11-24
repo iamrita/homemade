@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.0">
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/beachImage"
             android:layout_width="match_parent"
             android:layout_height="218dp"
             android:layout_alignParentTop="true"
@@ -29,7 +29,7 @@
             android:src="@drawable/beach" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/profilePic"
             android:layout_width="266dp"
             android:layout_height="165dp"
             android:layout_alignParentTop="true"
@@ -38,7 +38,7 @@
             android:src="@drawable/woman3" />
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/backButton"
             android:layout_width="53dp"
             android:layout_height="49dp"
             android:background="#0000"
@@ -65,7 +65,7 @@
             android:layout_below="@+id/textView8"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="-5dp"
-            android:text="Oahu, Hawaii"
+            android:text="Oahu, Hawaii, USA"
             android:fontFamily="sans-serif-condensed"
             android:textColor="#FFFF"
             android:textSize="16dp"
@@ -73,14 +73,15 @@
 
         <TextView
             android:id="@+id/textView11"
-            android:layout_width="353dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="9dp"
-            android:layout_marginBottom="295dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="290dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="There’s nothing I enjoy more than surfing some smooth Hawaiian waves and hiking on local trails. I’d love to share my passion for all things Hawaiian. Come share a meal with me!" />
+            android:text="There’s nothing I enjoy more than surfing some smooth Hawaiian waves and hiking on local trails. I’d love to share my passion for all things Hawaiian. Come share a meal with me!"
+            android:textSize="15dp" />
 
 
     </RelativeLayout>
@@ -108,6 +109,7 @@
                 android:id="@+id/textView19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:
                 android:fontFamily="sans-serif-condensed"
                 android:text="Dietrary Restrictions"
                 android:textSize="18dp"
@@ -230,7 +232,7 @@
             <ImageView
                 android:id="@+id/imageView8"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="98dp"
                 android:src="@drawable/lomilomi" />
 
             <TextView
@@ -242,7 +244,7 @@
                 android:fontFamily="sans-serif-condensed"
                 android:gravity="center"
                 android:textStyle="bold"
-                android:textSize="20dp"
+                android:textSize="16dp"
                 android:text="Lomi Lomi"
                 android:textColor="#FFFF" />
 
@@ -256,7 +258,7 @@
             <ImageView
                 android:id="@+id/imageView14"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="98dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:src="@drawable/shrimp" />
@@ -269,7 +271,7 @@
                 android:layout_centerVertical="true"
                 android:fontFamily="sans-serif-condensed"
                 android:textStyle="bold"
-                android:textSize="20dp"
+                android:textSize="16dp"
                 android:gravity="center"
                 android:text="Shrimp"
                 android:textColor="#FFFF" />
@@ -283,7 +285,7 @@
             <ImageView
                 android:id="@+id/imageView15"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="98dp"
                 android:src="@drawable/sliders" />
 
             <TextView
@@ -295,8 +297,8 @@
                 android:fontFamily="sans-serif-condensed"
                 android:textStyle="bold"
                 android:gravity="center"
-                android:textSize="20dp"
-                android:text="Slider"
+                android:textSize="16dp"
+                android:text="Sliders"
                 android:textColor="#FFFF" />
         </RelativeLayout>
 
@@ -326,8 +328,9 @@
                 android:layout_height="match_parent"
                 android:textColor="#FFFFFF"
                 android:background="#ba284c"
-                android:textSize="20dp"
-                android:text="Favorite" />
+                android:textSize="18dp"
+                android:text="Favorite"
+                android:fontFamily="sans-serif-condensed"/>
         </LinearLayout>
 
         <LinearLayout
@@ -345,7 +348,8 @@
                 android:text="Schedule"
                 android:background="#941d68"
                 android:textColor="#FFFFFF"
-                android:textSize="20dp" />
+                android:textSize="18dp"
+                android:fontFamily="sans-serif-condensed"/>
         </LinearLayout>
     </LinearLayout>
 

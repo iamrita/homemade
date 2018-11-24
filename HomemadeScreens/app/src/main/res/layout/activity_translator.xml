@@ -34,6 +34,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginLeft="70dp"
                 android:text="Live Translator"
+                android:textStyle="bold"
                 android:textColor="#e8812f"
                 android:textSize="24dp"
                 android:fontFamily="sans-serif-condensed"/>
