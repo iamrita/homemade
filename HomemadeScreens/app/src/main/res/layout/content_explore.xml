@@ -152,7 +152,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="110dp"
+        android:layout_marginTop="105dp"
         android:layout_marginBottom="55dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -211,6 +211,7 @@
                         <TextView
                             android:layout_width="149dp"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
                             android:layout_column="1"
                             android:fontFamily="sans-serif-condensed"
                             android:text="Amrita V."
@@ -221,6 +222,7 @@
                             android:id="@+id/textView46"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginBottom="2dp"
                             android:text="Jodhpur, India" />
 
                         <LinearLayout
@@ -262,7 +264,7 @@
                         android:id="@+id/amritaStars2"
                         android:layout_width="120dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
+                        android:layout_marginTop="25dp"
                         android:src="@drawable/stars_4half" />
 
                 </TableRow>
@@ -297,6 +299,7 @@
                         <TextView
                             android:layout_width="149dp"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
                             android:layout_column="1"
                             android:fontFamily="sans-serif-condensed"
                             android:text="Leeya M."
@@ -306,7 +309,8 @@
                         <TextView
                             android:id="@+id/textView55"
                             android:layout_width="match_parent"
-                            android:layout_height="29dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="2dp"
                             android:text="Cairo, Egypt" />
 
                         <LinearLayout
@@ -348,7 +352,7 @@
                         android:id="@+id/amritaStars3"
                         android:layout_width="120dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
+                        android:layout_marginTop="25dp"
                         android:src="@drawable/stars_4" />
 
                 </TableRow>
@@ -383,6 +387,7 @@
                         <TextView
                             android:layout_width="149dp"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
                             android:layout_column="1"
                             android:fontFamily="sans-serif-condensed"
                             android:text="Bo A."
@@ -392,8 +397,9 @@
                         <TextView
                             android:id="@+id/textView53"
                             android:layout_width="match_parent"
-                            android:layout_height="29dp"
-                            android:text="Chengdu, China" />
+                            android:layout_height="wrap_content"
+                            android:text="Chengdu, China"
+                            android:layout_marginBottom="2dp"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -441,7 +447,7 @@
                         android:id="@+id/amritaStars4"
                         android:layout_width="120dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
+                        android:layout_marginTop="25dp"
                         android:src="@drawable/stars_5" />
 
                 </TableRow>
@@ -475,6 +481,7 @@
                         <TextView
                             android:layout_width="149dp"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
                             android:layout_column="1"
                             android:fontFamily="sans-serif-condensed"
                             android:text="John P."
@@ -484,8 +491,9 @@
                         <TextView
                             android:id="@+id/textView56"
                             android:layout_width="match_parent"
-                            android:layout_height="29dp"
-                            android:text="Cork, Ireland" />
+                            android:layout_height="wrap_content"
+                            android:text="Cork, Ireland"
+                            android:layout_marginBottom="2dp"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -513,7 +521,7 @@
                         android:id="@+id/amritaStars5"
                         android:layout_width="120dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
+                        android:layout_marginTop="25dp"
                         android:src="@drawable/stars_4half" />
 
                 </TableRow>
@@ -521,7 +529,6 @@
                 <View
                     android:layout_height="2dip"
                     android:background="#FF909090" />
-
 
                 <TableRow
                     android:layout_width="match_parent"
@@ -552,14 +559,16 @@
                             android:layout_column="1"
                             android:fontFamily="sans-serif-condensed"
                             android:text="Anh H."
+                            android:layout_marginTop="3dp"
                             android:textColor="#000"
                             android:textSize="18dp" />
 
                         <TextView
                             android:id="@+id/textView57"
                             android:layout_width="match_parent"
-                            android:layout_height="29dp"
-                            android:text="Hanoi, Vietnam" />
+                            android:layout_height="wrap_content"
+                            android:text="Hanoi, Vietnam"
+                            android:layout_marginBottom="2dp" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -594,7 +603,7 @@
                         android:id="@+id/amritaStars6"
                         android:layout_width="120dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
+                        android:layout_marginTop="25dp"
                         android:src="@drawable/stars_3" />
 
                 </TableRow>
@@ -602,6 +611,7 @@
                 <View
                     android:layout_height="2dip"
                     android:background="#FF909090" />
+
 
                 <TableRow
                     android:layout_width="match_parent"
@@ -629,6 +639,7 @@
                         <TextView
                             android:layout_width="149dp"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
                             android:layout_column="1"
                             android:fontFamily="sans-serif-condensed"
                             android:text="Juan F."
@@ -680,7 +691,7 @@
                         android:id="@+id/amritaStars1"
                         android:layout_width="120dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
+                        android:layout_marginTop="25dp"
                         android:src="@drawable/stars_4half" />
 
                 </TableRow>
@@ -690,11 +701,6 @@
                     android:background="#FF909090" />
 
             </TableLayout>
-
-
-            <!--<ListView-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content" />-->
 
         </LinearLayout>
 
