@@ -18,7 +18,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="1.0">
 
         <ImageButton
             android:id="@+id/imageButton"
@@ -30,27 +30,47 @@
 
         <TextView
             android:id="@+id/textView47"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Your Meals" />
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginBottom="6dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="  Your Meals"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.052"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView48"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:layout_marginEnd="315dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="   Current"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
     </LinearLayout>
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="60dp"
+        android:layout_height="177dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="65dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -92,7 +112,7 @@
                             android:id="@+id/imageView9"
                             android:layout_width="66dp"
                             android:layout_height="match_parent"
-                            app:srcCompat="@drawable/indian_woman" />
+                            app:srcCompat="@drawable/man3" />
 
                     </LinearLayout>
 
@@ -107,7 +127,7 @@
                             android:layout_column="1"
                             android:layout_marginTop="3dp"
                             android:fontFamily="sans-serif-condensed"
-                            android:text="Amrita V."
+                            android:text="Jung M."
                             android:textColor="#000"
                             android:textSize="18dp" />
 
@@ -116,7 +136,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="2dp"
-                            android:text="Jodhpur, India" />
+                            android:text="Hanoi, Vietnam" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -134,7 +154,7 @@
                         android:layout_marginLeft="28dp"
                         android:layout_marginTop="28dp"
                         android:layout_marginRight="28dp"
-                        android:text="Requested"
+                        android:text="Complete"
                         android:textStyle="bold" />
 
                 </TableRow>
@@ -151,6 +171,134 @@
 
                         <ImageView
                             android:id="@+id/imageView9"
+                            android:layout_width="66dp"
+                            android:layout_height="match_parent"
+                            app:srcCompat="@drawable/man" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="207dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="149dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Frank A."
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="2dp"
+                            android:text="Dublin, Ireland" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="19dp"
+                            android:gravity="left"
+                            android:orientation="horizontal">
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView118"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="28dp"
+                        android:layout_marginTop="28dp"
+                        android:layout_marginRight="28dp"
+                        android:text="Unavailable"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="310dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="53dp"
+            android:layout_height="31dp"
+            android:layout_marginEnd="315dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="   Past"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.443">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="384dp"
+            android:layout_height="507dp"
+            android:layout_marginTop="10dp"
+            android:gravity="top"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="480dp"
+                android:layout_marginTop="5dp"
+                android:stretchColumns="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <View
+                    android:layout_height="2dip"
+                    android:background="#FF909090" />
+
+                <TableRow
+                    android:layout_width="394dp"
+                    android:layout_height="37dp"
+                    android:layout_marginBottom="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView9999"
                             android:layout_width="66dp"
                             android:layout_height="match_parent"
                             app:srcCompat="@drawable/indian_woman" />
@@ -173,7 +321,7 @@
                             android:textSize="18dp" />
 
                         <TextView
-                            android:id="@+id/textView46"
+                            android:id="@+id/textView798"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="2dp"
@@ -189,7 +337,7 @@
                     </LinearLayout>
 
                     <TextView
-                        android:id="@+id/textView18"
+                        android:id="@+id/textView123"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="28dp"
@@ -199,6 +347,131 @@
                         android:textStyle="bold" />
 
                 </TableRow>
+
+                <TableRow
+                    android:layout_width="394dp"
+                    android:layout_height="37dp"
+                    android:layout_marginBottom="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="66dp"
+                            android:layout_height="match_parent"
+                            app:srcCompat="@drawable/mexa" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="207dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="149dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Pedro R"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="2dp"
+                            android:text="Guadalajara, Mexico" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="19dp"
+                            android:gravity="left"
+                            android:orientation="horizontal">
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="28dp"
+                        android:layout_marginTop="28dp"
+                        android:layout_marginRight="28dp"
+                        android:text="Respond"
+                        android:textColor="#eba93a"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="394dp"
+                    android:layout_height="37dp"
+                    android:layout_marginBottom="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView333"
+                            android:layout_width="66dp"
+                            android:layout_height="match_parent"
+                            app:srcCompat="@drawable/woman" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="207dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="149dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Sigalit M."
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="2dp"
+                            android:text="Tehran, Iran" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="19dp"
+                            android:gravity="left"
+                            android:orientation="horizontal">
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView00"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="28dp"
+                        android:layout_marginTop="28dp"
+                        android:layout_marginRight="28dp"
+                        android:text="Confirmed"
+                        android:textColor="#12a230"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
 
             </TableLayout>
 
