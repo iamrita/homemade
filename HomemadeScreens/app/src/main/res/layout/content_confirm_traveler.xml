@@ -19,20 +19,21 @@
             android:layout_gravity="left"
             android:layout_margin="5dp"/>
 
+
         <ImageView
             android:id="@+id/imageView6"
             android:layout_width="300dp"
             android:layout_height="300dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            app:srcCompat="@drawable/noun_checkmark_569906"/>
+            app:srcCompat="@drawable/noun_checkmark_569906" />
 
 
         <TextView
             android:id="@+id/textView72"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Your scheduling request has been sent to Amrita."
+            android:text="Your scheduling request has been sent to Leila."
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="32sp"
@@ -52,8 +53,8 @@
             tools:layout_editor_absoluteY="431dp"
             android:layout_gravity="center"/>
 
-    </LinearLayout>
 
+    </LinearLayout>
 
 
 </android.support.constraint.ConstraintLayout>
