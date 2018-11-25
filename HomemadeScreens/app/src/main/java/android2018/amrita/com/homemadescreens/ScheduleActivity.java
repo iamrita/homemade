@@ -1,5 +1,7 @@
 package android2018.amrita.com.homemadescreens;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -18,6 +20,21 @@ public class ScheduleActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_schedule);
+        Spinner start_spinner = (Spinner)findViewById(R.id.spinner_start);
+        Spinner end_spinner = (Spinner)findViewById(R.id.spinner_end);
+        String start_time = start_spinner.getSelectedItem().toString();
+        String end_time = end_spinner.getSelectedItem().toString();
+        Button sendAvailability = (Button)findViewById(R.id.send_availability);
+        final Context context = this;
+
+        sendAvailability.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, ConfirmActivity.class);
+                startActivity(intent);
+
+            }
+        });
     /*
 
         Spinner spinner = (Spinner) findViewById(R.id.spinner);

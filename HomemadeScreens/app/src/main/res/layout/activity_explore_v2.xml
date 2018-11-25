@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ExploreV2Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -39,14 +39,14 @@
                 android:layout_marginRight="3dp"
                 android:layout_weight="1"
                 android:gravity="end"
-                android:src="@drawable/plane_faded" />
+                android:src="@drawable/plane_pink" />
 
             <Switch
                 android:id="@+id/toggle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="8dp"
-                android:checked="true"
+                android:checked="false"
                 android:gravity="end"
                 android:theme="@style/SwitchColors" />
 
@@ -57,7 +57,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:gravity="end"
-                android:src="@drawable/house_pink" />
+                android:src="@drawable/house_faded" />
 
         </LinearLayout>
 
@@ -80,7 +80,7 @@
                     android:layout_weight="1"
                     android:cropToPadding="false"
                     android:gravity="bottom"
-                    android:src="@drawable/location_nofill_gray" />
+                    android:src="@drawable/explore" />
             </LinearLayout>
 
             <LinearLayout
@@ -131,8 +131,8 @@
                     android:background="@drawable/spinner_border_grey"
                     android:entries="@array/dietary_restrictions_array"
                     android:fontFamily="sans-serif-condensed"
-                    android:theme="@style/SpinnerStyle"
-                    android:prompt="@string/start_date" />
+                    android:prompt="@string/start_date"
+                    android:theme="@style/SpinnerStyle" />
 
                 <Spinner
                     android:id="@+id/spinner2"
@@ -142,8 +142,8 @@
                     android:background="@drawable/spinner_border_grey"
                     android:entries="@array/interests_array"
                     android:fontFamily="sans-serif-condensed"
-                    android:theme="@style/SpinnerStyle"
-                    android:prompt="@string/end_date" />
+                    android:prompt="@string/end_date"
+                    android:theme="@style/SpinnerStyle" />
 
             </LinearLayout>
 
@@ -158,8 +158,10 @@
         android:layout_marginBottom="55dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -181,101 +183,14 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/sample_text">
+                >
 
                 <View
                     android:layout_height="2dip"
                     android:background="#FF909090" />
 
                 <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="70dp"
-                    android:layout_marginBottom="5dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:id="@+id/imageView9"
-                            android:layout_width="66dp"
-                            android:layout_height="match_parent"
-                            app:srcCompat="@drawable/indian_woman" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="84dp"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="149dp"
-                            android:layout_height="wrap_content"
-                            android:layout_column="1"
-                            android:layout_marginTop="3dp"
-                            android:fontFamily="sans-serif-condensed"
-                            android:text="Amrita V."
-                            android:textColor="#000"
-                            android:textSize="18dp" />
-
-                        <TextView
-                            android:id="@+id/textView46"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="2dp"
-                            android:text="Jodhpur, India" />
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:gravity="left"
-                            android:orientation="horizontal">
-
-                            <ImageView
-                                android:id="@+id/imageView17"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="left"
-                                android:layout_weight="1"
-                                android:src="@drawable/hobbie1" />
-
-                            <ImageView
-                                android:id="@+id/imageView18"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:src="@drawable/hobbie_cooking" />
-
-                            <ImageView
-                                android:id="@+id/imageView19"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:src="@drawable/hobbie4" />
-
-                            <Space
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="30" />
-                        </LinearLayout>
-                    </LinearLayout>
-
-                    <ImageView
-                        android:id="@+id/amritaStars"
-                        android:layout_width="120dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="25dp"
-                        android:src="@drawable/stars_4half" />
-
-                </TableRow>
-
-                <View
-                    android:layout_height="2dip"
-                    android:background="#FF909090" />
-
-                <TableRow
+                    android:id="@+id/table_clicked"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginBottom="5dp">
@@ -286,10 +201,10 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView9"
+                            android:id="@+id/imageView10"
                             android:layout_width="66dp"
                             android:layout_height="match_parent"
-                            app:srcCompat="@drawable/woman" />
+                            app:srcCompat="@drawable/woman3" />
 
                     </LinearLayout>
 
@@ -301,19 +216,19 @@
                         <TextView
                             android:layout_width="149dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="3dp"
                             android:layout_column="1"
+                            android:layout_marginTop="3dp"
                             android:fontFamily="sans-serif-condensed"
-                            android:text="Leeya M."
+                            android:text="Leila M."
                             android:textColor="#000"
                             android:textSize="18dp" />
 
                         <TextView
-                            android:id="@+id/textView55"
+                            android:id="@+id/textView46"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="2dp"
-                            android:text="Cairo, Egypt" />
+                            android:text="Lives 2.5 mi away" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -322,26 +237,20 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:id="@+id/imageView17"
+                                android:id="@+id/imageView18"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="left"
                                 android:layout_weight="1"
-                                android:src="@drawable/hobbie6" />
-
-                            <ImageView
-                                android:id="@+id/imageView18"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:src="@drawable/hobbie9" />
+                                android:src="@drawable/hobbie3" />
 
                             <ImageView
                                 android:id="@+id/imageView19"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:src="@drawable/hobbie8" />
+                                android:src="@drawable/hobbie1" />
+
 
                             <Space
                                 android:layout_width="wrap_content"
@@ -351,7 +260,7 @@
                     </LinearLayout>
 
                     <ImageView
-                        android:id="@+id/amritaStars3"
+                        android:id="@+id/amritaStars2"
                         android:layout_width="120dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="25dp"
@@ -374,10 +283,10 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView9"
+                            android:id="@+id/imageView11"
                             android:layout_width="66dp"
                             android:layout_height="match_parent"
-                            app:srcCompat="@drawable/man3" />
+                            app:srcCompat="@drawable/hawaiian_dude" />
 
                     </LinearLayout>
 
@@ -389,19 +298,19 @@
                         <TextView
                             android:layout_width="149dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="3dp"
                             android:layout_column="1"
+                            android:layout_marginTop="3dp"
                             android:fontFamily="sans-serif-condensed"
-                            android:text="Bo A."
+                            android:text="Kona V."
                             android:textColor="#000"
                             android:textSize="18dp" />
 
                         <TextView
-                            android:id="@+id/textView53"
+                            android:id="@+id/textView55"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Chengdu, China"
-                            android:layout_marginBottom="2dp"/>
+                            android:layout_marginBottom="2dp"
+                            android:text="Lives 2.9 mi away" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -410,29 +319,124 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:id="@+id/imageView17"
+                                android:id="@+id/imageView20"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="left"
                                 android:layout_weight="1"
-                                android:src="@drawable/hobbie5" />
+                                android:src="@drawable/hobbie9" />
 
                             <ImageView
-                                android:id="@+id/imageView18"
+                                android:id="@+id/imageView21"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:src="@drawable/hobbie3" />
+                                android:src="@drawable/hobbie7" />
 
                             <ImageView
-                                android:id="@+id/imageView19"
+                                android:id="@+id/imageView22"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:src="@drawable/hobbie2" />
+
+                            <Space
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="30" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/amritaStars4half"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:src="@drawable/stars_4half" />
+
+                </TableRow>
+
+                <View
+                    android:layout_height="2dip"
+                    android:background="#FF909090" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView12"
+                            android:layout_width="66dp"
+                            android:layout_height="match_parent"
+                            app:srcCompat="@drawable/hawaiian_dude" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="84dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="149dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_marginTop="3dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Bane H."
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/textView53"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="2dp"
+                            android:text="Lives 3.3 mi away" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imageView23"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
                                 android:layout_weight="1"
                                 android:src="@drawable/hobbie10" />
 
                             <ImageView
-                                android:id="@+id/imageView19"
+                                android:id="@+id/imageView24"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:src="@drawable/hobbie6" />
+
+                            <ImageView
+                                android:id="@+id/imageView25"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:src="@drawable/hobbie8" />
+
+                            <ImageView
+                                android:id="@+id/imageView19999"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:src="@drawable/hobbie4" />
+
+                            <ImageView
+                                android:id="@+id/imageView26"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -450,7 +454,7 @@
                         android:layout_width="120dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="25dp"
-                        android:src="@drawable/stars_5" />
+                        android:src="@drawable/stars_3" />
 
                 </TableRow>
 
@@ -468,10 +472,10 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView9"
+                            android:id="@+id/imageView27"
                             android:layout_width="66dp"
                             android:layout_height="match_parent"
-                            app:srcCompat="@drawable/man" />
+                            app:srcCompat="@drawable/woman3" />
 
                     </LinearLayout>
 
@@ -483,10 +487,10 @@
                         <TextView
                             android:layout_width="149dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="3dp"
                             android:layout_column="1"
+                            android:layout_marginTop="3dp"
                             android:fontFamily="sans-serif-condensed"
-                            android:text="John P."
+                            android:text="Annie M."
                             android:textColor="#000"
                             android:textSize="18dp" />
 
@@ -494,8 +498,8 @@
                             android:id="@+id/textView56"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Cork, Ireland"
-                            android:layout_marginBottom="2dp"/>
+                            android:layout_marginBottom="2dp"
+                            android:text="Lives 4 mi away" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -503,13 +507,19 @@
                             android:gravity="left"
                             android:orientation="horizontal">
 
-
                             <ImageView
-                                android:id="@+id/imageView18"
+                                android:id="@+id/imageView1800"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:src="@drawable/hobbie7" />
+                                android:src="@drawable/hobbie_cooking" />
+
+                            <ImageView
+                                android:id="@+id/imageView29"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:src="@drawable/hobbie4" />
 
 
                             <Space
@@ -543,10 +553,10 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView9"
+                            android:id="@+id/imageView14"
                             android:layout_width="66dp"
                             android:layout_height="match_parent"
-                            app:srcCompat="@drawable/man2" />
+                            app:srcCompat="@drawable/woman3" />
 
                     </LinearLayout>
 
@@ -559,9 +569,9 @@
                             android:layout_width="149dp"
                             android:layout_height="wrap_content"
                             android:layout_column="1"
-                            android:fontFamily="sans-serif-condensed"
-                            android:text="Anh H."
                             android:layout_marginTop="3dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Leilani A."
                             android:textColor="#000"
                             android:textSize="18dp" />
 
@@ -569,8 +579,8 @@
                             android:id="@+id/textView57"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Hanoi, Vietnam"
-                            android:layout_marginBottom="2dp" />
+                            android:layout_marginBottom="2dp"
+                            android:text="Lives 4.3 mi away" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -579,7 +589,7 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:id="@+id/imageView17"
+                                android:id="@+id/imageView30"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="left"
@@ -587,11 +597,11 @@
                                 android:src="@drawable/hobbie6" />
 
                             <ImageView
-                                android:id="@+id/imageView18"
+                                android:id="@+id/imageView31"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:src="@drawable/hobbie2" />
+                                android:src="@drawable/hobbie5" />
 
 
                             <Space
@@ -629,7 +639,7 @@
                             android:id="@+id/imageView9"
                             android:layout_width="66dp"
                             android:layout_height="match_parent"
-                            app:srcCompat="@drawable/man2" />
+                            app:srcCompat="@drawable/man3" />
 
                     </LinearLayout>
 
@@ -641,10 +651,10 @@
                         <TextView
                             android:layout_width="149dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="3dp"
                             android:layout_column="1"
+                            android:layout_marginTop="3dp"
                             android:fontFamily="sans-serif-condensed"
-                            android:text="Juan F."
+                            android:text="John P."
                             android:textColor="#000"
                             android:textSize="18dp" />
 
@@ -652,7 +662,7 @@
                             android:id="@+id/textView54"
                             android:layout_width="match_parent"
                             android:layout_height="29dp"
-                            android:text="Guadalajara, Mexico" />
+                            android:text="Lives6.8 mi away" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -669,14 +679,14 @@
                                 android:src="@drawable/hobbie1" />
 
                             <ImageView
-                                android:id="@+id/imageView18"
+                                android:id="@+id/imageView36"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:src="@drawable/hobbie_cooking" />
 
                             <ImageView
-                                android:id="@+id/imageView19"
+                                android:id="@+id/imageView37"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -721,7 +731,8 @@
 
         <View
             android:layout_height="2dip"
-            android:background="#FF909090" />
+            android:background="#FF909090"
+            android:layout_width="match_parent"/>
 
         <LinearLayout
             android:id="@+id/linearLayout4"
@@ -857,6 +868,5 @@
 
         </LinearLayout>
     </LinearLayout>
-
 
 </android.support.constraint.ConstraintLayout>

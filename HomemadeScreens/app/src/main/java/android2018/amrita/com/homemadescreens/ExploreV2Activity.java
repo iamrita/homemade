@@ -5,24 +5,26 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.TableRow;
 
-public class ScheduleResponseActivity extends AppCompatActivity {
+public class ExploreV2Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_schedule_response);
-        Button confirm = (Button)findViewById(R.id.confirm_button);
+        setContentView(R.layout.activity_explore_v2);
+        TableRow row = (TableRow)findViewById(R.id.table_clicked);
         final Context context = this;
-        confirm.setOnClickListener(new View.OnClickListener() {
+
+        row.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, ConfirmV2Activity.class);
+                System.out.println("WADDDDDDDUPPP");
+                Intent intent = new Intent(context, profileActivityLeila.class);
                 startActivity(intent);
-
-
             }
         });
+
+
     }
 }
