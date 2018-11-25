@@ -19,6 +19,7 @@ public class ExploreV2Activity extends AppCompatActivity {
         row.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                System.out.println("WADDDDDDDUPPP");
                 Intent intent = new Intent(context, profileActivityLeila.class);
                 startActivity(intent);
             }

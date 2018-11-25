@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".MealActivity"
-    tools:showIn="@layout/activity_meal">
+    tools:context=".MealConfirmedActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -341,7 +339,8 @@
                         android:layout_marginLeft="28dp"
                         android:layout_marginTop="28dp"
                         android:layout_marginRight="28dp"
-                        android:text="Requested"
+                        android:text="Confirmed"
+                        android:textColor="@color/green"
                         android:textStyle="bold" />
 
                 </TableRow>
@@ -627,6 +626,5 @@
 
         </LinearLayout>
     </LinearLayout>
-
 
 </android.support.constraint.ConstraintLayout>
