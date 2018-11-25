@@ -27,7 +27,7 @@
         <activity android:name=".PhrasesActivity" />
         <activity android:name=".UpcomingActivity" />
         <activity android:name=".profileActivityLeila" />
-        <activity android:name=".ExploreV2Activity">
+        <activity android:name=".ExploreV2Activity" android:windowSoftInputMode="stateHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
