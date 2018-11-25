@@ -6,73 +6,87 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="191dp"
+            android:layout_height="192dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/indian_woman"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Amrita V."
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="192dp" />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Jodhpur, India"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="117dp"
+            tools:layout_editor_absoluteY="233dp" />
+
+    </LinearLayout>
+
     <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="190dp"
-        android:layout_height="194dp"
-        app:srcCompat="@drawable/indian_woman"
-        tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="0dp" />
-
-    <TextView
-        android:id="@+id/textView50"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Amrita V."
-        android:textColor="@android:color/black"
-        android:textSize="30sp"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="194dp" />
-
-    <TextView
-        android:id="@+id/textView51"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Jodhpur, India"
-        android:textColor="@android:color/black"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="235dp" />
+        android:id="@+id/imageView11"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/calendar"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="277dp" />
 
     <TextView
         android:id="@+id/textView52"
         android:layout_width="wrap_content"
         android:layout_height="20dp"
         android:text="Tomorrow, December 4"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="288dp" />
-
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="48dp"
-        android:layout_height="54dp"
-        app:srcCompat="@drawable/calendar"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="278dp" />
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="286dp" />
 
     <TextView
         android:id="@+id/textView58"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="7-9pm"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="313dp" />
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="306dp" />
 
     <ImageView
         android:id="@+id/imageView12"
-        android:layout_width="34dp"
-        android:layout_height="50dp"
+        android:layout_width="45dp"
+        android:layout_height="49dp"
         app:srcCompat="@drawable/phone"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="345dp" />
+
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="337dp" />
 
     <TextView
         android:id="@+id/textView59"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="+123-456-7890"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="360dp" />
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="354dp" />
+
 
     <TextView
         android:id="@+id/textView60"
@@ -82,7 +96,7 @@
         android:textColor="@android:color/black"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="430dp" />
+        tools:layout_editor_absoluteY="414dp" />
 
     <TextView
         android:id="@+id/textView61"
@@ -90,5 +104,42 @@
         android:layout_height="wrap_content"
         android:text="Be sure to purchase the ingredients for one of Amrita's recipes and one of your own."
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="455dp" />
+        tools:layout_editor_absoluteY="439dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="79dp"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/chickentikkamasala"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="484dp" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chicken Curry"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="536dp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </android.support.constraint.ConstraintLayout>
