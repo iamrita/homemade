@@ -30,7 +30,7 @@ public class ScheduleActivity extends AppCompatActivity {
         sendAvailability.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, ConfirmActivity.class);
+                Intent intent = new Intent(context, ConfirmTravelerActivity.class);
                 startActivity(intent);
 
             }
