@@ -21,6 +21,7 @@
         <LinearLayout
             android:layout_width="384dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
             android:gravity="end"
             android:orientation="horizontal">
 
@@ -720,8 +721,9 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <View
-            android:layout_height="2dip"
-            android:background="#FF909090" />
+            android:layout_height="1dp"
+            android:background="#FF909090"
+            android:layout_width="match_parent"/>
 
         <LinearLayout
             android:id="@+id/linearLayout4"

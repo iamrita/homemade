@@ -340,7 +340,7 @@
                         android:layout_marginTop="28dp"
                         android:layout_marginRight="28dp"
                         android:text="Confirmed"
-                        android:textColor="@color/green"
+                        android:textColor="#12a230"
                         android:textStyle="bold" />
 
                 </TableRow>
@@ -374,7 +374,7 @@
                             android:layout_column="1"
                             android:layout_marginTop="3dp"
                             android:fontFamily="sans-serif-condensed"
-                            android:text="Pedro R"
+                            android:text="Pedro R."
                             android:textColor="#000"
                             android:textSize="18dp" />
 
@@ -401,8 +401,7 @@
                         android:layout_marginLeft="28dp"
                         android:layout_marginTop="28dp"
                         android:layout_marginRight="28dp"
-                        android:text="Respond"
-                        android:textColor="#eba93a"
+                        android:text="Requested"
                         android:textStyle="bold" />
 
                 </TableRow>
@@ -517,7 +516,7 @@
                     android:layout_height="36dp"
                     android:adjustViewBounds="false"
                     android:cropToPadding="false"
-                    app:srcCompat="@drawable/explore_pink" />
+                    app:srcCompat="@drawable/explore" />
 
                 <TextView
                     android:id="@+id/textViewExplore"
@@ -526,7 +525,7 @@
                     android:fontFamily="sans-serif-condensed"
                     android:gravity="center"
                     android:text="Explore"
-                    android:textColor="#BB284C"
+                    android:textColor="#000"
                     android:textSize="10dp"
                     app:layout_constraintStart_toStartOf="parent"
                     tools:layout_editor_absoluteY="492dp" />
@@ -578,7 +577,7 @@
                     android:id="@+id/imageViewMeals"
                     android:layout_width="match_parent"
                     android:layout_height="36dp"
-                    app:srcCompat="@drawable/meals"
+                    app:srcCompat="@drawable/meals_pink"
                     tools:layout_editor_absoluteX="214dp"
                     tools:layout_editor_absoluteY="453dp" />
 
@@ -589,7 +588,7 @@
                     android:fontFamily="sans-serif-condensed"
                     android:gravity="center"
                     android:text="Meals"
-                    android:textColor="#000"
+                    android:textColor="#BB284C"
                     android:textSize="10dp"
                     app:layout_constraintStart_toStartOf="parent"
                     tools:layout_editor_absoluteY="492dp" />
