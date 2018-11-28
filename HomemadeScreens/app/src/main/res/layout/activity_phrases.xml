@@ -43,304 +43,416 @@
             android:text="English to Hindi"
             android:textSize="16dp" />
 
-        <View
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="74dp"
-            android:orientation="horizontal">
+            android:layout_height="match_parent">
 
             <LinearLayout
-                android:layout_width="290dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView34"
+                <View
+                    android:id="@+id/view2"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="3dp"
-                    android:layout_marginBottom="10dp"
-                    android:fontFamily="sans-serif-condensed"
-                    android:text="English"
-                    android:textColor="#ba284c"
-                    android:textSize="18dp" />
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
 
-                <TextView
-                    android:id="@+id/textView35"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:fontFamily="sans-serif-condensed"
-                    android:text="Hindi"
-                    android:textSize="18dp" />
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="9dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView4111"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Hello"
+                            android:textColor="#ba284c"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/textView45123"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Namaste (नमस्ते)"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/imageButton1239"
+                        android:layout_width="78dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+
+                        app:srcCompat="@drawable/speaker" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="9dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView4433312"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="How are you?"
+                            android:textColor="#ba284c"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/textView4125"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Kya haal hai (क्या हाल है)?"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/imageButton9010192"
+                        android:layout_width="78dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+
+                        app:srcCompat="@drawable/speaker" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="74dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="9dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView34"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Thank you"
+                            android:textColor="#ba284c"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/textView35"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Dhanyavaad (धन्यवाद)"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/imageButton4"
+                        android:layout_width="78dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+
+                        app:srcCompat="@drawable/speaker" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="74dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="9dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView36"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="You're welcome"
+                            android:textColor="#ba284c"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/textView37"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Aapaka svaagat hai (आपका स्वागत है)"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/imageButton5"
+                        android:layout_width="78dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+
+                        app:srcCompat="@drawable/speaker" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="74dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="9dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView38"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="My name is ..."
+                            android:textColor="#ba284c"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/textView39"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="mera nam ... hai (मेरा नाम ... है)"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/imageButton6"
+                        android:layout_width="78dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+
+                        app:srcCompat="@drawable/speaker" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="74dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="9dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView40"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Pleased to meet you"
+                            android:textColor="#ba284c"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/textView41"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Ap se milkar khushi hui (आप से मिलकर ख़ुशी हुई)"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/imageButton7"
+                        android:layout_width="78dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+
+                        app:srcCompat="@drawable/speaker" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="74dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="9dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView42"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Cheers! Good Health! "
+                            android:textColor="#ba284c"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/textView43"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Acchi sehat ke lie (अच्छी सेहत के लिए)!"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/imageButton8"
+                        android:layout_width="78dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+
+                        app:srcCompat="@drawable/speaker" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="74dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="9dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView44"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Excuse me"
+                            android:textColor="#ba284c"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/textView45"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Kṣama kijie (क्षमा कीजिए)"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/imageButton9"
+                        android:layout_width="78dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+
+                        app:srcCompat="@drawable/speaker" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
 
             </LinearLayout>
-
-            <ImageButton
-                android:id="@+id/imageButton4"
-                android:layout_width="78dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@null"
-
-                app:srcCompat="@drawable/speaker" />
-
-        </LinearLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray"/>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="74dp"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="290dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="9dp"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView36"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="3dp"
-                    android:layout_marginBottom="10dp"
-                    android:fontFamily="sans-serif-condensed"
-                    android:text="English"
-                    android:textColor="#ba284c"
-                    android:textSize="18dp" />
-
-                <TextView
-                    android:id="@+id/textView37"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:fontFamily="sans-serif-condensed"
-                    android:text="Hindi"
-                    android:textSize="18dp" />
-
-            </LinearLayout>
-
-            <ImageButton
-                android:id="@+id/imageButton5"
-                android:layout_width="78dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@null"
-
-                app:srcCompat="@drawable/speaker" />
-
-        </LinearLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray"/>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="74dp"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="290dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="9dp"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView38"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="3dp"
-                    android:layout_marginBottom="10dp"
-                    android:fontFamily="sans-serif-condensed"
-                    android:text="English"
-                    android:textColor="#ba284c"
-                    android:textSize="18dp" />
-
-                <TextView
-                    android:id="@+id/textView39"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:fontFamily="sans-serif-condensed"
-                    android:text="Hindi"
-                    android:textSize="18dp" />
-
-            </LinearLayout>
-
-            <ImageButton
-                android:id="@+id/imageButton6"
-                android:layout_width="78dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@null"
-
-                app:srcCompat="@drawable/speaker" />
-
-        </LinearLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray"/>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="74dp"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="290dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="9dp"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView40"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="3dp"
-                    android:layout_marginBottom="10dp"
-                    android:fontFamily="sans-serif-condensed"
-                    android:text="English"
-                    android:textColor="#ba284c"
-                    android:textSize="18dp" />
-
-                <TextView
-                    android:id="@+id/textView41"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:fontFamily="sans-serif-condensed"
-                    android:text="Hindi"
-                    android:textSize="18dp" />
-
-            </LinearLayout>
-
-            <ImageButton
-                android:id="@+id/imageButton7"
-                android:layout_width="78dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@null"
-
-                app:srcCompat="@drawable/speaker" />
-
-        </LinearLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray"/>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="74dp"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="290dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="9dp"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView42"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="3dp"
-                    android:layout_marginBottom="10dp"
-                    android:fontFamily="sans-serif-condensed"
-                    android:text="English"
-                    android:textColor="#ba284c"
-                    android:textSize="18dp" />
-
-                <TextView
-                    android:id="@+id/textView43"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:fontFamily="sans-serif-condensed"
-                    android:text="Hindi"
-                    android:textSize="18dp" />
-
-            </LinearLayout>
-
-            <ImageButton
-                android:id="@+id/imageButton8"
-                android:layout_width="78dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@null"
-
-                app:srcCompat="@drawable/speaker" />
-
-        </LinearLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray"/>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="74dp"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="290dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="9dp"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView44"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="3dp"
-                    android:layout_marginBottom="10dp"
-                    android:fontFamily="sans-serif-condensed"
-                    android:text="English"
-                    android:textColor="#ba284c"
-                    android:textSize="18dp" />
-
-                <TextView
-                    android:id="@+id/textView45"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:fontFamily="sans-serif-condensed"
-                    android:text="Hindi"
-                    android:textSize="18dp" />
-
-            </LinearLayout>
-
-            <ImageButton
-                android:id="@+id/imageButton9"
-                android:layout_width="78dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@null"
-
-                app:srcCompat="@drawable/speaker" />
-
-        </LinearLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray"/>
+        </ScrollView>
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
