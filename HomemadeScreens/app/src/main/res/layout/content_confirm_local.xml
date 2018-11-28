@@ -38,8 +38,7 @@
             android:textSize="32sp"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="346dp"
-            android:layout_gravity="center"
-            />
+            android:layout_gravity="center" />
 
         <TextView
             android:id="@+id/textView73"
