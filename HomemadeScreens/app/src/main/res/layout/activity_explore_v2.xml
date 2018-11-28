@@ -21,6 +21,7 @@
         <LinearLayout
             android:layout_width="384dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
             android:gravity="end"
             android:orientation="horizontal">
 
@@ -71,16 +72,17 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 tools:layout_editor_absoluteX="1dp">
-                android:orientation="vertical">
 
                 <ImageView
                     android:id="@+id/locationGray"
                     android:layout_width="match_parent"
                     android:layout_height="24dp"
                     android:layout_weight="1"
+                    android:layout_marginLeft="2dp"
                     android:cropToPadding="false"
                     android:gravity="bottom"
-                    android:src="@drawable/explore" />
+                    android:src="@drawable/location_nofill_gray" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -97,9 +99,9 @@
                     android:layout_weight="1"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="Search by origin of traveler"
+                    android:text="Oahu, Hawaii, USA"
                     android:textColor="#6c6969"
-                    android:textSize="13dp" />
+                    android:textSize="14dp" />
             </LinearLayout>
         </LinearLayout>
 
@@ -319,19 +321,19 @@
                             android:orientation="horizontal">
 
                             <ImageView
+                                android:id="@+id/imageView21"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:src="@drawable/hobbie7" />
+
+                            <ImageView
                                 android:id="@+id/imageView20"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="left"
                                 android:layout_weight="1"
                                 android:src="@drawable/hobbie9" />
-
-                            <ImageView
-                                android:id="@+id/imageView21"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:src="@drawable/hobbie7" />
 
                             <ImageView
                                 android:id="@+id/imageView22"
@@ -435,13 +437,6 @@
                                 android:layout_weight="1"
                                 android:src="@drawable/hobbie4" />
 
-                            <ImageView
-                                android:id="@+id/imageView26"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:src="@drawable/hobbie8" />
-
                             <Space
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -499,7 +494,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="2dp"
-                            android:text="Lives 4 mi away" />
+                            android:text="Lives 4.0 mi away" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -508,19 +503,18 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:id="@+id/imageView1800"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:src="@drawable/hobbie_cooking" />
-
-                            <ImageView
                                 android:id="@+id/imageView29"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:src="@drawable/hobbie4" />
 
+                            <ImageView
+                                android:id="@+id/imageView1800"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:src="@drawable/hobbie_cooking" />
 
                             <Space
                                 android:layout_width="wrap_content"
@@ -589,20 +583,19 @@
                             android:orientation="horizontal">
 
                             <ImageView
-                                android:id="@+id/imageView30"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="left"
-                                android:layout_weight="1"
-                                android:src="@drawable/hobbie6" />
-
-                            <ImageView
                                 android:id="@+id/imageView31"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:src="@drawable/hobbie5" />
 
+                            <ImageView
+                                android:id="@+id/imageView30"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_weight="1"
+                                android:src="@drawable/hobbie6" />
 
                             <Space
                                 android:layout_width="wrap_content"
@@ -730,7 +723,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <View
-            android:layout_height="2dip"
+            android:layout_height="1dp"
             android:background="#FF909090"
             android:layout_width="match_parent"/>
 
