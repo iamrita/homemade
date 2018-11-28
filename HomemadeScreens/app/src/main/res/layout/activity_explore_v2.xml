@@ -72,16 +72,17 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 tools:layout_editor_absoluteX="1dp">
-                android:orientation="vertical">
 
                 <ImageView
                     android:id="@+id/locationGray"
                     android:layout_width="match_parent"
                     android:layout_height="24dp"
                     android:layout_weight="1"
+                    android:layout_marginLeft="2dp"
                     android:cropToPadding="false"
                     android:gravity="bottom"
                     android:src="@drawable/location_nofill_gray" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -98,9 +99,9 @@
                     android:layout_weight="1"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="Search by origin of traveler"
+                    android:text="Oahu, Hawaii, USA"
                     android:textColor="#6c6969"
-                    android:textSize="13dp" />
+                    android:textSize="14dp" />
             </LinearLayout>
         </LinearLayout>
 
