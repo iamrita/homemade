@@ -7,20 +7,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class ConfirmV2Activity extends AppCompatActivity {
+public class ConfirmTravelerActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_confirm_v2);
+        setContentView(R.layout.activity_confirm_traveler);
 
-        ImageView back = (ImageView)findViewById(R.id.back_button_2);
+        ImageView back = (ImageView)findViewById(R.id.back_button_traveler);
         final Context context = this;
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, MealConfirmedActivity.class);
+                Intent intent = new Intent(context, MealActivity.class);
                 startActivity(intent);
             }
         });

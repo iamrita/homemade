@@ -27,16 +27,19 @@
         <activity android:name=".PhrasesActivity" />
         <activity android:name=".UpcomingActivity" />
         <activity android:name=".profileActivityLeila" />
-        <activity android:name=".ExploreV2Activity">
+        <activity
+            android:name=".ExploreV2Activity"
+            android:windowSoftInputMode="stateHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ConfirmActivity" />
-        <activity android:name=".ConfirmV2Activity" />
-        <activity android:name=".MealConfirmedActivity"></activity>
+        <activity android:name=".MealConfirmedActivity" />
+        <activity android:name=".LiveMealActivity" />
+        <activity android:name=".ConfirmLocalActivity" />
+        <activity android:name=".ConfirmTravelerActivity"></activity>
     </application>
 
 </manifest>

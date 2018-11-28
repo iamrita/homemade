@@ -6,4 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".UpcomingActivity">
 
+    <include layout="@layout/content_upcoming"></include>
+
 </android.support.constraint.ConstraintLayout>

@@ -18,7 +18,7 @@ public class ScheduleResponseActivity extends AppCompatActivity {
         confirm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, ConfirmV2Activity.class);
+                Intent intent = new Intent(context, ConfirmLocalActivity.class);
                 startActivity(intent);
 
 
