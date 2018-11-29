@@ -33,10 +33,11 @@
             android:layout_width="367dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="You have scheduled a meal with Amrita V!"
+            android:text="You have scheduled a meal\nwith Amrita V!"
             android:textAlignment="center"
             android:textColor="@android:color/black"
-            android:textSize="26dp"
+            android:textSize="28dp"
+            android:fontFamily="sans-serif-condensed"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="346dp" />
 
@@ -47,8 +48,9 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:text="Check your Meals for details about your upcoming meal."
+            android:fontFamily="sans-serif-condensed"
             android:textAlignment="center"
-            android:textSize="18sp"
+            android:textSize="20sp"
             tools:layout_editor_absoluteX="81dp"
             tools:layout_editor_absoluteY="431dp" />
 

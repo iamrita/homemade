@@ -37,7 +37,8 @@
             android:text="Your meal request has been\nsent to Leila M!"
             android:textAlignment="center"
             android:textColor="@android:color/black"
-            android:textSize="26dp"
+            android:textSize="28dp"
+            android:fontFamily="sans-serif-condensed"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="346dp" />
 
@@ -47,9 +48,10 @@
             android:layout_height="64dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="Check your Meals to see the status of your request."
+            android:text="Check your Meals to see the status\nof your request."
             android:textAlignment="center"
-            android:textSize="18sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20sp"
             tools:layout_editor_absoluteX="81dp"
             tools:layout_editor_absoluteY="431dp" />
 
