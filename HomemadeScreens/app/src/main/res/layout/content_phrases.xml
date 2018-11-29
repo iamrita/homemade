@@ -51,6 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
             android:fontFamily="sans-serif-condensed"
             android:text="English to Hindi"
             android:textSize="16dp" />
@@ -62,12 +63,12 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="74dp"
+            android:layout_height="90dp"
             android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="290dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="9dp"
                 android:orientation="vertical">
 
@@ -78,17 +79,17 @@
                     android:layout_marginTop="6dp"
                     android:layout_marginBottom="8dp"
                     android:fontFamily="sans-serif-condensed"
-                    android:text="English"
+                    android:text="Your food is yummy"
                     android:textColor="#ba284c"
                     android:textSize="18dp" />
 
                 <TextView
                     android:id="@+id/textView35"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="56dp"
                     android:layout_marginBottom="10dp"
                     android:fontFamily="sans-serif-condensed"
-                    android:text="Hindi"
+                    android:text="आपका खाना स्वादिष्ट है \naapaka khaana svaadisht hai"
                     android:textSize="18dp" />
 
             </LinearLayout>
@@ -111,39 +112,39 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="74dp"
+            android:layout_height="90dp"
             android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="290dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="9dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView36"
+                    android:id="@+id/textView34"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
                     android:layout_marginBottom="8dp"
                     android:fontFamily="sans-serif-condensed"
-                    android:text="English"
+                    android:text="Please"
                     android:textColor="#ba284c"
                     android:textSize="18dp" />
 
                 <TextView
-                    android:id="@+id/textView37"
+                    android:id="@+id/textView35"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="56dp"
                     android:layout_marginBottom="10dp"
                     android:fontFamily="sans-serif-condensed"
-                    android:text="Hindi"
+                    android:text="कृप्या\nkrpya"
                     android:textSize="18dp" />
 
             </LinearLayout>
 
             <ImageButton
-                android:id="@+id/imageButton5"
+                android:id="@+id/imageButton4"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -160,39 +161,39 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="74dp"
+            android:layout_height="90dp"
             android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="290dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="9dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView38"
+                    android:id="@+id/textView34"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
                     android:layout_marginBottom="8dp"
                     android:fontFamily="sans-serif-condensed"
-                    android:text="English"
+                    android:text="Thank you"
                     android:textColor="#ba284c"
                     android:textSize="18dp" />
 
                 <TextView
-                    android:id="@+id/textView39"
+                    android:id="@+id/textView35"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="56dp"
                     android:layout_marginBottom="10dp"
                     android:fontFamily="sans-serif-condensed"
-                    android:text="Hindi"
+                    android:text="धन्यवाद\ndhanyavaad"
                     android:textSize="18dp" />
 
             </LinearLayout>
 
             <ImageButton
-                android:id="@+id/imageButton6"
+                android:id="@+id/imageButton4"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -209,39 +210,39 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="74dp"
+            android:layout_height="90dp"
             android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="290dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="9dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView40"
+                    android:id="@+id/textView34"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
                     android:layout_marginBottom="8dp"
                     android:fontFamily="sans-serif-condensed"
-                    android:text="English"
+                    android:text="Could you pass the salt"
                     android:textColor="#ba284c"
                     android:textSize="18dp" />
 
                 <TextView
-                    android:id="@+id/textView41"
+                    android:id="@+id/textView35"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="56dp"
                     android:layout_marginBottom="10dp"
                     android:fontFamily="sans-serif-condensed"
-                    android:text="Hindi"
+                    android:text="क्या आप नमक दे सकते हैं\nkya aap namak de sakate hain"
                     android:textSize="18dp" />
 
             </LinearLayout>
 
             <ImageButton
-                android:id="@+id/imageButton7"
+                android:id="@+id/imageButton4"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -258,39 +259,39 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="74dp"
+            android:layout_height="90dp"
             android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="290dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="9dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView42"
+                    android:id="@+id/textView34"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
                     android:layout_marginBottom="8dp"
                     android:fontFamily="sans-serif-condensed"
-                    android:text="English"
+                    android:text="You are a great cook"
                     android:textColor="#ba284c"
                     android:textSize="18dp" />
 
                 <TextView
-                    android:id="@+id/textView43"
+                    android:id="@+id/textView35"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="56dp"
                     android:layout_marginBottom="10dp"
                     android:fontFamily="sans-serif-condensed"
-                    android:text="Hindi"
+                    android:text="आप एक महान पकवान हैं\naap ek mahaan pakavaan hain"
                     android:textSize="18dp" />
 
             </LinearLayout>
 
             <ImageButton
-                android:id="@+id/imageButton8"
+                android:id="@+id/imageButton4"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -307,39 +308,39 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="74dp"
+            android:layout_height="90dp"
             android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="290dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="9dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView44"
+                    android:id="@+id/textView34"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
                     android:layout_marginBottom="8dp"
                     android:fontFamily="sans-serif-condensed"
-                    android:text="English"
+                    android:text="I would like more food"
                     android:textColor="#ba284c"
                     android:textSize="18dp" />
 
                 <TextView
-                    android:id="@+id/textView45"
+                    android:id="@+id/textView35"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="56dp"
                     android:layout_marginBottom="10dp"
                     android:fontFamily="sans-serif-condensed"
-                    android:text="Hindi"
+                    android:text="मुझे और खाना चाहिए\nmujhe aur khaana chaahie"
                     android:textSize="18dp" />
 
             </LinearLayout>
 
             <ImageButton
-                android:id="@+id/imageButton9"
+                android:id="@+id/imageButton4"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
