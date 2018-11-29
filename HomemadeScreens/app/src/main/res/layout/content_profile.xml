@@ -10,7 +10,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="572dp"
-        android:layout_marginBottom="42dp"
+        android:layout_marginBottom="4dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,11 +21,11 @@
 
         <ImageView
             android:id="@+id/beachImage"
-            android:layout_width="match_parent"
-            android:layout_height="218dp"
+            android:layout_width="385dp"
+            android:layout_height="215dp"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="0dp"
             android:layout_marginLeft="1dp"
+            android:layout_marginTop="0dp"
             android:src="@drawable/beach" />
 
         <ImageView
@@ -52,9 +52,9 @@
             android:layout_alignParentEnd="true"
             android:layout_marginTop="143dp"
             android:layout_marginEnd="129dp"
+            android:fontFamily="sans-serif-condensed"
             android:text="Leila M. "
             android:textColor="#FFFF"
-            android:fontFamily="sans-serif-condensed"
             android:textSize="32dp"
             android:textStyle="bold" />
 
@@ -65,11 +65,10 @@
             android:layout_below="@+id/textView8"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="-5dp"
-            android:text="Oahu, Hawaii, USA"
             android:fontFamily="sans-serif-condensed"
+            android:text="Lives 2.5 miles away"
             android:textColor="#FFFF"
-            android:textSize="16dp"
-            />
+            android:textSize="16dp" />
 
         <TextView
             android:id="@+id/textView11"
@@ -78,7 +77,7 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="8dp"
-            android:layout_marginBottom="290dp"
+            android:layout_marginBottom="294dp"
             android:fontFamily="sans-serif-condensed"
             android:text="There’s nothing I enjoy more than surfing some smooth Hawaiian waves and hiking on local trails. I’d love to share my passion for all things Hawaiian. Come share a meal with me!"
             android:textSize="15dp" />

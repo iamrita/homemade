@@ -34,7 +34,7 @@
             android:layout_width="367dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Your meal request has been\nsent to Leila!"
+            android:text="Your meal request has been\nsent to Leila M!"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="26dp"
