@@ -40,7 +40,8 @@
         <activity android:name=".LiveMealActivity" />
         <activity android:name=".ConfirmLocalActivity" />
         <activity android:name=".ConfirmTravelerActivity" />
-        <activity android:name=".Ingredients2Activity"></activity>
+        <activity android:name=".Ingredients2Activity" />
+        <activity android:name=".Ingredients3Activity"></activity>
     </application>
 
 </manifest>

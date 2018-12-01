@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".Ingredients3Activity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -15,14 +15,12 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/imageView7"
             android:layout_width="match_parent"
-            android:layout_height="255dp"
-            android:layout_alignParentTop="true"
+            android:layout_height="329dp"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="0dp"
             android:layout_marginEnd="0dp"
-            app:srcCompat="@drawable/naan" />
+            app:srcCompat="@drawable/gulabjamun" />
 
         <ImageView
             android:id="@+id/back_ingredients"
@@ -33,15 +31,15 @@
             app:srcCompat="@drawable/back_white" />
 
         <TextView
-            android:id="@+id/textView60"
+            android:id="@+id/textView76"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/back_ingredients"
+            android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="2dp"
-            android:layout_marginTop="213dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="285dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="Naan"
+            android:text="Sweets"
             android:textColor="@android:color/white"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -51,7 +49,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="330dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -69,10 +67,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
+                android:layout_marginBottom="3dp"
                 android:fontFamily="sans-serif-condensed"
                 android:text="Ingredients"
                 android:textColor="@android:color/black"
-                android:layout_marginBottom="3dp"
                 android:textSize="24sp" />
 
             <TextView
@@ -82,7 +80,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginBottom="3dp"
                 android:fontFamily="sans-serif-condensed"
-                android:text="- 1 (.25 ounce) package active dry yeast"
+                android:text="3 cup all purpose flour"
                 tools:layout_editor_absoluteX="16dp" />
 
             <TextView
@@ -92,7 +90,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginBottom="3dp"
                 android:fontFamily="sans-serif-condensed"
-                android:text="- 1 cup warm water"
+                android:text="- 2 cup thickened yoghurt (curd) "
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="318dp" />
 
@@ -103,7 +101,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginBottom="3dp"
                 android:fontFamily="sans-serif-condensed"
-                android:text="- 3 tablespoons milk"
+                android:text="- 1/2 cup ghee"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="337dp" />
 
@@ -114,7 +112,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginBottom="3dp"
                 android:fontFamily="sans-serif-condensed"
-                android:text="- 1 egg, beaten" />
+                android:text="- 3 cup sugar" />
 
             <TextView
                 android:id="@+id/textView65"
@@ -123,7 +121,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginBottom="3dp"
                 android:fontFamily="sans-serif-condensed"
-                android:text="- 1 teaspoon salt"
+                android:text="- 5 strand saffron"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="356dp" />
 
@@ -134,7 +132,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginBottom="3dp"
                 android:fontFamily="sans-serif-condensed"
-                android:text="- 4.5 cups of bread"
+                android:text="- 1 cup plain yogurt"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="375dp" />
 
@@ -145,37 +143,11 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginBottom="3dp"
                 android:fontFamily="sans-serif-condensed"
-                android:text="- 0.25 cup butter, melted"
+                android:text="- 2 cup sunflower oil"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="394dp" />
 
-            <TextView
-                android:id="@+id/textView68"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginBottom="3dp"
-                android:fontFamily="sans-serif-condensed"
-                android:text=" "
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="413dp" />
-
-            <TextView
-                android:id="@+id/textView69"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginBottom="3dp"
-                android:fontFamily="sans-serif-condensed"
-                android:text="  "
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="432dp" />
-
         </LinearLayout>
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="33dp" />
 
         <LinearLayout
             android:layout_width="match_parent"

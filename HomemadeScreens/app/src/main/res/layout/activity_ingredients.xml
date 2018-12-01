@@ -6,6 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".IngredientsActivity">
 
-    <include layout="@layout/content_ingredients"></include>
+    <include
+        layout="@layout/content_ingredients"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></include>
 
 </android.support.constraint.ConstraintLayout>

@@ -244,7 +244,6 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="258dp"
                     android:layout_marginTop="0dp"
-                    android:layout_marginRight="-6pd"
                     app:srcCompat="@drawable/naan" />
 
                 <ImageView
@@ -293,7 +292,7 @@
                     android:layout_marginStart="263dp"
                     android:fontFamily="sans-serif-condensed"
                     android:gravity="center"
-                    android:text="Nann"
+                    android:text="Naan"
                     android:textColor="#FFFF"
                     android:textSize="16dp"
                     android:textStyle="bold" />
