@@ -46,6 +46,7 @@
             android:layout_marginLeft="10dp"
             android:text="Amrita V."
             android:textColor="@android:color/black"
+            android:fontFamily="sans-serif-condensed"
             android:textSize="30sp" />
 
         <TextView
@@ -56,6 +57,7 @@
             android:layout_marginLeft="10dp"
             android:text="Jodhpur, India"
             android:textColor="@android:color/black"
+            android:fontFamily="sans-serif-condensed"
             android:textSize="24sp" />
 
     </LinearLayout>
@@ -66,6 +68,7 @@
         android:layout_height="138dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/linearLayout3">
 
@@ -96,8 +99,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_marginStart="30dp"
-                    android:text="Tomorrow, December 4"
                     android:fontFamily="sans-serif-condensed"
+                    android:text="Tomorrow, December 4"
                     app:layout_constraintBottom_toTopOf="@+id/textView58"
                     app:layout_constraintStart_toEndOf="@+id/imageView11" />
 
@@ -106,8 +109,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
-                    android:text="7-9pm"
                     android:fontFamily="sans-serif-condensed"
+                    android:text="7-9pm"
                     app:layout_constraintBottom_toTopOf="@+id/textView59"
                     app:layout_constraintStart_toEndOf="@+id/imageView11" />
 
@@ -135,8 +138,8 @@
                 android:id="@+id/textView59"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
                 android:layout_marginStart="30dp"
+                android:layout_marginTop="6dp"
                 android:fontFamily="sans-serif-condensed"
                 android:text="+123-456-7890" />
 
@@ -171,8 +174,8 @@
             android:layout_alignParentBottom="true"
             android:layout_marginStart="105dp"
             android:layout_marginBottom="13dp"
-            android:gravity="center"
             android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
             android:text="amritav@gmail.com" />
 
     </RelativeLayout>

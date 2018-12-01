@@ -124,7 +124,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="Tap and start speaking for translation."
+            android:text="Tap and speak for translation."
             android:textColor="#e8812f"
             android:fontFamily="sans-serif-condensed"
             android:gravity="center"/>

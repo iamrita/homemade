@@ -14,7 +14,7 @@ public class ConfirmLocalActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_confirm_local);
 
-        ImageView back = (ImageView)findViewById(R.id.back_button_confirm_local);
+        ImageView back = (ImageView)findViewById(R.id.exit_button_local);
         final Context context = this;
 
         back.setOnClickListener(new View.OnClickListener() {

@@ -14,7 +14,7 @@ public class ConfirmTravelerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_confirm_traveler);
 
-        ImageView back = (ImageView)findViewById(R.id.back_button_traveler);
+        ImageView back = (ImageView)findViewById(R.id.exit_button_traveler);
         final Context context = this;
 
         back.setOnClickListener(new View.OnClickListener() {
