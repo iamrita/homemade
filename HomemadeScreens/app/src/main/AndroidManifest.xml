@@ -46,7 +46,8 @@
         <activity android:name=".DishSelectionActivity" />
         <activity android:name=".Ingredients4Activity" />
         <activity android:name=".Ingredients5Activity" />
-        <activity android:name=".Ingredients6Activity"></activity>
+        <activity android:name=".Ingredients6Activity" />
+        <activity android:name=".MealsFromExploreActivity"></activity>
     </application>
 
 </manifest>

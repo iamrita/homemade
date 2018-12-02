@@ -126,24 +126,19 @@
 
                 <Spinner
                     android:id="@+id/spinner1"
-                    android:layout_width="182dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/spinner_border_grey"
                     android:entries="@array/dietary_restrictions_array"
-                    android:fontFamily="sans-serif-condensed"
-                    android:theme="@style/SpinnerStyle" />
+                    android:fontFamily="sans-serif-condensed" />
 
                 <Spinner
                     android:id="@+id/spinner2"
                     android:layout_width="182dp"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="5dp"
-                    android:background="@drawable/spinner_border_grey"
                     android:entries="@array/interests_array"
-                    android:fontFamily="sans-serif-condensed"
-                    android:theme="@style/SpinnerStyle" />
+                    android:fontFamily="sans-serif-condensed" />
 
             </LinearLayout>
 
