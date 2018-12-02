@@ -157,7 +157,7 @@
                 android:layout_marginRight="2dp"
                 android:background="@color/green"
                 android:fontFamily="sans-serif-condensed"
-                android:text="Confirm"
+                android:text="Next"
                 android:textColor="#ffffff"
                 android:textSize="18dp" />
 

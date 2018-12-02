@@ -45,19 +45,11 @@
 
         <RadioGroup
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="80dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="9dp"
             android:layout_marginBottom="9dp">
-
-            <RadioButton
-                android:id="@+id/radioButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="sans-serif-condensed"
-                android:text="Chicken Curry" />
 
             <RadioButton
                 android:id="@+id/radioButton2"
@@ -74,6 +66,14 @@
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-condensed"
                 android:text="Naan" />
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Chicken Curry" />
         </RadioGroup>
 
         <TextView
@@ -83,7 +83,7 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="9dp"
-            android:layout_marginBottom="109dp"
+            android:layout_marginBottom="89dp"
             android:fontFamily="sans-serif-condensed"
             android:text="Selection:"
             android:textColor="@android:color/black"
@@ -95,8 +95,8 @@
             android:layout_width="241dp"
             android:layout_height="96dp"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="70dp"
+            android:layout_marginStart="-3dp"
+            android:layout_marginTop="105dp"
             android:layout_toEndOf="@+id/imageView28"
             android:background="#ba284c"
             android:fontFamily="sans-serif-condensed"
@@ -108,8 +108,8 @@
             android:layout_width="241dp"
             android:layout_height="96dp"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="166dp"
+            android:layout_marginStart="-3dp"
+            android:layout_marginTop="201dp"
             android:layout_toEndOf="@+id/imageView28"
             android:background="#e8812f"
             android:fontFamily="sans-serif-condensed"
@@ -121,8 +121,8 @@
             android:layout_width="241dp"
             android:layout_height="96dp"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="258dp"
+            android:layout_marginStart="-3dp"
+            android:layout_marginTop="293dp"
             android:layout_toEndOf="@+id/imageView28"
             android:background="#941d68"
             android:fontFamily="sans-serif-condensed"
@@ -131,11 +131,11 @@
 
         <ImageView
             android:id="@+id/imageView33"
-            android:layout_width="145dp"
-            android:layout_height="123dp"
+            android:layout_width="143dp"
+            android:layout_height="122dp"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="-46dp"
-            android:layout_marginBottom="154dp"
+            android:layout_marginStart="-42dp"
+            android:layout_marginBottom="120dp"
             android:layout_toEndOf="@+id/imageButton10"
             app:srcCompat="@drawable/gulabjamun" />
 
@@ -145,8 +145,8 @@
             android:layout_height="103dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="160dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="195dp"
             app:srcCompat="@drawable/naan" />
 
         <ImageView
@@ -155,10 +155,31 @@
             android:layout_height="160dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="38dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="73dp"
             android:fontFamily="sans-serif-condensed"
             app:srcCompat="@drawable/chickentikkamasala" />
+
+        <TextView
+            android:id="@+id/textView80"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="53dp"
+            android:text="Base your decision on personal preference and availability of ingredients. " />
+
+        <TextView
+            android:id="@+id/textView82"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="69dp"
+            android:layout_marginEnd="57dp"
+            android:text="You must purchase the ingredients."
+            android:textStyle="bold" />
 
     </RelativeLayout>
 
