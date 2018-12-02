@@ -43,7 +43,10 @@
         <activity android:name=".Ingredients2Activity" />
         <activity android:name=".Ingredients3Activity" />
         <activity android:name=".Notification1Activity" />
-        <activity android:name=".DishSelectionActivity"></activity>
+        <activity android:name=".DishSelectionActivity" />
+        <activity android:name=".Ingredients4Activity" />
+        <activity android:name=".Ingredients5Activity" />
+        <activity android:name=".Ingredients6Activity"></activity>
     </application>
 
 </manifest>
