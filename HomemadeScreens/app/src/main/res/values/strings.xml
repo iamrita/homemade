@@ -81,6 +81,7 @@
         <item>10:00 AM</item>
         <item>11:00 AM</item>
     </string-array>
+    <string name="title_activity_to_delete">ToDeleteActivity</string>
 
 
 </resources>

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MealConfirmedActivity">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="55dp"
@@ -17,13 +17,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0">
-
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="35dp"
-            android:layout_height="36dp"
-            android:layout_gravity="left"
-            app:srcCompat="@drawable/back" />
 
         <TextView
             android:id="@+id/textView47"
@@ -45,6 +38,8 @@
             android:id="@+id/textView48"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/textView47"
+            android:layout_marginTop="-6dp"
             android:layout_marginEnd="315dp"
             android:fontFamily="sans-serif-condensed"
             android:text="   Current"
@@ -54,7 +49,21 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
-    </LinearLayout>
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView48"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="-4dp"
+            android:background="#e8812f"
+            android:text="Meal Time"
+            android:textColor="#FFFFFF"
+            android:textSize="8dp" />
+
+
+    </RelativeLayout>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -247,7 +256,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="224dp"
+        android:layout_height="317dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="150dp"
         app:layout_constraintBottom_toBottomOf="parent"
