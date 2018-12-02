@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Notification1Activity">
+
+    <RelativeLayout
+        android:layout_width="435dp"
+        android:layout_height="579dp"
+        android:background="#0e0e2b"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="431dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/lockscreen"
+            tools:layout_editor_absoluteX="-78dp"
+            tools:layout_editor_absoluteY="-19dp" />
+
+        <ImageView
+            android:id="@+id/imageView40"
+            android:layout_width="58dp"
+            android:layout_height="57dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="178dp"
+            app:srcCompat="@drawable/white_logo" />
+
+        <TextView
+            android:id="@+id/textView78"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView40"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/imageView40"
+            android:text="HomeMade"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView79"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView40"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="20dp"
+            android:layout_toEndOf="@+id/imageView40"
+            android:text="Amrita wants to schedule a meal with you."
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/textView81"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="213dp"
+            android:text="Let her know if you can make it!"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

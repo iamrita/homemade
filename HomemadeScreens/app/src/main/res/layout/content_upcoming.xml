@@ -194,28 +194,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.55">
 
-        <TextView
-            android:id="@+id/textView74"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="14dp"
-            android:text="Recipes"
-            android:textColor="#000000"
-            android:fontFamily="sans-serif-condensed"
-            android:textSize="18dp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView75"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="14dp"
-            android:layout_marginRight="30dp"
-            android:fontFamily="sans-serif-condensed"
-            android:text="Be sure to purchase the ingredients for one of Amrita's recipes and one of your own."
-            app:layout_constraintEnd_toEndOf="parent" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -226,77 +204,53 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imageView26"
-                    android:layout_width="139dp"
-                    android:layout_height="92dp"
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="157dp"
+                    android:layout_height="75dp"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentBottom="true"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginBottom="11dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_marginBottom="45dp"
+                    android:text="Be sure to purchase the ingredients for Amrita's recipes (selected by you) and one of your own." />
+
+                <ImageView
+                    android:id="@+id/imageView26"
+                    android:layout_width="203dp"
+                    android:layout_height="136dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="38dp"
+                    android:layout_marginEnd="0dp"
                     app:srcCompat="@drawable/chickentikkamasala" />
 
-                <ImageView
-                    android:id="@+id/imageView28"
-                    android:layout_width="wrap_content"
-                    android:layout_height="103dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginStart="258dp"
-                    android:layout_marginTop="0dp"
-                    app:srcCompat="@drawable/naan" />
-
-                <ImageView
-                    android:id="@+id/imageView32"
-                    android:layout_width="281dp"
-                    android:layout_height="90dp"
-                    android:layout_alignBottom="@+id/textView23"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginBottom="-31dp"
-                    app:srcCompat="@drawable/gulabjamun" />
-
-                <TextView
-                    android:id="@+id/textView23"
-                    android:layout_width="124dp"
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginStart="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginBottom="0dp"
                     android:fontFamily="sans-serif-condensed"
-                    android:gravity="center"
-                    android:text="Chicken Curry"
-                    android:textColor="#FFFF"
-                    android:textSize="16dp"
-                    android:textStyle="bold" />
+                    android:text="View Ingredients"
+                    android:background="#ba284c"
+                    android:textColor="#ffffff"
+                     />
 
                 <TextView
                     android:id="@+id/textView71"
-                    android:layout_width="124dp"
-                    android:layout_height="wrap_content"
-                    android:layout_alignTop="@+id/textView23"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginStart="134dp"
-                    android:fontFamily="sans-serif-condensed"
-                    android:gravity="center"
-                    android:text="Sweets"
-                    android:textColor="#FFFF"
-                    android:textSize="16dp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/textView5"
-                    android:layout_width="124dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginStart="263dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="25dp"
                     android:fontFamily="sans-serif-condensed"
-                    android:gravity="center"
-                    android:text="Naan"
-                    android:textColor="#FFFF"
-                    android:textSize="16dp"
+                    android:text="Chicken Curry"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
                     android:textStyle="bold" />
-
             </RelativeLayout>
 
         </LinearLayout>

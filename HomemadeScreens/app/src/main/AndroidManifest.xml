@@ -41,7 +41,9 @@
         <activity android:name=".ConfirmLocalActivity" />
         <activity android:name=".ConfirmTravelerActivity" />
         <activity android:name=".Ingredients2Activity" />
-        <activity android:name=".Ingredients3Activity"></activity>
+        <activity android:name=".Ingredients3Activity" />
+        <activity android:name=".Notification1Activity" />
+        <activity android:name=".DishSelectionActivity"></activity>
     </application>
 
 </manifest>
