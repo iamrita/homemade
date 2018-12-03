@@ -335,26 +335,26 @@
                 android:id="@+id/button7"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:textColor="#FFFFFF"
+                android:layout_height="50dp"
                 android:background="#ba284c"
-                android:textSize="18dp"
+                android:fontFamily="sans-serif-condensed"
                 android:text="Favorite"
-                android:fontFamily="sans-serif-condensed"/>
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
         </LinearLayout>
 
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="fill_parent"
-            android:layout_marginLeft="1dp"
-            android:layout_marginRight="2dp"
+            android:layout_marginRight="1dp"
             android:layout_height="fill_parent">
 
             <Button
                 android:id="@+id/schedule_button"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
                 android:background="#941d68"
                 android:fontFamily="sans-serif-condensed"
                 android:text="Schedule"

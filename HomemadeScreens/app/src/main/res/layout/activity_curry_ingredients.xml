@@ -28,7 +28,7 @@
             android:layout_alignBottom="@id/curry"
             android:layout_marginBottom="0dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="Chicken Curry"
+            android:text=" Chicken Curry"
             android:textColor="@android:color/white"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -64,12 +64,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:fontFamily="sans-serif-condensed"
-                android:text="Ingredients"
-                android:textStyle="bold"
-                android:textColor="@android:color/black"
                 android:layout_marginBottom="3dp"
-                android:textSize="24sp" />
+                android:fontFamily="sans-serif-condensed"
+                android:text=" Ingredients"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView62"
@@ -181,7 +181,7 @@
             <Button
                 android:id="@+id/send_availability"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:background="#ba284c"
                 android:fontFamily="sans-serif-condensed"
                 android:text="Export Ingredients List"

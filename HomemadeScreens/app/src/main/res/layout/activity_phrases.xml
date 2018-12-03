@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginStart="9dp"
+        android:layout_marginStart="5dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,8 +23,9 @@
 
             <ImageButton
                 android:id="@+id/back_translate"
-                android:layout_width="53dp"
-                android:layout_height="49dp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="3dp"
                 android:layout_marginBottom="5dp"
                 android:background="#0000"
                 android:src="@drawable/back" />
@@ -34,12 +35,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="11dp"
                 android:layout_marginLeft="70dp"
                 android:text="Helpful Phrases"
                 android:textStyle="bold"
-                android:textColor="#e8812f"
-                android:textSize="24dp"
+                android:textColor="#000"
+                android:textSize="26dp"
                 android:fontFamily="sans-serif-condensed"/>
         </LinearLayout>
 
@@ -49,7 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="English to Hindi"
+            android:text="  English to Hindi"
             android:textSize="16dp" />
 
         <ScrollView

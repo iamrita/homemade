@@ -10,8 +10,8 @@
         android:layout_width="368dp"
         android:layout_height="551dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="4dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -20,8 +20,8 @@
 
             <ImageButton
                 android:id="@+id/back_translate"
-                android:layout_width="53dp"
-                android:layout_height="49dp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
                 android:layout_marginBottom="5dp"
                 android:background="#0000"
                 android:src="@drawable/back" />
@@ -30,14 +30,14 @@
                 android:id="@+id/translatorTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginTop="5dp"
                 android:layout_marginLeft="70dp"
-                android:text="Live Translator"
-                android:textStyle="bold"
-                android:textColor="#e8812f"
-                android:textSize="24dp"
-                android:fontFamily="sans-serif-condensed"/>
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text=" Live Translator"
+                android:textColor="#000"
+                android:textSize="26dp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <View
@@ -124,7 +124,7 @@
             android:layout_marginTop="5dp"
             android:fontFamily="sans-serif-condensed"
             android:gravity="center"
-            android:text="Hold and speak for translation"
+            android:text="Hold and speak for translation."
             android:textColor="#e8812f" />
 
 

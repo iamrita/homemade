@@ -8,7 +8,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="510dp"
         android:layout_marginBottom="60dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -16,7 +16,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="1.0">
 
 
         <ImageButton
@@ -36,11 +36,11 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="10dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="Select Dish"
+            android:text="Select Amrita's Dish"
             android:textColor="@color/colorAccent"
-            android:textSize="30sp"
+            android:textSize="26dp"
             android:textStyle="bold" />
 
         <RadioGroup
@@ -48,8 +48,8 @@
             android:layout_height="80dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="9dp"
-            android:layout_marginBottom="9dp">
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="0dp">
 
             <RadioButton
                 android:id="@+id/radioButton2"
@@ -57,7 +57,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-condensed"
-                android:text="Sweets" />
+                android:text="Sweets"
+                android:textSize="16dp" />
 
             <RadioButton
                 android:id="@+id/radioButton3"
@@ -65,7 +66,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-condensed"
-                android:text="Naan" />
+                android:text="Naan"
+                android:textSize="16dp" />
 
             <RadioButton
                 android:id="@+id/radioButton"
@@ -73,7 +75,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-condensed"
-                android:text="Chicken Curry" />
+                android:text="Chicken Curry"
+                android:textSize="16dp" />
         </RadioGroup>
 
         <TextView
@@ -82,93 +85,100 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="9dp"
-            android:layout_marginBottom="89dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="82dp"
             android:fontFamily="sans-serif-condensed"
             android:text="Selection:"
             android:textColor="@android:color/black"
-            android:textSize="20dp"
+            android:textSize="16dp"
             android:textStyle="bold" />
 
         <Button
             android:id="@+id/curry_ingredients"
-            android:layout_width="241dp"
-            android:layout_height="96dp"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="-3dp"
-            android:layout_marginTop="105dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="126dp"
             android:layout_toEndOf="@+id/imageView28"
             android:background="#ba284c"
             android:fontFamily="sans-serif-condensed"
             android:text="Chicken Curry Ingredients"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
 
         <Button
             android:id="@+id/naan_ingredients"
-            android:layout_width="241dp"
-            android:layout_height="96dp"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="-3dp"
-            android:layout_marginTop="201dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="223dp"
             android:layout_toEndOf="@+id/imageView28"
             android:background="#e8812f"
             android:fontFamily="sans-serif-condensed"
             android:text="Naan Ingredients"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
 
         <Button
             android:id="@+id/sweets_ingredients"
-            android:layout_width="241dp"
-            android:layout_height="96dp"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="-3dp"
-            android:layout_marginTop="293dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="321dp"
             android:layout_toEndOf="@+id/imageView28"
             android:background="#941d68"
             android:fontFamily="sans-serif-condensed"
             android:text="Sweets Ingredients"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
 
         <ImageView
             android:id="@+id/imageView33"
-            android:layout_width="143dp"
-            android:layout_height="122dp"
+            android:layout_width="150dp"
+            android:layout_height="98dp"
+            android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="-42dp"
-            android:layout_marginBottom="120dp"
-            android:layout_toEndOf="@+id/imageButton10"
-            app:srcCompat="@drawable/gulabjamun" />
+            android:layout_marginStart="1dp"
+            android:layout_marginBottom="112dp"
+            app:srcCompat="@drawable/indian_sweets" />
 
         <ImageView
             android:id="@+id/imageView32"
-            android:layout_width="150dp"
-            android:layout_height="103dp"
+            android:layout_width="135dp"
+            android:layout_height="89dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="3dp"
-            android:layout_marginTop="195dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="203dp"
             app:srcCompat="@drawable/naan" />
 
         <ImageView
             android:id="@+id/imageView28"
-            android:layout_width="143dp"
-            android:layout_height="160dp"
+            android:layout_width="134dp"
+            android:layout_height="140dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="3dp"
-            android:layout_marginTop="73dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="79dp"
             android:fontFamily="sans-serif-condensed"
             app:srcCompat="@drawable/chickentikkamasala" />
 
         <TextView
             android:id="@+id/textView80"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="9dp"
+            android:layout_marginStart="0dp"
             android:layout_marginTop="53dp"
-            android:text="Base your decision on personal preference and availability of ingredients. " />
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Choose a dish for which you will be able to find the ingredients, as you must purchase the ingredients!"
+            android:textSize="16dp" />
 
         <TextView
             android:id="@+id/textView82"
@@ -177,15 +187,15 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="69dp"
-            android:layout_marginEnd="57dp"
-            android:text="You must purchase the ingredients."
+            android:layout_marginEnd="40dp"
+            android:fontFamily="sans-serif-condensed"
             android:textStyle="bold" />
 
     </RelativeLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="48dp"
         android:layout_marginTop="500dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -193,16 +203,16 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="1.0">
 
         <Button
             android:id="@+id/confirm_button"
             android:layout_width="match_parent"
-            android:layout_height="79dp"
+            android:layout_height="50dp"
             android:background="@color/green"
             android:fontFamily="sans-serif-condensed"
             android:text="Send Confirmation"
             android:textColor="#ffffff"
-            android:textSize="15dp" />
+            android:textSize="16dp" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

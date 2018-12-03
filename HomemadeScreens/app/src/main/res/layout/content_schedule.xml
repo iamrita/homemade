@@ -10,10 +10,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="369dp"
-        android:layout_height="547dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_width="385dp"
+        android:layout_height="569dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,31 +20,30 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:orientation="horizontal"
-            tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="8dp">
+            android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/back"
-                android:layout_width="53dp"
-                android:layout_height="49dp"
+                android:id="@+id/back_translate"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="3dp"
                 android:layout_marginBottom="5dp"
+                android:layout_marginLeft="3dp"
                 android:background="#0000"
                 android:src="@drawable/back" />
 
             <TextView
-                android:id="@+id/textView"
-                android:layout_width="match_parent"
+                android:id="@+id/translatorTitle"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
                 android:fontFamily="sans-serif-condensed"
                 android:text="Schedule Meal with Amrita"
-                android:textAlignment="center"
-                android:textColor="@color/colorAccent"
-                android:textSize="28dp"
-                tools:layout_editor_absoluteX="23dp"
-                tools:layout_editor_absoluteY="25dp" />
+                android:textColor="#000"
+                android:textSize="26dp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -98,7 +95,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-condensed"
-            android:text="Availibilities:"
+            android:text="  Availabilities:"
             android:textColor="@color/colorAccent"
             android:textStyle="bold" />
 
@@ -179,12 +176,12 @@
         <Button
             android:id="@+id/send_availability"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:background="#ba284c"
             android:fontFamily="sans-serif-condensed"
             android:text="Send Availability"
-            android:textSize="15dp"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
     </LinearLayout>
 
 
