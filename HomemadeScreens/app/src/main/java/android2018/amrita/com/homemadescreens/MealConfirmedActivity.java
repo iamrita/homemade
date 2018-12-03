@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TableRow;
 
 public class MealConfirmedActivity extends AppCompatActivity {
@@ -14,7 +15,7 @@ public class MealConfirmedActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_meal_confirmed);
 
-        TableRow amrita_confirmed = (TableRow)findViewById(R.id.amrita_row_confirmed);
+        TableRow amrita_confirmed = (TableRow)findViewById(R.id.amrita_row);
         final Context context = this;
 
         amrita_confirmed.setOnClickListener(new View.OnClickListener() {
@@ -24,5 +25,15 @@ public class MealConfirmedActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button mealTime = (Button)findViewById(R.id.mealTime);
+        mealTime.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, Notification2Activity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

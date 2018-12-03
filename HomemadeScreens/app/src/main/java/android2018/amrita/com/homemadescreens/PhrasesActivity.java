@@ -14,7 +14,7 @@ public class PhrasesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_phrases);
 
-        ImageButton back = (ImageButton)findViewById(R.id.back_phrases);
+        ImageButton back = (ImageButton)findViewById(R.id.back_translate);
         final Context context = this;
 
         back.setOnClickListener(new View.OnClickListener() {

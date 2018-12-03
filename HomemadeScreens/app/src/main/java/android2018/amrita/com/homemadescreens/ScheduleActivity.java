@@ -35,6 +35,15 @@ public class ScheduleActivity extends AppCompatActivity {
 
             }
         });
+
+        ImageButton back = (ImageButton)findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, profileActivityLeila.class);
+                startActivity(intent);
+            }
+        });
     /*
 
         Spinner spinner = (Spinner) findViewById(R.id.spinner);

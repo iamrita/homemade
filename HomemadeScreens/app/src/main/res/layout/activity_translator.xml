@@ -96,12 +96,11 @@
                 android:textSize="18dp" />
 
             <TextView
-                android:id="@+id/textView32"
+                android:id="@+id/namaste"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="20dp"
-                android:text="Namaste!"
                 android:fontFamily="sans-serif-condensed"
                 android:textColor="#000"
                 android:textSize="18dp" />
@@ -113,7 +112,7 @@
             android:background="@android:color/darker_gray"/>
 
         <ImageView
-            android:id="@+id/imageView16"
+            android:id="@+id/mic"
             android:layout_width="match_parent"
             android:layout_height="82dp"
             android:layout_marginTop="10dp"

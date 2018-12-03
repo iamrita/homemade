@@ -20,7 +20,8 @@
         <activity
             android:name=".ExploreActivity"
             android:label="@string/title_activity_explore"
-            android:theme="@style/AppTheme" />
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
         <activity android:name=".IngredientsActivity" />
         <activity android:name=".ScheduleResponseActivity" />
         <activity android:name=".TranslatorActivity" />
@@ -29,13 +30,7 @@
         <activity android:name=".profileActivityLeila" />
         <activity
             android:name=".ExploreV2Activity"
-            android:windowSoftInputMode="stateHidden">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:windowSoftInputMode="stateHidden"></activity>
         <activity android:name=".MealConfirmedActivity" />
         <activity android:name=".LiveMealActivity" />
         <activity android:name=".ConfirmLocalActivity" />
@@ -47,10 +42,17 @@
         <activity android:name=".Ingredients4Activity" />
         <activity android:name=".Ingredients5Activity" />
         <activity android:name=".Ingredients6Activity" />
-        <activity android:name=".MealsFromExploreActivity"></activity>
+        <activity android:name=".MealsFromExploreActivity" />
         <activity android:name=".TransitionActivity" />
         <activity android:name=".Notification2Activity" />
-        <activity android:name=".Transition1Activity"></activity>
+        <activity android:name=".Transition1Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CurryIngredients"></activity>
     </application>
 
 </manifest>

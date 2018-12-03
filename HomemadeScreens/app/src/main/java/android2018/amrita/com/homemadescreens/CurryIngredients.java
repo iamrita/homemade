@@ -7,21 +7,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class Ingredients2Activity extends AppCompatActivity {
+public class CurryIngredients extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ingredients2);
+        setContentView(R.layout.activity_curry_ingredients);
 
         ImageView back = (ImageView)findViewById(R.id.back_ingredients);
         final Context context = this;
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, DishSelectionActivity.class);
+                Intent intent = new Intent(context, UpcomingActivity.class);
                 startActivity(intent);
-
             }
         });
     }

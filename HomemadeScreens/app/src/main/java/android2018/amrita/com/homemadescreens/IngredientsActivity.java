@@ -22,7 +22,7 @@ public class IngredientsActivity extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, LiveMealActivity.class);
+                Intent intent = new Intent(context, DishSelectionActivity.class);
                 startActivity(intent);
             }
         });
