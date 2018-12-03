@@ -20,7 +20,7 @@ public class ConfirmTravelerActivity extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, MealActivity.class);
+                Intent intent = new Intent(context, TransitionActivity.class);
                 startActivity(intent);
             }
         });

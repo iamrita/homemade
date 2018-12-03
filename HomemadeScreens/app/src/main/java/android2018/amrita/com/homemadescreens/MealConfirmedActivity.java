@@ -14,7 +14,7 @@ public class MealConfirmedActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_meal_confirmed);
 
-        TableRow amrita_confirmed = (TableRow)findViewById(R.id.amrita_row_confirmed);
+        TableRow amrita_confirmed = (TableRow)findViewById(R.id.amrita_row);
         final Context context = this;
 
         amrita_confirmed.setOnClickListener(new View.OnClickListener() {
