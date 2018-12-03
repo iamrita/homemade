@@ -62,12 +62,11 @@
                 android:textSize="18dp" />
 
             <TextView
-                android:id="@+id/textView31"
+                android:id="@+id/hello"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="20dp"
-                android:text="Hello!"
                 android:fontFamily="sans-serif-condensed"
                 android:textColor="#000"
                 android:textSize="18dp" />
@@ -123,10 +122,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="Tap and speak for translation."
-            android:textColor="#e8812f"
             android:fontFamily="sans-serif-condensed"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:text="Hold and speak for translation"
+            android:textColor="#e8812f" />
 
 
     </LinearLayout>

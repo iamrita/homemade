@@ -57,7 +57,7 @@ public class profileActivityLeila extends AppCompatActivity {
         shrimp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, Ingredients5Activity.class);
+                Intent intent = new Intent(context, Ingredients6Activity.class);
                 startActivity(intent);
             }
         });
@@ -66,7 +66,7 @@ public class profileActivityLeila extends AppCompatActivity {
         sliders.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, Ingredients6Activity.class);
+                Intent intent = new Intent(context, Ingredients5Activity.class);
                 startActivity(intent);
             }
         });

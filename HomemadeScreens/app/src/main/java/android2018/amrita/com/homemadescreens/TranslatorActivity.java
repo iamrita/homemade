@@ -31,11 +31,14 @@ public class TranslatorActivity extends AppCompatActivity {
 
         ImageView mic = (ImageView)findViewById(R.id.mic);
         final TextView nam = (TextView)findViewById(R.id.namaste);
+        final TextView hello = (TextView)findViewById(R.id.hello);
 
         mic.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View view) {
                 nam.setText("Namaste!");
+                hello.setText("Hello!");
+
                 return true;
             }
         });
