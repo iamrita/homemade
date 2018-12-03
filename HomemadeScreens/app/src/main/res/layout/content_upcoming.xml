@@ -10,7 +10,6 @@
         android:id="@+id/linearLayout3"
         android:layout_width="371dp"
         android:layout_height="234dp"
-        android:layout_marginBottom="15dp"
         android:gravity="top"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
@@ -202,61 +201,69 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/textView5"
-                    android:layout_width="157dp"
-                    android:layout_height="75dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginStart="21dp"
-                    android:layout_marginBottom="45dp"
-                    android:fontFamily="sans-serif-condensed"
-                    android:text="Be sure to purchase the ingredients for Amrita's recipes (selected by you) and one of your own." />
-
-                <ImageView
-                    android:id="@+id/imageView26"
-                    android:layout_width="203dp"
-                    android:layout_height="136dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginTop="38dp"
-                    android:layout_marginEnd="0dp"
-                    app:srcCompat="@drawable/chickentikkamasala" />
-
-                <Button
-                    android:id="@+id/view_ingredients"
-                    android:layout_width="183dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginStart="9dp"
-                    android:layout_marginBottom="0dp"
-                    android:background="#ba284c"
                     android:fontFamily="sans-serif-condensed"
-                    android:text="View Ingredients"
-                    android:textColor="#ffffff" />
+                    android:text="Be sure to purchase the ingredients for Amrita's recipe as well as for one of your own. Here is Amrita's recipe that you selected when scheduling this meal." />
 
-                <TextView
-                    android:id="@+id/textView71"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginStart="22dp"
-                    android:layout_marginTop="25dp"
-                    android:fontFamily="sans-serif-condensed"
-                    android:text="Chicken Curry"
-                    android:textColor="#000000"
-                    android:textSize="18dp"
-                    android:textStyle="bold" />
-            </RelativeLayout>
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView26"
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="38dp"
+                        app:srcCompat="@drawable/chickentikkamasala" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/textView71"
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Chicken Curry"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/view_ingredients"
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:background="#ba284c"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="View Ingredients"
+                            android:textColor="#ffffff" />
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
 
         </LinearLayout>
     </LinearLayout>
