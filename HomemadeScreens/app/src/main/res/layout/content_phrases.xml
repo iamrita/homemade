@@ -95,7 +95,7 @@
             </LinearLayout>
 
             <ImageButton
-                android:id="@+id/imageButton4"
+                android:id="@+id/mic1"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -144,7 +144,7 @@
             </LinearLayout>
 
             <ImageButton
-                android:id="@+id/imageButton4"
+                android:id="@+id/mic2"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -193,7 +193,7 @@
             </LinearLayout>
 
             <ImageButton
-                android:id="@+id/imageButton4"
+                android:id="@+id/mic3"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -242,7 +242,7 @@
             </LinearLayout>
 
             <ImageButton
-                android:id="@+id/imageButton4"
+                android:id="@+id/mic4"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -291,7 +291,7 @@
             </LinearLayout>
 
             <ImageButton
-                android:id="@+id/imageButton4"
+                android:id="@+id/mic5"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"

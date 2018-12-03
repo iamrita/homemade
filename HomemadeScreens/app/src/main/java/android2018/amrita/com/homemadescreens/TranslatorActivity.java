@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 public class TranslatorActivity extends AppCompatActivity {
 
@@ -24,6 +26,17 @@ public class TranslatorActivity extends AppCompatActivity {
                 Intent intent = new Intent(context, LiveMealActivity.class);
                 startActivity(intent);
 
+            }
+        });
+
+        ImageView mic = (ImageView)findViewById(R.id.mic);
+        final TextView nam = (TextView)findViewById(R.id.namaste);
+
+        mic.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+                nam.setText("Namaste!");
+                return true;
             }
         });
     }
