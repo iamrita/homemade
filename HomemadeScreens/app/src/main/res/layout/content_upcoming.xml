@@ -100,6 +100,7 @@
                     android:layout_marginStart="20dp"
                     android:fontFamily="sans-serif-condensed"
                     android:text="Tomorrow, October 30"
+                    android:textSize="15dp"
                     app:layout_constraintBottom_toTopOf="@+id/textView58"
                     app:layout_constraintStart_toEndOf="@+id/imageView11" />
 
@@ -110,6 +111,7 @@
                     android:layout_marginStart="20dp"
                     android:fontFamily="sans-serif-condensed"
                     android:text="8:00am-10:00am"
+                    android:textSize="15dp"
                     app:layout_constraintBottom_toTopOf="@+id/textView59"
                     app:layout_constraintStart_toEndOf="@+id/imageView11" />
 
@@ -141,7 +143,8 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="11dp"
                 android:fontFamily="sans-serif-condensed"
-                android:text="+123-456-7890" />
+                android:text="+123-456-7890"
+                android:textSize="15dp"/>
 
         </LinearLayout>
 
@@ -172,11 +175,12 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="90dp"
+            android:layout_marginStart="88dp"
             android:layout_marginBottom="20dp"
             android:fontFamily="sans-serif-condensed"
             android:gravity="center"
-            android:text="amritav@gmail.com" />
+            android:text="amritav@gmail.com"
+            android:textSize="15dp" />
 
     </RelativeLayout>
 
@@ -212,6 +216,7 @@
                     android:layout_alignParentBottom="true"
                     android:layout_marginStart="21dp"
                     android:layout_marginBottom="45dp"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="Be sure to purchase the ingredients for Amrita's recipes (selected by you) and one of your own." />
 
                 <ImageView
@@ -244,7 +249,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
-                    android:layout_marginStart="24dp"
+                    android:layout_marginStart="22dp"
                     android:layout_marginTop="25dp"
                     android:fontFamily="sans-serif-condensed"
                     android:text="Chicken Curry"
