@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class ScheduleResponseActivity extends AppCompatActivity {
 
@@ -18,10 +19,19 @@ public class ScheduleResponseActivity extends AppCompatActivity {
         confirm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, ConfirmLocalActivity.class);
+                Intent intent = new Intent(context, DishSelectionActivity.class);
                 startActivity(intent);
 
 
+            }
+        });
+
+        ImageButton back = (ImageButton)findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, MealActivity.class);
+                startActivity(intent);
             }
         });
     }
