@@ -9,12 +9,14 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#ba284c"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="#ba284c"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
 
         <ImageView
@@ -29,14 +31,15 @@
 
         <TextView
             android:id="@+id/textView75"
-            android:layout_width="wrap_content"
-            android:layout_height="84dp"
+            android:layout_width="382dp"
+            android:layout_height="81dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="0dp"
-            android:layout_marginBottom="193dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="199dp"
+            android:fontFamily="sans-serif-condensed"
             android:gravity="center"
-            android:text="Transitioning to view from perspective of Leyla (the local)"
+            android:text="Transitioning to Leila's perspective\n(the local)"
             android:textColor="#FFFFFF"
             android:textSize="25dp" />
 

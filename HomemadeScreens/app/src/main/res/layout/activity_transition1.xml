@@ -29,14 +29,15 @@
 
         <TextView
             android:id="@+id/textView75"
-            android:layout_width="wrap_content"
-            android:layout_height="84dp"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginEnd="0dp"
-            android:layout_marginBottom="193dp"
+            android:layout_marginBottom="196dp"
+            android:fontFamily="sans-serif-condensed"
             android:gravity="center"
-            android:text="Initiating from perspective of Amrita (the traveler)"
+            android:text="Starting from Amrita's perspective\n(the traveler)"
             android:textColor="#FFFFFF"
             android:textSize="25dp" />
 
@@ -49,7 +50,7 @@
             android:layout_marginStart="125dp"
             android:layout_marginBottom="134dp"
             android:background="#FFFFFF"
-            android:text="Start"
+            android:text="Begin"
             android:textColor="#ba284c" />
     </RelativeLayout>
 

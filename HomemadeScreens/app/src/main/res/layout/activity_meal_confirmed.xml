@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MealConfirmedActivity">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="55dp"
@@ -18,28 +18,57 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0">
 
-        <TextView
-            android:id="@+id/textView47"
-            android:layout_width="wrap_content"
-            android:layout_height="28dp"
-            android:layout_marginBottom="6dp"
-            android:fontFamily="sans-serif-condensed"
-            android:text="  Your Meals"
-            android:textColor="@color/colorAccent"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.052"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Your Meals"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.052"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:layout_width="252dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/textView48"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="-4dp"
+                android:background="#e8812f"
+                android:text="Meal Time"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#FFFFFF"
+                android:textSize="10dp" />
+
+        </LinearLayout>
 
         <TextView
             android:id="@+id/textView48"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/textView47"
-            android:layout_marginTop="-6dp"
             android:layout_marginEnd="315dp"
             android:fontFamily="sans-serif-condensed"
             android:text="   Current"
@@ -49,21 +78,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
-        <Button
-            android:id="@+id/button10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/textView48"
-            android:layout_alignParentEnd="true"
-            android:layout_marginEnd="10dp"
-            android:layout_marginBottom="-4dp"
-            android:background="#e8812f"
-            android:text="Meal Time"
-            android:textColor="#FFFFFF"
-            android:textSize="8dp" />
-
-
-    </RelativeLayout>
+    </LinearLayout>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -125,11 +140,17 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:gravity="left"
+                            android:orientation="horizontal">
+                        </LinearLayout>
+
                         <TextView
                             android:layout_width="149dp"
                             android:layout_height="wrap_content"
                             android:layout_column="1"
-                            android:layout_marginTop="3dp"
                             android:fontFamily="sans-serif-condensed"
                             android:text="Jung M."
                             android:textColor="#000"
@@ -140,11 +161,12 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="2dp"
-                            android:text="Hanoi, Vietnam" />
+                            android:text="Hanoi, Vietnam"
+                            android:fontFamily="sans-serif-condensed"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="19dp"
+                            android:layout_height="10dp"
                             android:gravity="left"
                             android:orientation="horizontal">
 
@@ -156,9 +178,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="28dp"
-                        android:layout_marginTop="28dp"
+                        android:layout_marginTop="22dp"
                         android:layout_marginRight="28dp"
                         android:text="Complete"
+                        android:fontFamily="sans-serif-condensed"
                         android:textStyle="bold" />
 
                 </TableRow>
@@ -186,11 +209,17 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:gravity="left"
+                            android:orientation="horizontal">
+                        </LinearLayout>
+
                         <TextView
                             android:layout_width="149dp"
                             android:layout_height="wrap_content"
                             android:layout_column="1"
-                            android:layout_marginTop="3dp"
                             android:fontFamily="sans-serif-condensed"
                             android:text="Frank A."
                             android:textColor="#000"
@@ -201,11 +230,12 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="2dp"
-                            android:text="Dublin, Ireland" />
+                            android:text="Dublin, Ireland"
+                            android:fontFamily="sans-serif-condensed"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="19dp"
+                            android:layout_height="10dp"
                             android:gravity="left"
                             android:orientation="horizontal">
 
@@ -217,9 +247,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="28dp"
-                        android:layout_marginTop="28dp"
+                        android:layout_marginTop="22dp"
                         android:layout_marginRight="28dp"
                         android:text="Unavailable"
+                        android:fontFamily="sans-serif-condensed"
                         android:textStyle="bold" />
 
                 </TableRow>
@@ -256,7 +287,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="317dp"
+        android:layout_height="295dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="150dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -292,7 +323,7 @@
                     android:background="#FF909090" />
 
                 <TableRow
-                    android:id="@+id/amrita_row_confirmed"
+                    android:id="@+id/amrita_row"
                     android:layout_width="394dp"
                     android:layout_height="37dp"
                     android:layout_marginBottom="5dp">
@@ -315,11 +346,17 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:gravity="left"
+                            android:orientation="horizontal">
+                        </LinearLayout>
+
                         <TextView
                             android:layout_width="149dp"
                             android:layout_height="wrap_content"
                             android:layout_column="1"
-                            android:layout_marginTop="3dp"
                             android:fontFamily="sans-serif-condensed"
                             android:text="Amrita V."
                             android:textColor="#000"
@@ -334,11 +371,11 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="19dp"
+                            android:layout_height="10dp"
                             android:gravity="left"
                             android:orientation="horizontal">
-
                         </LinearLayout>
+
                     </LinearLayout>
 
                     <TextView
@@ -346,10 +383,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="28dp"
-                        android:layout_marginTop="28dp"
+                        android:layout_marginTop="22dp"
                         android:layout_marginRight="28dp"
                         android:text="Confirmed"
                         android:textColor="#12a230"
+                        android:fontFamily="sans-serif-condensed"
                         android:textStyle="bold" />
 
                 </TableRow>
@@ -377,11 +415,17 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:gravity="left"
+                            android:orientation="horizontal">
+                        </LinearLayout>
+
                         <TextView
                             android:layout_width="149dp"
                             android:layout_height="wrap_content"
                             android:layout_column="1"
-                            android:layout_marginTop="3dp"
                             android:fontFamily="sans-serif-condensed"
                             android:text="Pedro R."
                             android:textColor="#000"
@@ -392,15 +436,16 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="2dp"
-                            android:text="Guadalajara, Mexico" />
+                            android:text="Guadalajara, Mexico"
+                            android:fontFamily="sans-serif-condensed"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="19dp"
+                            android:layout_height="10dp"
                             android:gravity="left"
                             android:orientation="horizontal">
-
                         </LinearLayout>
+
                     </LinearLayout>
 
                     <TextView
@@ -408,9 +453,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="28dp"
-                        android:layout_marginTop="28dp"
+                        android:layout_marginTop="22dp"
                         android:layout_marginRight="28dp"
                         android:text="Requested"
+                        android:fontFamily="sans-serif-condensed"
                         android:textStyle="bold" />
 
                 </TableRow>
@@ -438,11 +484,17 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:gravity="left"
+                            android:orientation="horizontal">
+                        </LinearLayout>
+
                         <TextView
                             android:layout_width="149dp"
                             android:layout_height="wrap_content"
                             android:layout_column="1"
-                            android:layout_marginTop="3dp"
                             android:fontFamily="sans-serif-condensed"
                             android:text="Sigalit M."
                             android:textColor="#000"
@@ -453,11 +505,12 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="2dp"
-                            android:text="Tehran, Iran" />
+                            android:text="Tehran, Iran"
+                            android:fontFamily="sans-serif-condensed"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="19dp"
+                            android:layout_height="10dp"
                             android:gravity="left"
                             android:orientation="horizontal">
 
@@ -469,9 +522,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="28dp"
-                        android:layout_marginTop="28dp"
+                        android:layout_marginTop="22dp"
                         android:layout_marginRight="28dp"
                         android:text="Confirmed"
+                        android:fontFamily="sans-serif-condensed"
                         android:textColor="#12a230"
                         android:textStyle="bold" />
 
