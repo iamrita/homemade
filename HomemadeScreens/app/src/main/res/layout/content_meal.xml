@@ -24,9 +24,11 @@
             android:id="@+id/textView47"
             android:layout_width="wrap_content"
             android:layout_height="28dp"
-            android:layout_marginBottom="6dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="  Your Meals"
+            android:text="Your Meals"
             android:textColor="@color/colorAccent"
             android:textSize="24sp"
             android:textStyle="bold"
@@ -111,11 +113,17 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:gravity="left"
+                            android:orientation="horizontal">
+                        </LinearLayout>
+
                         <TextView
                             android:layout_width="149dp"
                             android:layout_height="wrap_content"
                             android:layout_column="1"
-                            android:layout_marginTop="3dp"
                             android:fontFamily="sans-serif-condensed"
                             android:text="Jung M."
                             android:textColor="#000"
@@ -126,11 +134,12 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="2dp"
-                            android:text="Hanoi, Vietnam" />
+                            android:text="Hanoi, Vietnam"
+                            android:fontFamily="sans-serif-condensed"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="19dp"
+                            android:layout_height="10dp"
                             android:gravity="left"
                             android:orientation="horizontal">
 
@@ -142,9 +151,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="28dp"
-                        android:layout_marginTop="28dp"
+                        android:layout_marginTop="22dp"
                         android:layout_marginRight="28dp"
                         android:text="Complete"
+                        android:fontFamily="sans-serif-condensed"
                         android:textStyle="bold" />
 
                 </TableRow>
@@ -172,11 +182,17 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:gravity="left"
+                            android:orientation="horizontal">
+                        </LinearLayout>
+
                         <TextView
                             android:layout_width="149dp"
                             android:layout_height="wrap_content"
                             android:layout_column="1"
-                            android:layout_marginTop="3dp"
                             android:fontFamily="sans-serif-condensed"
                             android:text="Frank A."
                             android:textColor="#000"
@@ -187,11 +203,12 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="2dp"
-                            android:text="Dublin, Ireland" />
+                            android:text="Dublin, Ireland"
+                            android:fontFamily="sans-serif-condensed"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="19dp"
+                            android:layout_height="10dp"
                             android:gravity="left"
                             android:orientation="horizontal">
 
@@ -203,9 +220,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="28dp"
-                        android:layout_marginTop="28dp"
+                        android:layout_marginTop="22dp"
                         android:layout_marginRight="28dp"
                         android:text="Unavailable"
+                        android:fontFamily="sans-serif-condensed"
                         android:textStyle="bold" />
 
                 </TableRow>
@@ -301,11 +319,17 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:gravity="left"
+                            android:orientation="horizontal">
+                        </LinearLayout>
+
                         <TextView
                             android:layout_width="149dp"
                             android:layout_height="wrap_content"
                             android:layout_column="1"
-                            android:layout_marginTop="3dp"
                             android:fontFamily="sans-serif-condensed"
                             android:text="Amrita V."
                             android:textColor="#000"
@@ -320,11 +344,11 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="19dp"
+                            android:layout_height="10dp"
                             android:gravity="left"
                             android:orientation="horizontal">
-
                         </LinearLayout>
+
                     </LinearLayout>
 
                     <TextView
@@ -332,10 +356,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="28dp"
-                        android:layout_marginTop="28dp"
+                        android:layout_marginTop="22dp"
                         android:layout_marginRight="28dp"
                         android:text="Respond"
                         android:textColor="#eba93a"
+                        android:fontFamily="sans-serif-condensed"
                         android:textStyle="bold" />
 
                 </TableRow>
@@ -363,11 +388,17 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:gravity="left"
+                            android:orientation="horizontal">
+                        </LinearLayout>
+
                         <TextView
                             android:layout_width="149dp"
                             android:layout_height="wrap_content"
                             android:layout_column="1"
-                            android:layout_marginTop="3dp"
                             android:fontFamily="sans-serif-condensed"
                             android:text="Pedro R."
                             android:textColor="#000"
@@ -378,15 +409,16 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="2dp"
-                            android:text="Guadalajara, Mexico" />
+                            android:text="Guadalajara, Mexico"
+                            android:fontFamily="sans-serif-condensed"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="19dp"
+                            android:layout_height="10dp"
                             android:gravity="left"
                             android:orientation="horizontal">
-
                         </LinearLayout>
+
                     </LinearLayout>
 
                     <TextView
@@ -394,9 +426,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="28dp"
-                        android:layout_marginTop="28dp"
+                        android:layout_marginTop="22dp"
                         android:layout_marginRight="28dp"
                         android:text="Requested"
+                        android:fontFamily="sans-serif-condensed"
                         android:textStyle="bold" />
 
                 </TableRow>
@@ -424,11 +457,17 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:gravity="left"
+                            android:orientation="horizontal">
+                        </LinearLayout>
+
                         <TextView
                             android:layout_width="149dp"
                             android:layout_height="wrap_content"
                             android:layout_column="1"
-                            android:layout_marginTop="3dp"
                             android:fontFamily="sans-serif-condensed"
                             android:text="Sigalit M."
                             android:textColor="#000"
@@ -439,11 +478,12 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="2dp"
-                            android:text="Tehran, Iran" />
+                            android:text="Tehran, Iran"
+                            android:fontFamily="sans-serif-condensed"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="19dp"
+                            android:layout_height="10dp"
                             android:gravity="left"
                             android:orientation="horizontal">
 
@@ -455,9 +495,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="28dp"
-                        android:layout_marginTop="28dp"
+                        android:layout_marginTop="22dp"
                         android:layout_marginRight="28dp"
                         android:text="Confirmed"
+                        android:fontFamily="sans-serif-condensed"
                         android:textColor="#12a230"
                         android:textStyle="bold" />
 

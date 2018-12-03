@@ -8,7 +8,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout3"
-        android:layout_width="348dp"
+        android:layout_width="371dp"
         android:layout_height="234dp"
         android:layout_marginBottom="15dp"
         android:gravity="top"
@@ -26,6 +26,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
                 app:srcCompat="@drawable/back" />
 
             <ImageView
@@ -44,9 +45,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif-condensed"
             android:text="Amrita V."
             android:textColor="@android:color/black"
-            android:fontFamily="sans-serif-condensed"
             android:textSize="30sp" />
 
         <TextView
@@ -55,9 +56,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif-condensed"
             android:text="Jodhpur, India"
             android:textColor="@android:color/black"
-            android:fontFamily="sans-serif-condensed"
             android:textSize="24sp" />
 
     </LinearLayout>
@@ -82,8 +83,8 @@
 
             <ImageView
                 android:id="@+id/imageView11"
-                android:layout_width="41dp"
-                android:layout_height="40dp"
+                android:layout_width="38dp"
+                android:layout_height="35dp"
                 android:layout_marginBottom="12dp"
                 app:layout_constraintBottom_toTopOf="@+id/imageView12"
                 app:srcCompat="@drawable/calendar"
@@ -98,9 +99,9 @@
                     android:id="@+id/textView52"
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
-                    android:layout_marginStart="30dp"
+                    android:layout_marginStart="20dp"
                     android:fontFamily="sans-serif-condensed"
-                    android:text="Tomorrow, December 4"
+                    android:text="Tomorrow, October 30"
                     app:layout_constraintBottom_toTopOf="@+id/textView58"
                     app:layout_constraintStart_toEndOf="@+id/imageView11" />
 
@@ -108,9 +109,9 @@
                     android:id="@+id/textView58"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="30dp"
+                    android:layout_marginStart="20dp"
                     android:fontFamily="sans-serif-condensed"
-                    android:text="7-9pm"
+                    android:text="8:00am-10:00am"
                     app:layout_constraintBottom_toTopOf="@+id/textView59"
                     app:layout_constraintStart_toEndOf="@+id/imageView11" />
 
@@ -130,16 +131,17 @@
 
             <ImageView
                 android:id="@+id/imageView12"
-                android:layout_width="44dp"
-                android:layout_height="37dp"
+                android:layout_width="36dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
                 app:srcCompat="@drawable/phone" />
 
             <TextView
                 android:id="@+id/textView59"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="30dp"
-                android:layout_marginTop="6dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="11dp"
                 android:fontFamily="sans-serif-condensed"
                 android:text="+123-456-7890" />
 
@@ -149,7 +151,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/contactinfo"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:orientation="vertical">
 
@@ -158,11 +160,11 @@
 
         <ImageView
             android:id="@+id/imageView13"
-            android:layout_width="51dp"
-            android:layout_height="49dp"
+            android:layout_width="50dp"
+            android:layout_height="43dp"
             android:layout_alignTop="@+id/mealtime"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="26dp"
+            android:layout_marginStart="25dp"
             android:layout_marginTop="79dp"
             app:srcCompat="@drawable/email" />
 
@@ -172,8 +174,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="105dp"
-            android:layout_marginBottom="13dp"
+            android:layout_marginStart="90dp"
+            android:layout_marginBottom="20dp"
             android:fontFamily="sans-serif-condensed"
             android:gravity="center"
             android:text="amritav@gmail.com" />
