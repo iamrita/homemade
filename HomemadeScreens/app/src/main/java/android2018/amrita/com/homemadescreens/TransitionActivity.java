@@ -18,7 +18,7 @@ public class TransitionActivity extends AppCompatActivity {
         cont.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, MealActivity.class);
+                Intent intent = new Intent(context, Notification1Activity.class);
                 startActivity(intent);
             }
         });
