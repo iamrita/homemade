@@ -66,10 +66,6 @@
             android:text="Make sure to include all availibities to make it more likely that your schedules match."
             android:textColor="@color/colorAccent" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="20dp" />
-
         <TextView
             android:id="@+id/textView8"
             android:layout_width="match_parent"
@@ -82,16 +78,38 @@
             android:textStyle="bold" />
 
         <Button
-            android:layout_width="363dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#ba284c"
             android:onClick="showTimePickerDialog"
-            android:text="choose time "
+            android:text="Pick Time #1"
             android:textColor="#ffffff" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="20dp" />
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ba284c"
+            android:onClick="showTimePickerDialog"
+            android:text="Pick Time #2"
+            android:textColor="#ffffff" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ba284c"
+            android:onClick="showTimePickerDialog"
+            android:text="Pick Time #3 "
+            android:textColor="#ffffff" />
 
         <TextView
             android:id="@+id/textView21"
@@ -105,40 +123,45 @@
             android:textStyle="bold" />
 
         <Button
-            android:layout_width="363dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#ba284c"
             android:onClick="showTimePickerDialog"
-            android:text="choose time "
+            android:text="Pick Time #1"
+            android:textAlignment="center"
+            android:textColor="#ffffff" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ba284c"
+            android:onClick="showTimePickerDialog"
+            android:text="Pick Time #2"
+            android:textAlignment="center"
+            android:textColor="#ffffff" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ba284c"
+            android:onClick="showTimePickerDialog"
+            android:text="Pick Time #3"
             android:textAlignment="center"
             android:textColor="#ffffff" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="20dp" />
-
-        <TextView
-            android:id="@+id/textView31"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-condensed"
-            android:text="Day After Tomorrow:"
-            android:textAlignment="center"
-            android:textColor="@color/colorAccent"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <Button
-            android:layout_width="372dp"
-            android:layout_height="wrap_content"
-            android:background="#ba284c"
-            android:onClick="showTimePickerDialog"
-            android:text="choose time "
-            android:textColor="#ffffff" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="100dp" />
 
         <Button
             android:id="@+id/send_availability"
