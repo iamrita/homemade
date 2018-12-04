@@ -14,6 +14,7 @@
         android:layout_height="569dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -63,105 +64,412 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="Make sure to include all availibities to make it more likely that your schedules match."
+            android:text="All time slots are two hours long. Make sure to include all availibities to make it more likely that your schedules match. "
             android:textColor="@color/colorAccent" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
 
         <TextView
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
             android:fontFamily="sans-serif-condensed"
             android:text="Today:"
-            android:textAlignment="center"
             android:textColor="@color/colorAccent"
             android:textSize="18sp"
             android:textStyle="bold" />
 
-        <Button
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#ba284c"
-            android:onClick="showTimePickerDialog"
-            android:text="Pick Time #1"
-            android:textColor="#ffffff" />
+            android:layout_height="35dp"
+            android:layout_marginLeft="9dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="142dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Start:"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/textView79"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="None Chosen" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="138dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView83"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="End:"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/textView84"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="None Chosen" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:background="#e8812f"
+                android:fontFamily="sans-serif-condensed"
+                android:onClick="showTimePickerDialog"
+                android:text="select"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="10dp" />
 
-        <Button
-            android:id="@+id/button"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#ba284c"
-            android:onClick="showTimePickerDialog"
-            android:text="Pick Time #2"
-            android:textColor="#ffffff" />
+            android:layout_height="35dp"
+            android:layout_marginLeft="9dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="142dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Start:"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/textView79"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="None Chosen" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="138dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView83"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="End:"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/textView84"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="None Chosen" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:background="#e8812f"
+                android:fontFamily="sans-serif-condensed"
+                android:onClick="showTimePickerDialog"
+                android:text="select"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="10dp" />
 
-        <Button
-            android:id="@+id/button2"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#ba284c"
-            android:onClick="showTimePickerDialog"
-            android:text="Pick Time #3 "
-            android:textColor="#ffffff" />
+            android:layout_height="35dp"
+            android:layout_marginLeft="9dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="142dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Start:"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/textView79"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="None Chosen" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="138dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView83"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="End:"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/textView84"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="None Chosen" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:background="#e8812f"
+                android:fontFamily="sans-serif-condensed"
+                android:onClick="showTimePickerDialog"
+                android:text="select"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
 
         <TextView
             android:id="@+id/textView21"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
             android:fontFamily="sans-serif-condensed"
             android:text="Tomorrow:"
-            android:textAlignment="center"
             android:textColor="@color/colorAccent"
             android:textSize="18sp"
             android:textStyle="bold" />
 
-        <Button
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#ba284c"
-            android:onClick="showTimePickerDialog"
-            android:text="Pick Time #1"
-            android:textAlignment="center"
-            android:textColor="#ffffff" />
+            android:layout_height="35dp"
+            android:layout_marginLeft="9dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="142dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Start:"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/textView79"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="None Chosen" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="138dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView83"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="End:"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/textView84"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="None Chosen" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:background="#e8812f"
+                android:fontFamily="sans-serif-condensed"
+                android:onClick="showTimePickerDialog"
+                android:text="select"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="10dp" />
 
-        <Button
-            android:id="@+id/button5"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#ba284c"
-            android:onClick="showTimePickerDialog"
-            android:text="Pick Time #2"
-            android:textAlignment="center"
-            android:textColor="#ffffff" />
+            android:layout_height="35dp"
+            android:layout_marginLeft="9dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="142dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Start:"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/textView79"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="None Chosen" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="138dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView83"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="End:"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/textView84"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="None Chosen" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:background="#e8812f"
+                android:fontFamily="sans-serif-condensed"
+                android:onClick="showTimePickerDialog"
+                android:text="select"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="10dp" />
 
-        <Button
-            android:id="@+id/button6"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#ba284c"
-            android:onClick="showTimePickerDialog"
-            android:text="Pick Time #3"
-            android:textAlignment="center"
-            android:textColor="#ffffff" />
+            android:layout_height="35dp"
+            android:layout_marginLeft="9dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="142dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Start:"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/textView79"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="None Chosen" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="138dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView83"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="End:"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/textView84"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="None Chosen" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:background="#e8812f"
+                android:fontFamily="sans-serif-condensed"
+                android:onClick="showTimePickerDialog"
+                android:text="select"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="20dp" />
+            android:layout_height="46dp" />
 
         <Button
             android:id="@+id/send_availability"

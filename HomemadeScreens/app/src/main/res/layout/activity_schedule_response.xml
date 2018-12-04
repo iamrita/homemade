@@ -56,21 +56,21 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="96dp"
+            android:layout_height="120dp"
             android:layout_marginTop="6dp"
             android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="234dp"
+                android:layout_height="126dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/indian_woman" />
 
             <ImageView
                 android:id="@+id/imageView5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="234dp"
+                android:layout_height="126dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/woman3" />
         </LinearLayout>
@@ -95,53 +95,35 @@
             android:textColor="@color/colorAccent"
             android:textSize="16dp" />
 
-        <TextView
-            android:id="@+id/textView13"
+        <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="12dp"
-            android:fontFamily="sans-serif-condensed"
-            android:text="Tuesday, October 30                            8:00 AM - 10:00 AM"
-            android:textSize="16dp" />
+            android:layout_height="80dp">
 
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="12dp"
-            android:fontFamily="sans-serif-condensed"
-            android:text="Wednesday, October 31                       9:00 AM - 11:00 AM"
-            android:textSize="16dp" />
+            <RadioButton
+                android:id="@+id/radioButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tuesday, October 30                         8:00 AM - 10:00 AM" />
 
-        <TextView
-            android:id="@+id/textView15"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:layout_marginLeft="12dp"
-            android:layout_marginBottom="10dp"
-            android:fontFamily="sans-serif-condensed"
-            android:text="Wednesday, October 31                         7:00 PM - 9:00 PM"
-            android:textSize="16dp" />
+            <RadioButton
+                android:id="@+id/radioButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Wednesday, October 31                   9:00 AM - 11:00 AM" />
 
-        <Spinner
-            android:id="@+id/spinner1"
-            android:layout_width="match_parent"
-            android:layout_height="38dp"
-            android:entries="@array/select_date_array"
-            android:gravity="center" />
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Wednesday, October 31                      7:00 PM - 9:00 PM" />
+        </RadioGroup>
 
-        <Spinner
-            android:id="@+id/spinner2"
+        <Space
             android:layout_width="match_parent"
-            android:layout_height="38dp"
-            android:entries="@array/select_start_time_array" />
-
-        <Spinner
-            android:id="@+id/spinner3"
-            android:layout_width="match_parent"
-            android:layout_height="38dp"
-            android:layout_marginBottom="10dp"
-            android:entries="@array/select_end_time_array" />
+            android:layout_height="120dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
