@@ -17,9 +17,9 @@ public class ScheduleResponseActivity extends AppCompatActivity {
         setContentView(R.layout.activity_schedule_response);
         final Button confirm = (Button)findViewById(R.id.confirm_button);
         final Context context = this;
-        final Spinner spinner1 = (Spinner)findViewById(R.id.spinner1);
-        final Spinner spinner2 = (Spinner)findViewById(R.id.spinner2);
-        final Spinner spinner3 = (Spinner)findViewById(R.id.spinner3);
+//        final Spinner spinner1 = (Spinner)findViewById(R.id.spinner1);
+//        final Spinner spinner2 = (Spinner)findViewById(R.id.spinner2);
+//        final Spinner spinner3 = (Spinner)findViewById(R.id.spinner3);
         //confirm.setEnabled(false);
 
 

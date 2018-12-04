@@ -129,13 +129,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:layout_marginTop="35dp"
+            android:layout_marginTop="15dp"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/confirm_button"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
                 android:layout_marginRight="1dp"
                 android:layout_weight="1"
                 android:background="@color/green"
@@ -149,6 +150,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:layout_marginLeft="1dp"
+                android:layout_marginRight="2dp"
                 android:layout_weight="1"
                 android:background="#cc1616"
                 android:fontFamily="sans-serif-condensed"
