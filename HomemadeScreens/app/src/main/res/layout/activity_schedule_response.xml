@@ -25,7 +25,8 @@
             <ImageButton
                 android:id="@+id/back"
                 android:layout_width="wrap_content"
-                android:layout_height="49dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
                 android:background="#0000"
                 android:src="@drawable/back" />
@@ -36,9 +37,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:fontFamily="sans-serif-condensed"
-                android:text="   Respond to Amrita V."
+                android:text="       Respond to Amrita V."
                 android:textColor="@color/colorAccent"
-                android:textSize="30sp"
+                android:textSize="26dp"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -98,7 +99,7 @@
             android:id="@+id/textView13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="6dp"
+            android:layout_marginLeft="12dp"
             android:fontFamily="sans-serif-condensed"
             android:text="Tuesday, October 30                            8:00 AM - 10:00 AM"
             android:textSize="16dp" />
@@ -107,7 +108,7 @@
             android:id="@+id/textView14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="6dp"
+            android:layout_marginLeft="12dp"
             android:fontFamily="sans-serif-condensed"
             android:text="Wednesday, October 31                       9:00 AM - 11:00 AM"
             android:textSize="16dp" />
@@ -116,7 +117,7 @@
             android:id="@+id/textView15"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:layout_marginLeft="6dp"
+            android:layout_marginLeft="12dp"
             android:layout_marginBottom="10dp"
             android:fontFamily="sans-serif-condensed"
             android:text="Wednesday, October 31                         7:00 PM - 9:00 PM"
@@ -126,7 +127,8 @@
             android:id="@+id/spinner1"
             android:layout_width="match_parent"
             android:layout_height="38dp"
-            android:entries="@array/select_date_array" />
+            android:entries="@array/select_date_array"
+            android:gravity="center" />
 
         <Spinner
             android:id="@+id/spinner2"
@@ -145,7 +147,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="35dp"
             android:orientation="horizontal">
 
             <Button
