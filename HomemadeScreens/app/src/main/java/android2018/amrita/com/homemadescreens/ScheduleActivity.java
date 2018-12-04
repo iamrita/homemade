@@ -1,29 +1,34 @@
 package android2018.amrita.com.homemadescreens;
 
+import android.app.DialogFragment;
+
+
+import android.app.Dialog;
+import android.app.TimePickerDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.format.DateFormat;
 import android.view.View;
 import android.widget.Spinner;
 import android.widget.SpinnerAdapter;
 import android.widget.*;
 
+import java.util.Calendar;
 
 
-public class ScheduleActivity extends AppCompatActivity {
+public class ScheduleActivity extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_schedule);
-        Spinner start_spinner = (Spinner)findViewById(R.id.spinner_start);
-        Spinner end_spinner = (Spinner)findViewById(R.id.spinner_end);
-        String start_time = start_spinner.getSelectedItem().toString();
-        String end_time = end_spinner.getSelectedItem().toString();
+
         Button sendAvailability = (Button)findViewById(R.id.send_availability);
         final Context context = this;
 
@@ -44,6 +49,8 @@ public class ScheduleActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
     /*
 
         Spinner spinner = (Spinner) findViewById(R.id.spinner);
@@ -55,6 +62,13 @@ public class ScheduleActivity extends AppCompatActivity {
 // Apply the adapter to the spinner
         spinner.setAdapter(adapter);*/
 
+    }
+
+    public void showTimePickerDialog(View v) {
+
+        android.app.DialogFragment newFragment = new TimePickerFragment();
+        newFragment.show(getFragmentManager(), "TimePicker");
+        //newFragment.show(getSupportFragmentManager(), "timePicker");
     }
 
 }
