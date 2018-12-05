@@ -82,6 +82,10 @@
             android:textSize="18sp"
             android:textStyle="bold" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="35dp"
@@ -94,7 +98,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView32"
+                    android:id="@+id/sssw11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -157,7 +161,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView32"
+                    android:id="@+id/textView04332"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -165,7 +169,7 @@
                     android:textColor="@color/colorAccent" />
 
                 <TextView
-                    android:id="@+id/textView79"
+                    android:id="@+id/textView7009"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -178,7 +182,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView83"
+                    android:id="@+id/textView836809"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -186,70 +190,7 @@
                     android:textColor="@color/colorAccent" />
 
                 <TextView
-                    android:id="@+id/textView84"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-condensed"
-                    android:text="None Chosen" />
-            </LinearLayout>
-
-            <Button
-                android:layout_width="64dp"
-                android:layout_height="wrap_content"
-                android:background="#e8812f"
-                android:fontFamily="sans-serif-condensed"
-                android:onClick="showTimePickerDialog"
-                android:text="select"
-                android:textColor="#ffffff" />
-
-        </LinearLayout>
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="10dp" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="35dp"
-            android:layout_marginLeft="9dp"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="142dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView32"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-condensed"
-                    android:text="Start:"
-                    android:textColor="@color/colorAccent" />
-
-                <TextView
-                    android:id="@+id/textView79"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-condensed"
-                    android:text="None Chosen" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="138dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView83"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-condensed"
-                    android:text="End:"
-                    android:textColor="@color/colorAccent" />
-
-                <TextView
-                    android:id="@+id/textView84"
+                    android:id="@+id/textView84477"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -282,6 +223,10 @@
             android:textSize="18sp"
             android:textStyle="bold" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="35dp"
@@ -294,7 +239,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView32"
+                    android:id="@+id/3675621"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -302,7 +247,7 @@
                     android:textColor="@color/colorAccent" />
 
                 <TextView
-                    android:id="@+id/textView79"
+                    android:id="@+id/78952"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -315,7 +260,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView83"
+                    android:id="@+id/67532"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -323,7 +268,7 @@
                     android:textColor="@color/colorAccent" />
 
                 <TextView
-                    android:id="@+id/textView84"
+                    android:id="@+id/textView8465"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -357,7 +302,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView32"
+                    android:id="@+id/1232456"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -365,7 +310,7 @@
                     android:textColor="@color/colorAccent" />
 
                 <TextView
-                    android:id="@+id/textView79"
+                    android:id="@+id/textView79124"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -378,7 +323,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView83"
+                    android:id="@+id/12314"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -386,7 +331,7 @@
                     android:textColor="@color/colorAccent" />
 
                 <TextView
-                    android:id="@+id/textView84"
+                    android:id="@+id/textView81234"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -406,70 +351,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="10dp" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="35dp"
-            android:layout_marginLeft="9dp"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="142dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView32"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-condensed"
-                    android:text="Start:"
-                    android:textColor="@color/colorAccent" />
-
-                <TextView
-                    android:id="@+id/textView79"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-condensed"
-                    android:text="None Chosen" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="138dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView83"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-condensed"
-                    android:text="End:"
-                    android:textColor="@color/colorAccent" />
-
-                <TextView
-                    android:id="@+id/textView84"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-condensed"
-                    android:text="None Chosen" />
-            </LinearLayout>
-
-            <Button
-                android:layout_width="64dp"
-                android:layout_height="wrap_content"
-                android:background="#e8812f"
-                android:fontFamily="sans-serif-condensed"
-                android:onClick="showTimePickerDialog"
-                android:text="select"
-                android:textColor="#ffffff" />
-
-        </LinearLayout>
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="46dp" />
+            android:layout_height="120dp" />
 
         <Button
             android:id="@+id/send_availability"
