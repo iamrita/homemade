@@ -11,7 +11,7 @@ import android.widget.TimePicker;
 
 import java.util.Calendar;
 
-public class TimePickerFragment extends DialogFragment
+public class TimePickerFragment4 extends DialogFragment
         implements TimePickerDialog.OnTimeSetListener {
 
     int hourSet;
@@ -49,12 +49,12 @@ public class TimePickerFragment extends DialogFragment
         System.out.println("View is hello hello hello" + this.getActivity());
 
 
-            TextView txt = (TextView) (this.getActivity().findViewById(R.id.start1_text));
-            txt.setText(hourSet + ":" + minuteSet);
-            TextView txt2 = (TextView) (this.getActivity().findViewById(R.id.end1_text));
-            txt2.setText((hourSet + 2) + ":" + (minuteSet));
-            Button btn = (Button)(this.getActivity().findViewById(R.id.select1));
-            btn.setText("EDIT");
+        TextView txt = (TextView) (this.getActivity().findViewById(R.id.start4_text));
+        txt.setText(hourSet + ":" + minuteSet);
+        TextView txt2 = (TextView) (this.getActivity().findViewById(R.id.end4_text));
+        txt2.setText((hourSet + 2) + ":" + (minuteSet));
+        Button btn = (Button)(this.getActivity().findViewById(R.id.select4));
+        btn.setText("EDIT");
 
            /* TextView txt = (TextView) (this.getActivity().findViewById(R.id.start2_text));
             txt.setText(hourSet + ":" + minuteSet);

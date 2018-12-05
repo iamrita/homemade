@@ -98,7 +98,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/sssw11"
+                    android:id="@+id/start1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -106,7 +106,7 @@
                     android:textColor="@color/colorAccent" />
 
                 <TextView
-                    android:id="@+id/textView79"
+                    android:id="@+id/start1_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -119,7 +119,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView83"
+                    android:id="@+id/end1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -127,7 +127,7 @@
                     android:textColor="@color/colorAccent" />
 
                 <TextView
-                    android:id="@+id/textView84"
+                    android:id="@+id/end1_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -135,6 +135,7 @@
             </LinearLayout>
 
             <Button
+                android:id="@+id/select1"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
                 android:background="#e8812f"
@@ -161,7 +162,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView04332"
+                    android:id="@+id/start2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -169,7 +170,7 @@
                     android:textColor="@color/colorAccent" />
 
                 <TextView
-                    android:id="@+id/textView7009"
+                    android:id="@+id/start2_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -182,7 +183,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView836809"
+                    android:id="@+id/end2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -190,7 +191,7 @@
                     android:textColor="@color/colorAccent" />
 
                 <TextView
-                    android:id="@+id/textView84477"
+                    android:id="@+id/end2_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -198,11 +199,12 @@
             </LinearLayout>
 
             <Button
+                android:id="@+id/select2"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
                 android:background="#e8812f"
                 android:fontFamily="sans-serif-condensed"
-                android:onClick="showTimePickerDialog"
+                android:onClick="showTimePickerDialog2"
                 android:text="select"
                 android:textColor="#ffffff" />
 
@@ -239,7 +241,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/3675621"
+                    android:id="@+id/start3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -247,7 +249,7 @@
                     android:textColor="@color/colorAccent" />
 
                 <TextView
-                    android:id="@+id/78952"
+                    android:id="@+id/start3_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -260,7 +262,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/67532"
+                    android:id="@+id/end3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -268,7 +270,7 @@
                     android:textColor="@color/colorAccent" />
 
                 <TextView
-                    android:id="@+id/textView8465"
+                    android:id="@+id/end3_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -276,11 +278,12 @@
             </LinearLayout>
 
             <Button
+                android:id="@+id/select3"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
                 android:background="#e8812f"
                 android:fontFamily="sans-serif-condensed"
-                android:onClick="showTimePickerDialog"
+                android:onClick="showTimePickerDialog3"
                 android:text="select"
                 android:textColor="#ffffff" />
 
@@ -302,7 +305,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/1232456"
+                    android:id="@+id/start4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -310,7 +313,7 @@
                     android:textColor="@color/colorAccent" />
 
                 <TextView
-                    android:id="@+id/textView79124"
+                    android:id="@+id/start4_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -323,7 +326,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/12314"
+                    android:id="@+id/end4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -331,7 +334,7 @@
                     android:textColor="@color/colorAccent" />
 
                 <TextView
-                    android:id="@+id/textView81234"
+                    android:id="@+id/end4_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
@@ -339,11 +342,12 @@
             </LinearLayout>
 
             <Button
+                android:id="@+id/select4"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
                 android:background="#e8812f"
                 android:fontFamily="sans-serif-condensed"
-                android:onClick="showTimePickerDialog"
+                android:onClick="showTimePickerDialog4"
                 android:text="select"
                 android:textColor="#ffffff" />
 

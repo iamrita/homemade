@@ -59,8 +59,29 @@ public class ScheduleActivity extends AppCompatActivity{
         newFragment.show(getFragmentManager(), "TimePicker");
         int hour = ((TimePickerFragment) newFragment).getHour();
         int minute = ((TimePickerFragment) newFragment).getMinute();
-        System.out.println("HOUR IS HOUR IS " + hour);
-        System.out.println("MINUTE IS MINUTE IS" + minute);
+
+    }
+
+    public void showTimePickerDialog2(View v) {
+        android.app.DialogFragment newFragment = new TimePickerFragment2();
+        newFragment.show(getFragmentManager(), "TimePicker");
+        int hour = ((TimePickerFragment2) newFragment).getHour();
+        int minute = ((TimePickerFragment2) newFragment).getMinute();
+
+    }
+    public void showTimePickerDialog3(View v) {
+        android.app.DialogFragment newFragment = new TimePickerFragment3();
+        newFragment.show(getFragmentManager(), "TimePicker");
+        int hour = ((TimePickerFragment3) newFragment).getHour();
+        int minute = ((TimePickerFragment3) newFragment).getMinute();
+
+    }
+    public void showTimePickerDialog4(View v) {
+        android.app.DialogFragment newFragment = new TimePickerFragment4();
+        newFragment.show(getFragmentManager(), "TimePicker");
+        int hour = ((TimePickerFragment4) newFragment).getHour();
+        int minute = ((TimePickerFragment4) newFragment).getMinute();
+
     }
 
 }
