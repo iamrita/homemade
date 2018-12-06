@@ -97,33 +97,40 @@
 
         <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="80dp">
+            android:layout_height="100dp">
+
+            <RadioButton
+                android:id="@+id/radioButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Friday, December 7                              7:00 PM - 9:00 PM" />
 
             <RadioButton
                 android:id="@+id/radioButton6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Tuesday, October 30                         8:00 AM - 10:00 AM" />
+                android:text="Friday, December 7                            8:00 AM - 10:00 AM" />
 
             <RadioButton
                 android:id="@+id/radioButton5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Wednesday, October 31                   9:00 AM - 11:00 AM" />
+                android:text="Saturday, December 8                       9:00 AM - 11:00 AM" />
 
             <RadioButton
                 android:id="@+id/radioButton4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Wednesday, October 31                      7:00 PM - 9:00 PM" />
+                android:text="Saturday, December 8                          7:00 PM - 9:00 PM" />
         </RadioGroup>
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="120dp" />
+            android:layout_height="100dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
