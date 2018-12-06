@@ -104,7 +104,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Friday, December 7                            8:00 AM - 10:00 AM" />
+                android:text="Friday, December 7                             8:00AM - 10:00AM" />
 
             <RadioButton
                 android:id="@+id/btn1"
@@ -112,21 +112,21 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:checked="false"
-                android:text="Friday, December 7                              7:00 PM - 9:00 PM" />
+                android:text="Friday, December 7                               7:00PM - 9:00PM" />
 
             <RadioButton
                 android:id="@+id/btn3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Saturday, December 8                       9:00 AM - 11:00 AM" />
+                android:text="Saturday, December 8                        9:00AM - 11:00AM" />
 
             <RadioButton
                 android:id="@+id/btn4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Saturday, December 8                          7:00 PM - 9:00 PM" />
+                android:text="Saturday, December 8                          7:00PM - 9:00PM" />
         </RadioGroup>
 
         <Space
