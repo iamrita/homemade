@@ -32,7 +32,7 @@ public class ExploreActivity extends AppCompatActivity {
         meals.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, MealActivity.class);
+                Intent intent = new Intent(context, MealsFromExploreActivity.class);
                 startActivity(intent);
             }
         });
