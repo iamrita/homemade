@@ -182,7 +182,7 @@
                 android:id="@+id/send_availability"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#ba284c"
+                android:background="#e8812f"
                 android:fontFamily="sans-serif-condensed"
                 android:text="Export Ingredients List"
                 android:textColor="#ffffff"
