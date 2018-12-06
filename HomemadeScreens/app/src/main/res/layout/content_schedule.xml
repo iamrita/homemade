@@ -60,11 +60,11 @@
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="347dp"
+            android:layout_width="363dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="All time slots are two hours long. Make sure to include all availibities to make it more likely that your schedules match. "
+            android:text="Select a start time, and an end time will be automatically filled in for you. All time slots are two hours long. The more availabilities you include, the more likely it is your schedules will match!"
             android:textColor="@color/colorAccent" />
 
         <Space
@@ -355,7 +355,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="120dp" />
+            android:layout_height="100dp" />
 
         <Button
             android:id="@+id/send_availability"
