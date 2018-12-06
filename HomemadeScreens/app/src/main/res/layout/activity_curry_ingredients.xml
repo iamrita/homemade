@@ -68,8 +68,7 @@
                 android:fontFamily="sans-serif-condensed"
                 android:text=" Ingredients"
                 android:textColor="@android:color/black"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/textView62"
@@ -182,7 +181,7 @@
                 android:id="@+id/send_availability"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="#ba284c"
+                android:background="#e8812f"
                 android:fontFamily="sans-serif-condensed"
                 android:text="Export Ingredients List"
                 android:textColor="#ffffff"
