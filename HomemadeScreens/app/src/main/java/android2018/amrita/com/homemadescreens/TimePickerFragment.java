@@ -3,6 +3,7 @@ package android2018.amrita.com.homemadescreens;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.app.TimePickerDialog;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.text.format.DateFormat;
 import android.widget.Button;
@@ -61,6 +62,11 @@ public class TimePickerFragment extends DialogFragment
             }
             Button btn = (Button)(this.getActivity().findViewById(R.id.select1));
             btn.setText("EDIT");
+
+            Button sendAvailability = (Button)(this.getActivity().findViewById(R.id.send_availability));
+            sendAvailability.setEnabled(true);
+            sendAvailability.setBackgroundColor(Color.parseColor("#bb284c"));
+
 
 
 
