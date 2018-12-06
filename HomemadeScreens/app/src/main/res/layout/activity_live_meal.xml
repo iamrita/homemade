@@ -297,7 +297,7 @@
                 <TableRow
                     android:id="@+id/converse_button"
                     android:layout_width="394dp"
-                    android:layout_height="37dp"
+                    android:layout_height="76dp"
                     android:layout_marginBottom="5dp"
                     android:background="@color/green">
 
@@ -338,16 +338,31 @@
                             android:id="@+id/textView798"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="2dp"
-                            android:text="Jodhpur, India"
                             android:fontFamily="sans-serif-condensed"
+                            android:text="Jodhpur, India"
                             android:textColor="#ffffff" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="10dp"
+                            android:layout_height="17dp"
                             android:gravity="left"
-                            android:orientation="horizontal"></LinearLayout>
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="sans-serif-condensed"
+                                android:text="Happening Now"
+                                android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="10dp"
+                            android:layout_weight="1" />
 
                     </LinearLayout>
 
@@ -366,9 +381,9 @@
                             android:layout_marginStart="30dp"
                             android:layout_marginTop="14dp"
                             android:layout_marginBottom="3dp"
+                            android:fontFamily="sans-serif-condensed"
                             android:text="Converse"
                             android:textColor="#FFFFFF"
-                            android:fontFamily="sans-serif-condensed"
                             android:textStyle="bold" />
 
                         <TextView
@@ -379,8 +394,8 @@
                             android:layout_alignParentBottom="true"
                             android:layout_marginEnd="39dp"
                             android:layout_marginBottom="13dp"
-                            android:text=" Phrases"
                             android:fontFamily="sans-serif-condensed"
+                            android:text=" Phrases"
                             android:textColor="#FFFFFF"
                             android:textStyle="bold" />
                     </RelativeLayout>

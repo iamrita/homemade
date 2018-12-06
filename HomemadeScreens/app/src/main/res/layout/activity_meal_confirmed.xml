@@ -323,9 +323,8 @@
                     android:background="#FF909090" />
 
                 <TableRow
-                    android:id="@+id/amrita_row"
                     android:layout_width="394dp"
-                    android:layout_height="37dp"
+                    android:layout_height="45dp"
                     android:layout_marginBottom="5dp">
 
                     <LinearLayout
@@ -334,7 +333,7 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView9999"
+                            android:id="@+id/imageView333"
                             android:layout_width="66dp"
                             android:layout_height="match_parent"
                             app:srcCompat="@drawable/indian_woman" />
@@ -342,7 +341,7 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="207dp"
+                        android:layout_width="185dp"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
@@ -350,8 +349,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="10dp"
                             android:gravity="left"
-                            android:orientation="horizontal">
-                        </LinearLayout>
+                            android:orientation="horizontal"></LinearLayout>
 
                         <TextView
                             android:layout_width="149dp"
@@ -363,19 +361,25 @@
                             android:textSize="18dp" />
 
                         <TextView
-                            android:id="@+id/textView798"
+                            android:id="@+id/textView12"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="2dp"
+                            android:fontFamily="sans-serif-condensed"
                             android:text="Jodhpur, India" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="10dp"
+                            android:layout_height="17dp"
                             android:gravity="left"
                             android:orientation="horizontal">
-                        </LinearLayout>
 
+                            <TextView
+                                android:id="@+id/textView31"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed"
+                                android:text="Tomorrow 9AM-11AM" />
+                        </LinearLayout>
                     </LinearLayout>
 
                     <LinearLayout
@@ -384,32 +388,20 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/textView16"
-                            android:layout_width="match_parent"
-                            android:layout_height="15dp"
+                            android:id="@+id/textView00"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:layout_marginLeft="28dp"
-                            android:layout_marginTop="10dp"
+                            android:layout_marginTop="23dp"
                             android:layout_marginRight="28dp"
                             android:fontFamily="sans-serif-condensed"
-                            android:text="Tomorrow "
+                            android:text="Confirmed "
                             android:textColor="#12a230"
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/textView123"
-                            android:layout_width="wrap_content"
-                            android:layout_height="15dp"
-                            android:layout_marginLeft="28dp"
-                            android:layout_marginRight="28dp"
-                            android:layout_marginTop="2dp"
-                            android:fontFamily="sans-serif-condensed"
-                            android:text="9AM-11AM "
-                            android:textColor="#12a230"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/textView14"
-                            android:layout_width="wrap_content"
+                            android:id="@+id/textView17qwrweg"
+                            android:layout_width="80dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="28dp"
                             android:layout_marginTop="2dp"
@@ -493,7 +485,7 @@
 
                 <TableRow
                     android:layout_width="394dp"
-                    android:layout_height="37dp"
+                    android:layout_height="45dp"
                     android:layout_marginBottom="5dp">
 
                     <LinearLayout
@@ -510,7 +502,7 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="207dp"
+                        android:layout_width="185dp"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
@@ -518,8 +510,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="10dp"
                             android:gravity="left"
-                            android:orientation="horizontal">
-                        </LinearLayout>
+                            android:orientation="horizontal"></LinearLayout>
 
                         <TextView
                             android:layout_width="149dp"
@@ -534,16 +525,21 @@
                             android:id="@+id/textView12"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="2dp"
-                            android:text="Tehran, Iran"
-                            android:fontFamily="sans-serif-condensed"/>
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Tehran, Iran" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="10dp"
+                            android:layout_height="17dp"
                             android:gravity="left"
                             android:orientation="horizontal">
 
+                            <TextView
+                                android:id="@+id/textView31"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed"
+                                android:text="Tomorrow 8PM-10PM" />
                         </LinearLayout>
                     </LinearLayout>
 
@@ -557,28 +553,16 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="28dp"
-                            android:layout_marginTop="10dp"
+                            android:layout_marginTop="23dp"
                             android:layout_marginRight="28dp"
                             android:fontFamily="sans-serif-condensed"
-                            android:text="Tomorrow "
-                            android:textColor="#12a230"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/textView17"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="28dp"
-                            android:layout_marginRight="28dp"
-                            android:layout_marginTop="2dp"
-                            android:fontFamily="sans-serif-condensed"
-                            android:text="8PM-10PM"
+                            android:text="Confirmed "
                             android:textColor="#12a230"
                             android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/textView17qwrweg"
-                            android:layout_width="match_parent"
+                            android:layout_width="80dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="28dp"
                             android:layout_marginTop="2dp"

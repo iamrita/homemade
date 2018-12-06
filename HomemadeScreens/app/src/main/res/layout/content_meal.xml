@@ -436,7 +436,7 @@
 
                 <TableRow
                     android:layout_width="394dp"
-                    android:layout_height="37dp"
+                    android:layout_height="45dp"
                     android:layout_marginBottom="5dp">
 
                     <LinearLayout
@@ -476,16 +476,21 @@
                             android:id="@+id/textView12"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="2dp"
                             android:fontFamily="sans-serif-condensed"
                             android:text="Tehran, Iran" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="10dp"
+                            android:layout_height="17dp"
                             android:gravity="left"
                             android:orientation="horizontal">
 
+                            <TextView
+                                android:id="@+id/textView31"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed"
+                                android:text="Tomorrow 8PM-10PM" />
                         </LinearLayout>
                     </LinearLayout>
 
@@ -499,28 +504,16 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="28dp"
-                            android:layout_marginTop="10dp"
+                            android:layout_marginTop="23dp"
                             android:layout_marginRight="28dp"
                             android:fontFamily="sans-serif-condensed"
-                            android:text="Tomorrow "
-                            android:textColor="#12a230"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/textView17"
-                            android:layout_width="73dp"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="28dp"
-                            android:layout_marginTop="2dp"
-                            android:layout_marginRight="28dp"
-                            android:fontFamily="sans-serif-condensed"
-                            android:text="8PM-10PM"
+                            android:text="Confirmed "
                             android:textColor="#12a230"
                             android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/textView17qwrweg"
-                            android:layout_width="match_parent"
+                            android:layout_width="80dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="28dp"
                             android:layout_marginTop="2dp"
