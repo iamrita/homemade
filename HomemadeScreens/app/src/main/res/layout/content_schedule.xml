@@ -64,7 +64,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="Select a start time, and an end time will be automatically filled in for you. All time slots are two hours long. The more availabilities you include, the more likely it is your schedules will match!"
+            android:text="Select a start time, and an end time will be automatically filled in for you. All time slots are two hours long. The more availabilities you include, the more likely it is that your schedules will match!"
             android:textColor="@color/colorAccent" />
 
         <Space
