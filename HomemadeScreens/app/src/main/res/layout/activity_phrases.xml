@@ -293,7 +293,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="10dp"
                             android:fontFamily="sans-serif-condensed"
-                            android:text="mera nam ... hai (मेरा नाम ... है)"
+                            android:text="Mera nam ... hai (मेरा नाम ... है)"
                             android:textSize="18dp" />
 
                     </LinearLayout>
