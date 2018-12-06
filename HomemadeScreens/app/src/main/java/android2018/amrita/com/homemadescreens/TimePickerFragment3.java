@@ -1,5 +1,6 @@
 package android2018.amrita.com.homemadescreens;
 
+import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.app.TimePickerDialog;
@@ -44,6 +45,8 @@ public class TimePickerFragment3 extends DialogFragment
         hourSet = hourOfDay;
         minuteSet = minute;
 
+        AlertDialog.Builder alertDialog = new AlertDialog.Builder(this.getActivity());
+
 
         TextView txt = (TextView) (this.getActivity().findViewById(R.id.start3_text));
         if (minuteSet == 0) {
@@ -53,6 +56,14 @@ public class TimePickerFragment3 extends DialogFragment
 
         }
         TextView txt2 = (TextView) (this.getActivity().findViewById(R.id.end3_text));
+        if (hourSet == 20) {
+            System.out.println("in here");
+            alertDialog.setMessage("You already have a dinner scheduled at this time.");
+            alertDialog.show();
+            txt.setText("None Chosen");
+            txt2.setText("None Chosen");
+
+        }
         if (minuteSet == 0) {
             txt2.setText((hourSet + 2) + ":" + (minuteSet) + "0");
         } else {

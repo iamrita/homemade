@@ -8,6 +8,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.Switch;
 
 public class ExploreActivity extends AppCompatActivity {
@@ -23,6 +24,15 @@ public class ExploreActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, ExploreV2Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        LinearLayout meals = (LinearLayout)findViewById(R.id.meals);
+        meals.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, MealActivity.class);
                 startActivity(intent);
             }
         });
