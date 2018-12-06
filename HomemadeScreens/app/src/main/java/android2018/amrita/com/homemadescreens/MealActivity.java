@@ -8,6 +8,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.TableRow;
 
 public class MealActivity extends AppCompatActivity {
@@ -17,7 +18,17 @@ public class MealActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_meal);
         TableRow amrita = (TableRow)findViewById(R.id.amrita_row);
+        LinearLayout explore = (LinearLayout)findViewById(R.id.explore);
         final Context context = this;
+
+        explore.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, ExploreActivity.class);
+                startActivity(intent);
+
+            }
+        });
 
         amrita.setOnClickListener(new View.OnClickListener() {
             @Override

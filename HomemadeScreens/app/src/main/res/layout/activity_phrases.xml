@@ -152,7 +152,7 @@
                     </LinearLayout>
 
                     <ImageButton
-                        android:id="@+id/imageButton9010192"
+                        android:id="@+id/mic2"
                         android:layout_width="78dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -201,7 +201,7 @@
                     </LinearLayout>
 
                     <ImageButton
-                        android:id="@+id/imageButton4"
+                        android:id="@+id/mic3"
                         android:layout_width="78dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -250,7 +250,7 @@
                     </LinearLayout>
 
                     <ImageButton
-                        android:id="@+id/imageButton5"
+                        android:id="@+id/mic4"
                         android:layout_width="78dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -293,13 +293,13 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="10dp"
                             android:fontFamily="sans-serif-condensed"
-                            android:text="mera nam ... hai (मेरा नाम ... है)"
+                            android:text="Mera nam ... hai (मेरा नाम ... है)"
                             android:textSize="18dp" />
 
                     </LinearLayout>
 
                     <ImageButton
-                        android:id="@+id/imageButton6"
+                        android:id="@+id/mic5"
                         android:layout_width="78dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
