@@ -16,11 +16,20 @@ public class ScheduleResponseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_schedule_response);
         final Button confirm = (Button)findViewById(R.id.confirm_button);
+        final Button decline = (Button)findViewById(R.id.decline);
         final Context context = this;
 //        final Spinner spinner1 = (Spinner)findViewById(R.id.spinner1);
 //        final Spinner spinner2 = (Spinner)findViewById(R.id.spinner2);
 //        final Spinner spinner3 = (Spinner)findViewById(R.id.spinner3);
         //confirm.setEnabled(false);
+
+        decline.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, MealActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
         confirm.setOnClickListener(new View.OnClickListener() {

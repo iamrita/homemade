@@ -562,6 +562,7 @@
 
 
             <LinearLayout
+                android:id="@+id/explore"
                 android:layout_width="96dp"
                 android:layout_height="match_parent"
                 android:layout_marginTop="6dp"
