@@ -21,14 +21,7 @@ public class MealActivity extends AppCompatActivity {
         LinearLayout explore = (LinearLayout)findViewById(R.id.explore);
         final Context context = this;
 
-        explore.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(context, ExploreActivity.class);
-                startActivity(intent);
-
-            }
-        });
+       
 
         amrita.setOnClickListener(new View.OnClickListener() {
             @Override

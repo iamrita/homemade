@@ -64,14 +64,15 @@ public class TimePickerFragment4 extends DialogFragment
             } else {
                 txt.setText(hourSet + ":" + minuteSet);
             }
+            if (minuteSet == 0) {
+                txt2.setText((hourSet + 2) + ":" + (minuteSet) + "0");
+            } else {
+                txt2.setText((hourSet + 2) + ":" + (minuteSet));
+            }
+            btn.setText("EDIT");
+
         }
 
-        if (minuteSet == 0) {
-            txt2.setText((hourSet + 2) + ":" + (minuteSet) + "0");
-        } else {
-            txt2.setText((hourSet + 2) + ":" + (minuteSet));
-        }
-        btn.setText("EDIT");
 
 
 
