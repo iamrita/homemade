@@ -51,9 +51,9 @@ public class TimePickerFragment4 extends DialogFragment
 
         TextView txt = (TextView) (this.getActivity().findViewById(R.id.start4_text));
         if (minuteSet == 0) {
-            txt.setText(hourSet + ":" + minuteSet);
-        } else {
             txt.setText(hourSet + ":" + minuteSet + "0");
+        } else {
+            txt.setText(hourSet + ":" + minuteSet);
         }
         TextView txt2 = (TextView) (this.getActivity().findViewById(R.id.end4_text));
         if (minuteSet == 0) {
