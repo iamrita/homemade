@@ -2,11 +2,13 @@ package android2018.amrita.com.homemadescreens;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.RadioButton;
 import android.widget.Spinner;
 
 public class ScheduleResponseActivity extends AppCompatActivity {
@@ -17,11 +19,51 @@ public class ScheduleResponseActivity extends AppCompatActivity {
         setContentView(R.layout.activity_schedule_response);
         final Button confirm = (Button)findViewById(R.id.confirm_button);
         final Button decline = (Button)findViewById(R.id.decline);
+        confirm.setBackgroundColor(Color.parseColor("#808080"));
+        confirm.setEnabled(false);
         final Context context = this;
-//        final Spinner spinner1 = (Spinner)findViewById(R.id.spinner1);
-//        final Spinner spinner2 = (Spinner)findViewById(R.id.spinner2);
-//        final Spinner spinner3 = (Spinner)findViewById(R.id.spinner3);
-        //confirm.setEnabled(false);
+
+        RadioButton btn1 = (RadioButton)findViewById(R.id.btn1);
+        RadioButton btn2 = (RadioButton)findViewById(R.id.btn2);
+        RadioButton btn3 = (RadioButton)findViewById(R.id.btn3);
+        RadioButton btn4 = (RadioButton)findViewById(R.id.btn4);
+
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                confirm.setEnabled(true);
+                confirm.setBackgroundColor(Color.parseColor("#bb284c"));
+
+
+            }
+        });
+
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                confirm.setEnabled(true);
+                confirm.setBackgroundColor(Color.parseColor("#bb284c"));
+            }
+        });
+
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                confirm.setEnabled(true);
+                confirm.setBackgroundColor(Color.parseColor("#bb284c"));
+
+            }
+        });
+
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                confirm.setEnabled(true);
+                confirm.setBackgroundColor(Color.parseColor("#bb284c"));
+
+            }
+        });
+
 
         decline.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,10 +77,6 @@ public class ScheduleResponseActivity extends AppCompatActivity {
         confirm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-              /*  if ((!spinner1.getSelectedItem().toString().equals("Select Date")) && (!spinner2.getSelectedItem().toString().equals("Select Start Time")) &&
-                        (!spinner3.getSelectedItem().toString().equals("Select End Time"))) {
-                    confirm.setEnabled(true);
-                }*/
                 Intent intent = new Intent(context, DishSelectionActivity.class);
                 startActivity(intent);
 

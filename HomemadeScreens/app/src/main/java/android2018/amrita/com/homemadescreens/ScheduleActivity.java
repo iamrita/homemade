@@ -7,6 +7,7 @@ import android.app.Dialog;
 import android.app.TimePickerDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -24,13 +25,18 @@ import java.util.Calendar;
 
 public class ScheduleActivity extends AppCompatActivity{
 
+    Button sendAvailability;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_schedule);
 
-        Button sendAvailability = (Button)findViewById(R.id.send_availability);
+
+        sendAvailability = (Button)findViewById(R.id.send_availability);
         final Context context = this;
+        sendAvailability.setEnabled(false);
+        sendAvailability.setBackgroundColor(Color.parseColor("#808080"));
 
         sendAvailability.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -81,6 +87,9 @@ public class ScheduleActivity extends AppCompatActivity{
         newFragment.show(getFragmentManager(), "TimePicker");
         int hour = ((TimePickerFragment4) newFragment).getHour();
         int minute = ((TimePickerFragment4) newFragment).getMinute();
+
+        sendAvailability.setEnabled(true);
+        sendAvailability.setBackgroundColor(Color.parseColor("#bb284c"));
 
     }
 
