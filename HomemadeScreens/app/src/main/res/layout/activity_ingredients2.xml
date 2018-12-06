@@ -28,7 +28,7 @@
             android:layout_alignBottom="@id/curry"
             android:layout_marginBottom="0dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="Chicken Curry"
+            android:text=" Chicken Curry"
             android:textColor="@android:color/white"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -64,11 +64,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="2dp"
                 android:fontFamily="sans-serif-condensed"
                 android:text="Ingredients"
-                android:textStyle="bold"
                 android:textColor="@android:color/black"
-                android:layout_marginBottom="3dp"
                 android:textSize="24sp" />
 
             <TextView

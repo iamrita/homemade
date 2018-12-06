@@ -41,7 +41,7 @@
             android:layout_alignStart="@+id/back_ingredients"
             android:layout_alignParentTop="true"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="265dp"
+            android:layout_marginTop="270dp"
             android:fontFamily="sans-serif-condensed"
             android:text="Sliders"
             android:textColor="@android:color/white"
@@ -62,8 +62,9 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="208dp"
             android:layout_below="@id/curry"
+            android:layout_marginTop="2dp"
             android:orientation="vertical">
 
             <TextView
@@ -73,7 +74,7 @@
                 android:layout_margin="5dp"
                 android:layout_marginBottom="3dp"
                 android:fontFamily="sans-serif-condensed"
-                android:text="Ingredients"
+                android:text=" Ingredients"
                 android:textColor="@android:color/black"
                 android:textSize="24sp" />
 

@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_alignStart="@+id/back_ingredients"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="2dp"
+            android:layout_marginStart="7dp"
             android:layout_marginTop="276dp"
             android:fontFamily="sans-serif-condensed"
             android:text="Shrimp"
@@ -63,7 +63,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="200dp"
             android:layout_below="@id/curry"
             android:orientation="vertical">
 
@@ -74,7 +74,7 @@
                 android:layout_margin="5dp"
                 android:layout_marginBottom="3dp"
                 android:fontFamily="sans-serif-condensed"
-                android:text="Ingredients"
+                android:text=" Ingredients"
                 android:textColor="@android:color/black"
                 android:textSize="24sp" />
 
@@ -85,7 +85,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginBottom="3dp"
                 android:fontFamily="sans-serif-condensed"
-                android:text="- 1 pound White Shrimp"
+                android:text="- 1 pound white shrimp"
                 tools:layout_editor_absoluteX="16dp" />
 
             <TextView
@@ -153,10 +153,6 @@
                 tools:layout_editor_absoluteY="394dp" />
 
         </LinearLayout>
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="10dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
