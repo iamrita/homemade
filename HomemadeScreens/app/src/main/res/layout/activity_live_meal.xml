@@ -526,7 +526,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="sans-serif-condensed"
-                                android:text="Tomorrow 8PM-10PM" />
+                                android:text="Tomorrow, Dec. 8th, 8PM-10PM" />
                         </LinearLayout>
                     </LinearLayout>
 
