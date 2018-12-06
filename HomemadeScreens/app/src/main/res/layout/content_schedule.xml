@@ -54,9 +54,8 @@
             android:fontFamily="sans-serif-condensed"
             android:text="Indicate your availability for the next 48 hours."
             android:textAlignment="center"
-            android:textColor="#e8812f"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textColor="#000"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/textView3"

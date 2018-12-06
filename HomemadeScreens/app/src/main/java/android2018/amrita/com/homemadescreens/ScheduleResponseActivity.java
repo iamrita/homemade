@@ -32,7 +32,7 @@ public class ScheduleResponseActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 confirm.setEnabled(true);
-                confirm.setBackgroundColor(Color.parseColor("#bb284c"));
+                confirm.setBackgroundColor(Color.parseColor("#ff008000"));
 
 
             }
@@ -42,7 +42,7 @@ public class ScheduleResponseActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 confirm.setEnabled(true);
-                confirm.setBackgroundColor(Color.parseColor("#bb284c"));
+                confirm.setBackgroundColor(Color.parseColor("#ff008000"));
             }
         });
 
@@ -50,7 +50,7 @@ public class ScheduleResponseActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 confirm.setEnabled(true);
-                confirm.setBackgroundColor(Color.parseColor("#bb284c"));
+                confirm.setBackgroundColor(Color.parseColor("#ff008000"));
 
             }
         });
@@ -59,7 +59,7 @@ public class ScheduleResponseActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 confirm.setEnabled(true);
-                confirm.setBackgroundColor(Color.parseColor("#bb284c"));
+                confirm.setBackgroundColor(Color.parseColor("#ff008000"));
 
             }
         });
