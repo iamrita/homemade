@@ -65,6 +65,8 @@ public class ScheduleActivity extends AppCompatActivity{
         newFragment.show(getFragmentManager(), "TimePicker");
         int hour = ((TimePickerFragment) newFragment).getHour();
         int minute = ((TimePickerFragment) newFragment).getMinute();
+        sendAvailability.setEnabled(true);
+        sendAvailability.setBackgroundColor(Color.parseColor("#bb284c"));
 
     }
 
@@ -88,8 +90,7 @@ public class ScheduleActivity extends AppCompatActivity{
         int hour = ((TimePickerFragment4) newFragment).getHour();
         int minute = ((TimePickerFragment4) newFragment).getMinute();
 
-        sendAvailability.setEnabled(true);
-        sendAvailability.setBackgroundColor(Color.parseColor("#bb284c"));
+
 
     }
 
