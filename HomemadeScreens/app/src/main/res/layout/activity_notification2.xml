@@ -69,7 +69,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginBottom="19dp"
             android:layout_toEndOf="@+id/imageView40"
-            android:text="It's meal time! Facilitate your conversations"
+            android:text="It's meal time! Use our helpful translation"
             android:textColor="@android:color/white" />
 
         <TextView
@@ -80,7 +80,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="85dp"
             android:layout_marginTop="51dp"
-            android:text="with helpful translation tools."
+            android:text="tools to facilitate conversation with Amrita V."
             android:textColor="@android:color/white" />
 
     </RelativeLayout>

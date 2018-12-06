@@ -37,11 +37,11 @@
                 android:id="@+id/translatorTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
+                android:layout_marginLeft="12dp"
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-condensed"
-                android:text="Schedule Meal with Amrita"
+                android:text="Schedule Meal with Amrita V."
                 android:textColor="#000"
                 android:textSize="26dp"
                 android:textStyle="bold" />
