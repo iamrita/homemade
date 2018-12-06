@@ -49,7 +49,7 @@ public class TimePickerFragment4 extends DialogFragment
         TextView txt = (TextView) (this.getActivity().findViewById(R.id.start4_text));
         TextView txt2 = (TextView) (this.getActivity().findViewById(R.id.end4_text));
         if (hourSet == 20) {
-            System.out.println("in here");
+
             alertDialog.setMessage("You already have a dinner scheduled at this time.");
             alertDialog.show();
             txt.setText("None Chosen");
