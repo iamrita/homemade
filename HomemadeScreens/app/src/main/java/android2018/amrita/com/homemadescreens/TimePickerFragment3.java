@@ -72,8 +72,9 @@ public class TimePickerFragment3 extends DialogFragment
             } else {
                 txt2.setText((hourSet + 2) + ":" + (minuteSet));
             }
+            btn.setText("EDIT");
         }
-        btn.setText("EDIT");
+
 
 
 
