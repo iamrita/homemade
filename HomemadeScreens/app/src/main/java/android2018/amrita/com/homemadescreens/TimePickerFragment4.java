@@ -50,15 +50,16 @@ public class TimePickerFragment4 extends DialogFragment
         TextView txt2 = (TextView) (this.getActivity().findViewById(R.id.end4_text));
         if (hourSet == 20) {
 
-            alertDialog.setMessage("You already have a dinner scheduled at this time.");
+            alertDialog.setMessage("Your meal with Sigalit M. conflicts with this time. Please select another time.");
             alertDialog.show();
             txt.setText("None Chosen");
             txt2.setText("None Chosen");
-        }
-        if (minuteSet == 0) {
-            txt.setText(hourSet + ":" + minuteSet + "0");
         } else {
-            txt.setText(hourSet + ":" + minuteSet);
+            if (minuteSet == 0) {
+                txt.setText(hourSet + ":" + minuteSet + "0");
+            } else {
+                txt.setText(hourSet + ":" + minuteSet);
+            }
         }
 
         if (minuteSet == 0) {
