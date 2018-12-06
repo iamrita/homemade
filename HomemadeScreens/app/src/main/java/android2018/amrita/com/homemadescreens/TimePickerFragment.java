@@ -43,7 +43,7 @@ public class TimePickerFragment extends DialogFragment
 
         hourSet = hourOfDay;
         minuteSet = minute;
-        
+
 
 
             TextView txt = (TextView) (this.getActivity().findViewById(R.id.start1_text));
