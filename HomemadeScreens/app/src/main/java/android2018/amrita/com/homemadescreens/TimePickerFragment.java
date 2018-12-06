@@ -43,10 +43,7 @@ public class TimePickerFragment extends DialogFragment
 
         hourSet = hourOfDay;
         minuteSet = minute;
-
-        System.out.println("HOUR IS HOUR IS " + hourSet);
-        System.out.println("MINUTE IS MINUTE IS" + minuteSet);
-        System.out.println("View is hello hello hello" + this.getActivity());
+        
 
 
             TextView txt = (TextView) (this.getActivity().findViewById(R.id.start1_text));
@@ -65,10 +62,7 @@ public class TimePickerFragment extends DialogFragment
             Button btn = (Button)(this.getActivity().findViewById(R.id.select1));
             btn.setText("EDIT");
 
-           /* TextView txt = (TextView) (this.getActivity().findViewById(R.id.start2_text));
-            txt.setText(hourSet + ":" + minuteSet);
-            TextView txt2 = (TextView) (this.getActivity().findViewById(R.id.end2_text));
-            txt2.setText((hourSet + 2) + ":" + (minuteSet));*/
+
 
 
 
