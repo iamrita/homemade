@@ -20,12 +20,49 @@ public class PhrasesActivity extends AppCompatActivity {
         final Context context = this;
 
         ImageButton mic = (ImageButton)findViewById(R.id.mic1);
-        final MediaPlayer mPlayer = MediaPlayer.create(PhrasesActivity.this, R.raw.lathrop);
+        final MediaPlayer mPlayer = MediaPlayer.create(PhrasesActivity.this, R.raw.namaste);
+        final MediaPlayer mPlayer2 = MediaPlayer.create(PhrasesActivity.this, R.raw.second);
+        final MediaPlayer mPlayer3 = MediaPlayer.create(PhrasesActivity.this, R.raw.third);
+        final MediaPlayer mPlayer4 = MediaPlayer.create(PhrasesActivity.this, R.raw.fourth);
+        final MediaPlayer mPlayer5 = MediaPlayer.create(PhrasesActivity.this, R.raw.fifth);
+
+
 
         mic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 mPlayer.start();
+            }
+        });
+
+        ImageButton mic2 = (ImageButton)findViewById(R.id.mic2);
+        ImageButton mic3 = (ImageButton)findViewById(R.id.mic3);
+        ImageButton mic4 = (ImageButton)findViewById(R.id.mic4);
+        ImageButton mic5 = (ImageButton)findViewById(R.id.mic5);
+
+        mic2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mPlayer2.start();
+            }
+        });
+        mic3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mPlayer3.start();
+            }
+        });
+        mic4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mPlayer4.start();
+            }
+        });
+
+        mic5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mPlayer5.start();
             }
         });
 

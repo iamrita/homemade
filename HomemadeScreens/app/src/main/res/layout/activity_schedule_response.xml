@@ -141,7 +141,7 @@
 
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/decline"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:layout_marginLeft="2dp"
@@ -154,7 +154,7 @@
                 android:textSize="16dp" />
 
             <Button
-                android:id="@+id/decline"
+                android:id="@+id/confirm_button"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:layout_marginLeft="1dp"
