@@ -52,7 +52,7 @@
             android:layout_marginBottom="0dp">
 
             <RadioButton
-                android:id="@+id/radioButton2"
+                android:id="@+id/sweets_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -61,7 +61,7 @@
                 android:textSize="16dp" />
 
             <RadioButton
-                android:id="@+id/radioButton3"
+                android:id="@+id/naan_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -70,7 +70,7 @@
                 android:textSize="16dp" />
 
             <RadioButton
-                android:id="@+id/radioButton"
+                android:id="@+id/curry_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
