@@ -20,7 +20,7 @@ public class MealsFromExploreActivity extends AppCompatActivity {
         explore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, ExploreActivity.class);
+                Intent intent = new Intent(context, ExploreV2Activity.class);
                 startActivity(intent);
             }
         });
