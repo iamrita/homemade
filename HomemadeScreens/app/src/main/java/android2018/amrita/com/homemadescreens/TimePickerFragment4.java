@@ -48,12 +48,16 @@ public class TimePickerFragment4 extends DialogFragment
 
         TextView txt = (TextView) (this.getActivity().findViewById(R.id.start4_text));
         TextView txt2 = (TextView) (this.getActivity().findViewById(R.id.end4_text));
+        Button btn = (Button)(this.getActivity().findViewById(R.id.select4));
+
         if (hourSet == 20) {
 
             alertDialog.setMessage("Your meal with Sigalit M. conflicts with this time. Please select another time.");
             alertDialog.show();
-            txt.setText("None Chosen");
-            txt2.setText("None Chosen");
+            txt.setText("Select a time");
+            txt2.setText("--");
+            btn.setText("SELECT");
+
         } else {
             if (minuteSet == 0) {
                 txt.setText(hourSet + ":" + minuteSet + "0");
@@ -67,7 +71,6 @@ public class TimePickerFragment4 extends DialogFragment
         } else {
             txt2.setText((hourSet + 2) + ":" + (minuteSet));
         }
-        Button btn = (Button)(this.getActivity().findViewById(R.id.select4));
         btn.setText("EDIT");
 
 
