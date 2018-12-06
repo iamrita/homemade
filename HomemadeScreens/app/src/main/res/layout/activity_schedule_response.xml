@@ -139,29 +139,30 @@
             android:layout_marginTop="15dp"
             android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/confirm_button"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:layout_marginLeft="2dp"
-                android:layout_marginRight="1dp"
-                android:layout_weight="1"
-                android:background="@color/green"
-                android:fontFamily="sans-serif-condensed"
-                android:text="Next"
-                android:textColor="#ffffff"
-                android:textSize="16dp" />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
-                android:layout_marginLeft="1dp"
-                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="1dp"
                 android:layout_weight="1"
                 android:background="#cc1616"
                 android:fontFamily="sans-serif-condensed"
                 android:text="Decline"
+                android:textColor="#ffffff"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/decline"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@color/green"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Next"
                 android:textColor="#ffffff"
                 android:textSize="16dp" />
         </LinearLayout>

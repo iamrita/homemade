@@ -26,7 +26,7 @@
 
             <ImageButton
                 android:id="@+id/back"
-                android:layout_width="53dp"
+                android:layout_width="51dp"
                 android:layout_height="49dp"
                 android:layout_marginBottom="5dp"
                 android:background="#0000"
@@ -73,7 +73,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView34"
+                    android:id="@+id/textView343"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
@@ -84,7 +84,7 @@
                     android:textSize="18dp" />
 
                 <TextView
-                    android:id="@+id/textView35"
+                    android:id="@+id/textView354"
                     android:layout_width="match_parent"
                     android:layout_height="56dp"
                     android:layout_marginBottom="10dp"
@@ -95,7 +95,7 @@
             </LinearLayout>
 
             <ImageButton
-                android:id="@+id/mic1"
+                android:id="@+id/phrases_mic"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -122,7 +122,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView34"
+                    android:id="@+id/textView347"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
@@ -133,7 +133,7 @@
                     android:textSize="18dp" />
 
                 <TextView
-                    android:id="@+id/textView35"
+                    android:id="@+id/textView359"
                     android:layout_width="match_parent"
                     android:layout_height="56dp"
                     android:layout_marginBottom="10dp"
@@ -171,7 +171,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView34"
+                    android:id="@+id/textView3400"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
@@ -182,7 +182,7 @@
                     android:textSize="18dp" />
 
                 <TextView
-                    android:id="@+id/textView35"
+                    android:id="@+id/textView35000"
                     android:layout_width="match_parent"
                     android:layout_height="56dp"
                     android:layout_marginBottom="10dp"
@@ -220,7 +220,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView34"
+                    android:id="@+id/textView34787"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
@@ -231,7 +231,7 @@
                     android:textSize="18dp" />
 
                 <TextView
-                    android:id="@+id/textView35"
+                    android:id="@+id/textView35787"
                     android:layout_width="match_parent"
                     android:layout_height="56dp"
                     android:layout_marginBottom="10dp"
@@ -269,7 +269,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView34"
+                    android:id="@+id/textView34123"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
@@ -280,7 +280,7 @@
                     android:textSize="18dp" />
 
                 <TextView
-                    android:id="@+id/textView35"
+                    android:id="@+id/textView35123"
                     android:layout_width="match_parent"
                     android:layout_height="56dp"
                     android:layout_marginBottom="10dp"

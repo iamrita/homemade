@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
@@ -19,8 +20,16 @@ public class LiveMealActivity extends AppCompatActivity {
 
         TextView translate = (TextView)findViewById(R.id.live_translate);
         TextView phrases = (TextView)findViewById(R.id.phrases);
+        LinearLayout explore = (LinearLayout)findViewById(R.id.explore);
         final Context context = this;
 
+        explore.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, ExploreActivity.class);
+                startActivity(intent);
+            }
+        });
         translate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
