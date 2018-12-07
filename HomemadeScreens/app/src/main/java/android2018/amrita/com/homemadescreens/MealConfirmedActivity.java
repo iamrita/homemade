@@ -28,13 +28,6 @@ public class MealConfirmedActivity extends AppCompatActivity {
             }
         });
 
-        explore.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(context, ExploreActivity.class);
-                startActivity(intent);
-            }
-        });
 
         Button mealTime = (Button)findViewById(R.id.mealTime);
         mealTime.setOnClickListener(new View.OnClickListener() {

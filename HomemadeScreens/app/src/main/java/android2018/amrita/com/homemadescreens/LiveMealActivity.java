@@ -23,13 +23,6 @@ public class LiveMealActivity extends AppCompatActivity {
         LinearLayout explore = (LinearLayout)findViewById(R.id.explore);
         final Context context = this;
 
-        explore.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(context, ExploreActivity.class);
-                startActivity(intent);
-            }
-        });
         translate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
