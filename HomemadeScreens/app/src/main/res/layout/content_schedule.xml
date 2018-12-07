@@ -41,7 +41,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-condensed"
-                android:text="Schedule Meal with Amrita V."
+                android:text="Schedule Meal with Leila M."
                 android:textColor="#000"
                 android:textSize="26dp"
                 android:textStyle="bold" />
